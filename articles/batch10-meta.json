@@ -1,0 +1,76 @@
+{
+  "batch": 10,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "TTS",
+      "category": "speech-ai",
+      "repo": "coqui-ai/TTS",
+      "stars": 45593,
+      "maintainer": "coqui-ai",
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      }
+    },
+    {
+      "name": "streamlit",
+      "category": "ai-tools",
+      "repo": "streamlit/streamlit",
+      "stars": 45031,
+      "maintainer": "streamlit",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "system_prompts_leaks",
+      "category": "ai-tools",
+      "repo": "asgeirtj/system_prompts_leaks",
+      "stars": 44931,
+      "maintainer": "asgeirtj",
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      }
+    },
+    {
+      "name": "supervision",
+      "category": "ai-tools",
+      "repo": "roboflow/supervision",
+      "stars": 44796,
+      "maintainer": "roboflow",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "ailearning",
+      "category": "ai-tools",
+      "repo": "apachecn/ailearning",
+      "stars": 42340,
+      "maintainer": "apachecn",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    }
+  ]
+}
