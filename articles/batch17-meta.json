@@ -1,0 +1,64 @@
+{
+  "batch": 17,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "Awesome-Chinese-LLM",
+      "category": "ai-tools",
+      "repo": "AiHubCN/Awesome-Chinese-LLM",
+      "stars": 22633,
+      "maintainer": "AiHubCN",
+      "license": null
+    },
+    {
+      "name": "whisperX",
+      "category": "speech-ai",
+      "repo": "m-bain/whisperX",
+      "stars": 22609,
+      "maintainer": "m-bain",
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx_id": "BSD-2-Clause",
+        "url": "https://api.github.com/licenses/bsd-2-clause",
+        "node_id": "MDc6TGljZW5zZTQ="
+      }
+    },
+    {
+      "name": "gaussian-splatting",
+      "category": "ai-tools",
+      "repo": "graphdeco-inria/gaussian-splatting",
+      "stars": 22430,
+      "maintainer": "graphdeco-inria",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "name": "unilm",
+      "category": "ai-tools",
+      "repo": "microsoft/unilm",
+      "stars": 22151,
+      "maintainer": "microsoft",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "CV",
+      "category": "ai-tools",
+      "repo": "AccumulateMore/CV",
+      "stars": 22074,
+      "maintainer": "AccumulateMore",
+      "license": null
+    }
+  ]
+}
