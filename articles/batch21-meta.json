@@ -1,0 +1,76 @@
+{
+  "batch": 21,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "Toonflow-app",
+      "category": "ai-tools",
+      "repo": "HBAI-Ltd/Toonflow-app",
+      "stars": 10363,
+      "maintainer": "HBAI-Ltd",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "AudioGPT",
+      "category": "speech-ai",
+      "repo": "AIGC-Audio/AudioGPT",
+      "stars": 10172,
+      "maintainer": "AIGC-Audio",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "name": "TTS",
+      "category": "speech-ai",
+      "repo": "mozilla/TTS",
+      "stars": 10151,
+      "maintainer": "mozilla",
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      }
+    },
+    {
+      "name": "neural-doodle",
+      "category": "ai-tools",
+      "repo": "alexjc/neural-doodle",
+      "stars": 9854,
+      "maintainer": "alexjc",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      }
+    },
+    {
+      "name": "silero-vad",
+      "category": "speech-ai",
+      "repo": "snakers4/silero-vad",
+      "stars": 9386,
+      "maintainer": "snakers4",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  ]
+}
