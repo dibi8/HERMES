@@ -1,0 +1,76 @@
+{
+  "batch": 19,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "kaldi",
+      "category": "speech-ai",
+      "repo": "kaldi-asr/kaldi",
+      "stars": 15417,
+      "maintainer": "kaldi-asr",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "name": "bentopdf",
+      "category": "ai-tools",
+      "repo": "alam00000/bentopdf",
+      "stars": 13832,
+      "maintainer": "alam00000",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      }
+    },
+    {
+      "name": "satori",
+      "category": "image-generation",
+      "repo": "vercel/satori",
+      "stars": 13558,
+      "maintainer": "vercel",
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      }
+    },
+    {
+      "name": "GenericAgent",
+      "category": "ai-tools",
+      "repo": "lsdefine/GenericAgent",
+      "stars": 13001,
+      "maintainer": "lsdefine",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "CycleGAN",
+      "category": "ai-tools",
+      "repo": "junyanz/CycleGAN",
+      "stars": 12863,
+      "maintainer": "junyanz",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    }
+  ]
+}
