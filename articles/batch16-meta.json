@@ -1,0 +1,64 @@
+{
+  "batch": 16,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "pytorch-CycleGAN-and-pix2pix",
+      "category": "ai-tools",
+      "repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "stars": 25162,
+      "maintainer": "junyanz",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "name": "best-of-ml-python",
+      "category": "ai-tools",
+      "repo": "lukasmasuch/best-of-ml-python",
+      "stars": 23646,
+      "maintainer": "lukasmasuch",
+      "license": {
+        "key": "cc-by-sa-4.0",
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdx_id": "CC-BY-SA-4.0",
+        "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+        "node_id": "MDc6TGljZW5zZTI2"
+      }
+    },
+    {
+      "name": "Pixelle-Video",
+      "category": "ai-tools",
+      "repo": "AIDC-AI/Pixelle-Video",
+      "stars": 23333,
+      "maintainer": "AIDC-AI",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "learnopencv",
+      "category": "ai-tools",
+      "repo": "spmallick/learnopencv",
+      "stars": 22983,
+      "maintainer": "spmallick",
+      "license": null
+    },
+    {
+      "name": "CVPR2026-Papers-with-Code",
+      "category": "ai-tools",
+      "repo": "amusi/CVPR2026-Papers-with-Code",
+      "stars": 22716,
+      "maintainer": "amusi",
+      "license": null
+    }
+  ]
+}
