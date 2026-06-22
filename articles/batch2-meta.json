@@ -1,0 +1,189 @@
+{
+  "site": "dibi8.com",
+  "generated": "2026-06-22",
+  "batch": "2026-06-22-ai-tools-round-2",
+  "total_articles": 20,
+  "total_words": 65476,
+  "articles": [
+    {
+      "name": "crewai",
+      "lang": "en",
+      "word_count": 3756,
+      "h2_count": 12,
+      "code_blocks": 28,
+      "file_size": 30630,
+      "file_path": "/root/tron-dapp/articles/batch2/crewai/en.md"
+    },
+    {
+      "name": "crewai",
+      "lang": "zh",
+      "word_count": 1772,
+      "h2_count": 12,
+      "code_blocks": 28,
+      "file_size": 29526,
+      "file_path": "/root/tron-dapp/articles/batch2/crewai/zh.md"
+    },
+    {
+      "name": "crewai",
+      "lang": "ko",
+      "word_count": 3361,
+      "h2_count": 12,
+      "code_blocks": 28,
+      "file_size": 34635,
+      "file_path": "/root/tron-dapp/articles/batch2/crewai/ko.md"
+    },
+    {
+      "name": "crewai",
+      "lang": "vi",
+      "word_count": 5372,
+      "h2_count": 12,
+      "code_blocks": 28,
+      "file_size": 37529,
+      "file_path": "/root/tron-dapp/articles/batch2/crewai/vi.md"
+    },
+    {
+      "name": "haystack",
+      "lang": "en",
+      "word_count": 3907,
+      "h2_count": 12,
+      "code_blocks": 34,
+      "file_size": 36529,
+      "file_path": "/root/tron-dapp/articles/batch2/haystack/en.md"
+    },
+    {
+      "name": "haystack",
+      "lang": "zh",
+      "word_count": 2112,
+      "h2_count": 12,
+      "code_blocks": 35,
+      "file_size": 34566,
+      "file_path": "/root/tron-dapp/articles/batch2/haystack/zh.md"
+    },
+    {
+      "name": "haystack",
+      "lang": "ko",
+      "word_count": 3554,
+      "h2_count": 12,
+      "code_blocks": 35,
+      "file_size": 39742,
+      "file_path": "/root/tron-dapp/articles/batch2/haystack/ko.md"
+    },
+    {
+      "name": "haystack",
+      "lang": "vi",
+      "word_count": 5386,
+      "h2_count": 12,
+      "code_blocks": 35,
+      "file_size": 42728,
+      "file_path": "/root/tron-dapp/articles/batch2/haystack/vi.md"
+    },
+    {
+      "name": "sglang",
+      "lang": "en",
+      "word_count": 3282,
+      "h2_count": 12,
+      "code_blocks": 25,
+      "file_size": 26510,
+      "file_path": "/root/tron-dapp/articles/batch2/sglang/en.md"
+    },
+    {
+      "name": "sglang",
+      "lang": "zh",
+      "word_count": 1762,
+      "h2_count": 12,
+      "code_blocks": 25,
+      "file_size": 24632,
+      "file_path": "/root/tron-dapp/articles/batch2/sglang/zh.md"
+    },
+    {
+      "name": "sglang",
+      "lang": "ko",
+      "word_count": 2934,
+      "h2_count": 12,
+      "code_blocks": 25,
+      "file_size": 29126,
+      "file_path": "/root/tron-dapp/articles/batch2/sglang/ko.md"
+    },
+    {
+      "name": "sglang",
+      "lang": "vi",
+      "word_count": 4200,
+      "h2_count": 12,
+      "code_blocks": 25,
+      "file_size": 30267,
+      "file_path": "/root/tron-dapp/articles/batch2/sglang/vi.md"
+    },
+    {
+      "name": "ragaai-catalyst",
+      "lang": "en",
+      "word_count": 3421,
+      "h2_count": 12,
+      "code_blocks": 23,
+      "file_size": 30462,
+      "file_path": "/root/tron-dapp/articles/batch2/ragaai-catalyst/en.md"
+    },
+    {
+      "name": "ragaai-catalyst",
+      "lang": "zh",
+      "word_count": 1873,
+      "h2_count": 12,
+      "code_blocks": 23,
+      "file_size": 29429,
+      "file_path": "/root/tron-dapp/articles/batch2/ragaai-catalyst/zh.md"
+    },
+    {
+      "name": "ragaai-catalyst",
+      "lang": "ko",
+      "word_count": 3076,
+      "h2_count": 12,
+      "code_blocks": 23,
+      "file_size": 33196,
+      "file_path": "/root/tron-dapp/articles/batch2/ragaai-catalyst/ko.md"
+    },
+    {
+      "name": "ragaai-catalyst",
+      "lang": "vi",
+      "word_count": 3434,
+      "h2_count": 12,
+      "code_blocks": 23,
+      "file_size": 30494,
+      "file_path": "/root/tron-dapp/articles/batch2/ragaai-catalyst/vi.md"
+    },
+    {
+      "name": "ultrarag",
+      "lang": "en",
+      "word_count": 3364,
+      "h2_count": 12,
+      "code_blocks": 40,
+      "file_size": 28275,
+      "file_path": "/root/tron-dapp/articles/batch2/ultrarag/en.md"
+    },
+    {
+      "name": "ultrarag",
+      "lang": "zh",
+      "word_count": 1667,
+      "h2_count": 12,
+      "code_blocks": 40,
+      "file_size": 26677,
+      "file_path": "/root/tron-dapp/articles/batch2/ultrarag/zh.md"
+    },
+    {
+      "name": "ultrarag",
+      "lang": "ko",
+      "word_count": 2950,
+      "h2_count": 12,
+      "code_blocks": 40,
+      "file_size": 31332,
+      "file_path": "/root/tron-dapp/articles/batch2/ultrarag/ko.md"
+    },
+    {
+      "name": "ultrarag",
+      "lang": "vi",
+      "word_count": 4293,
+      "h2_count": 12,
+      "code_blocks": 40,
+      "file_size": 32185,
+      "file_path": "/root/tron-dapp/articles/batch2/ultrarag/vi.md"
+    }
+  ]
+}
