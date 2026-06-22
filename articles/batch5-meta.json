@@ -1,0 +1,46 @@
+{
+  "batch": 5,
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "name": "huggingface-transformers",
+      "category": "ml-framework",
+      "repo": "huggingface/transformers",
+      "stars": 161804,
+      "maintainer": "huggingface",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "hiyouga-llamafactory",
+      "category": "fine-tuning",
+      "repo": "hiyouga/LlamaFactory",
+      "stars": 72378,
+      "maintainer": "hiyouga",
+      "license": "MIT"
+    },
+    {
+      "name": "openinterpreter",
+      "category": "coding-agent",
+      "repo": "openinterpreter/openinterpreter",
+      "stars": 64089,
+      "maintainer": "openinterpreter",
+      "license": "MIT"
+    },
+    {
+      "name": "CorentinJ-realtime-voice-cloning",
+      "category": "speech-ai",
+      "repo": "CorentinJ/Real-Time-Voice-Cloning",
+      "stars": 59929,
+      "maintainer": "CorentinJ",
+      "license": "MIT"
+    },
+    {
+      "name": "ultralytics-ultralytics",
+      "category": "computer-vision",
+      "repo": "ultralytics/ultralytics",
+      "stars": 58669,
+      "maintainer": "ultralytics",
+      "license": "GPL-3.0"
+    }
+  ]
+}
