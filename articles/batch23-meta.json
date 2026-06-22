@@ -1,0 +1,76 @@
+{
+  "batch": 23,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "awesome-gpt4o-images",
+      "category": "ai-tools",
+      "repo": "jamez-bondos/awesome-gpt4o-images",
+      "stars": 8079,
+      "maintainer": "jamez-bondos",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "name": "Upsonic",
+      "category": "ai-agents",
+      "repo": "Upsonic/Upsonic",
+      "stars": 7898,
+      "maintainer": "Upsonic",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "models",
+      "category": "speech-ai",
+      "repo": "PaddlePaddle/models",
+      "stars": 6935,
+      "maintainer": "PaddlePaddle",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "annyang",
+      "category": "speech-ai",
+      "repo": "TalAter/annyang",
+      "stars": 6813,
+      "maintainer": "TalAter",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "silero-models",
+      "category": "speech-ai",
+      "repo": "snakers4/silero-models",
+      "stars": 5976,
+      "maintainer": "snakers4",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    }
+  ]
+}
