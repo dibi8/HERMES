@@ -1,0 +1,70 @@
+{
+  "batch": 13,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "khoj",
+      "category": "ai-tools",
+      "repo": "khoj-ai/khoj",
+      "stars": 35249,
+      "maintainer": "khoj-ai",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      }
+    },
+    {
+      "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "category": "ai-tools",
+      "repo": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "stars": 34769,
+      "maintainer": "ashishpatel26",
+      "license": null
+    },
+    {
+      "name": "openpose",
+      "category": "ai-tools",
+      "repo": "CMU-Perceptual-Computing-Lab/openpose",
+      "stars": 34159,
+      "maintainer": "CMU-Perceptual-Computing-Lab",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "name": "diffusers",
+      "category": "image-generation",
+      "repo": "huggingface/diffusers",
+      "stars": 33901,
+      "maintainer": "huggingface",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "spaCy",
+      "category": "ai-tools",
+      "repo": "explosion/spaCy",
+      "stars": 33686,
+      "maintainer": "explosion",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  ]
+}
