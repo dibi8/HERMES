@@ -1,0 +1,78 @@
+{
+  "batch": 3,
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "name": "vllm",
+      "title": "vLLM: The Complete Guide to High-Performance LLM Serving in 2026 \u2014 Open Source AI Tool Review",
+      "slug": "vllm-complete-guide",
+      "category": "llm-serving",
+      "github_repo": "https://github.com/vllm-project/vllm",
+      "stars": 83496,
+      "maintainer": "vllm-project",
+      "license": "Apache-2.0",
+      "featureImage": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-dark.png",
+      "images": [
+        "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-dark.png",
+        "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/design/hierarchy.png",
+        "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/deployment/anything-llm-chat-with-doc.png"
+      ]
+    },
+    {
+      "name": "metagpt",
+      "title": "MetaGPT: Building AI Software Companies with Multi-Agent Collaboration in 2026 \u2014 Open Source AI Tool Review",
+      "slug": "metagpt-multi-agent-software-company",
+      "category": "multi-agent",
+      "github_repo": "https://github.com/FoundationAgents/MetaGPT",
+      "stars": 68943,
+      "maintainer": "FoundationAgents",
+      "license": "Apache-2.0",
+      "featureImage": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/MetaGPT-new-log-v2.png",
+      "images": [
+        "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/MetaGPT-new-log-v2.png",
+        "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/software_company_cd.jpeg"
+      ]
+    },
+    {
+      "name": "ragflow",
+      "title": "RAGFlow: Deep Document Understanding for Production RAG Systems in 2026 \u2014 Open Source AI Tool Review",
+      "slug": "ragflow-deep-document-understanding",
+      "category": "rag-engine",
+      "github_repo": "https://github.com/infiniflow/ragflow",
+      "stars": 83302,
+      "maintainer": "infiniflow",
+      "license": "Apache-2.0",
+      "featureImage": "",
+      "images": []
+    },
+    {
+      "name": "lightRAG",
+      "title": "LightRAG: Simple and Fast GraphRAG for Knowledge-Intensive LLM Applications in 2026 \u2014 Open Source AI Tool Review",
+      "slug": "lightrag-graph-rag-implementation",
+      "category": "graph-rag",
+      "github_repo": "https://github.com/HKUDS/LightRAG",
+      "stars": 36826,
+      "maintainer": "HKUDS",
+      "license": "MIT",
+      "featureImage": "",
+      "images": [
+        "https://learnopencv.com/wp-content/uploads/2024/11/LightRAG-VectorDB-Json-KV-Store-Indexing-Flowchart-scaled.jpg"
+      ]
+    },
+    {
+      "name": "dify",
+      "title": "Dify: Production-Ready LLM Application Development Platform in 2026 \u2014 Open Source AI Tool Review",
+      "slug": "dify-llm-application-platform",
+      "category": "llm-app-platform",
+      "github_repo": "https://github.com/langgenius/dify",
+      "stars": 146077,
+      "maintainer": "langgenius",
+      "license": "AGPL-3.0",
+      "featureImage": "https://raw.githubusercontent.com/langgenius/dify/main/images/describe.png",
+      "images": [
+        "https://raw.githubusercontent.com/langgenius/dify/main/images/describe.png",
+        "https://raw.githubusercontent.com/langgenius/dify/main/images/models.png"
+      ]
+    }
+  ]
+}
