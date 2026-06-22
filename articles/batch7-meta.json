@@ -1,0 +1,46 @@
+{
+  "batch": 7,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "opencv",
+      "category": "computer-vision",
+      "repo": "opencv/opencv",
+      "stars": 89313,
+      "maintainer": "opencv",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "llm-course",
+      "category": "education",
+      "repo": "mlabonne/llm-course",
+      "stars": 80288,
+      "maintainer": "mlabonne",
+      "license": "MIT"
+    },
+    {
+      "name": "openhands",
+      "category": "ai-agents",
+      "repo": "OpenHands/OpenHands",
+      "stars": 78005,
+      "maintainer": "OpenHands",
+      "license": "MIT"
+    },
+    {
+      "name": "prompt-engineering-guide",
+      "category": "prompt-engineering",
+      "repo": "dair-ai/Prompt-Engineering-Guide",
+      "stars": 75864,
+      "maintainer": "dair-ai",
+      "license": "MIT"
+    },
+    {
+      "name": "autogen",
+      "category": "ai-agents",
+      "repo": "microsoft/autogen",
+      "stars": 59145,
+      "maintainer": "microsoft",
+      "license": "MIT"
+    }
+  ]
+}
