@@ -1,0 +1,76 @@
+{
+  "batch": 11,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "BettaFish",
+      "category": "ai-tools",
+      "repo": "666ghj/BettaFish",
+      "stars": 41469,
+      "maintainer": "666ghj",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      }
+    },
+    {
+      "name": "bert",
+      "category": "ai-tools",
+      "repo": "google-research/bert",
+      "stars": 40034,
+      "maintainer": "google-research",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "Agent-Reach",
+      "category": "ai-tools",
+      "repo": "Panniantong/Agent-Reach",
+      "stars": 37703,
+      "maintainer": "Panniantong",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "agents",
+      "category": "ai-tools",
+      "repo": "wshobson/agents",
+      "stars": 37047,
+      "maintainer": "wshobson",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "langextract",
+      "category": "ai-tools",
+      "repo": "google/langextract",
+      "stars": 36936,
+      "maintainer": "google",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    }
+  ]
+}
