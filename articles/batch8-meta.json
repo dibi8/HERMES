@@ -1,0 +1,76 @@
+{
+  "batch": 8,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "rails",
+      "category": "ai-tools",
+      "repo": "rails/rails",
+      "stars": 58713,
+      "maintainer": "rails",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "career-ops",
+      "category": "ai-tools",
+      "repo": "santifer/career-ops",
+      "stars": 55189,
+      "maintainer": "santifer",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "ionic-framework",
+      "category": "ai-tools",
+      "repo": "ionic-team/ionic-framework",
+      "stars": 52536,
+      "maintainer": "ionic-team",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "100-Days-Of-ML-Code",
+      "category": "ai-tools",
+      "repo": "Avik-Jain/100-Days-Of-ML-Code",
+      "stars": 51292,
+      "maintainer": "Avik-Jain",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "llama_index",
+      "category": "ai-tools",
+      "repo": "run-llama/llama_index",
+      "stars": 50287,
+      "maintainer": "run-llama",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  ]
+}
