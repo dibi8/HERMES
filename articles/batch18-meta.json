@@ -1,0 +1,76 @@
+{
+  "batch": 18,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "datasets",
+      "category": "ai-tools",
+      "repo": "huggingface/datasets",
+      "stars": 21641,
+      "maintainer": "huggingface",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "guizang-ppt-skill",
+      "category": "ai-tools",
+      "repo": "op7418/guizang-ppt-skill",
+      "stars": 18454,
+      "maintainer": "op7418",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      }
+    },
+    {
+      "name": "Grounded-Segment-Anything",
+      "category": "speech-ai",
+      "repo": "IDEA-Research/Grounded-Segment-Anything",
+      "stars": 17635,
+      "maintainer": "IDEA-Research",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "awesome-gpt-image-2-API-and-Prompts",
+      "category": "ai-tools",
+      "repo": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "stars": 16905,
+      "maintainer": "EvoLinkAI",
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      }
+    },
+    {
+      "name": "stable-diffusion-webui-colab",
+      "category": "ai-tools",
+      "repo": "camenduru/stable-diffusion-webui-colab",
+      "stars": 15941,
+      "maintainer": "camenduru",
+      "license": {
+        "key": "unlicense",
+        "name": "The Unlicense",
+        "spdx_id": "Unlicense",
+        "url": "https://api.github.com/licenses/unlicense",
+        "node_id": "MDc6TGljZW5zZTE1"
+      }
+    }
+  ]
+}
