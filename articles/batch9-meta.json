@@ -1,0 +1,76 @@
+{
+  "batch": 9,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "huginn",
+      "category": "ai-agents",
+      "repo": "huginn/huginn",
+      "stars": 49499,
+      "maintainer": "huginn",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "AI-For-Beginners",
+      "category": "ai-tools",
+      "repo": "microsoft/AI-For-Beginners",
+      "stars": 48373,
+      "maintainer": "microsoft",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "Made-With-ML",
+      "category": "ai-tools",
+      "repo": "GokuMohandas/Made-With-ML",
+      "stars": 48323,
+      "maintainer": "GokuMohandas",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "LocalAI",
+      "category": "ai-tools",
+      "repo": "mudler/LocalAI",
+      "stars": 47059,
+      "maintainer": "mudler",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "airflow",
+      "category": "ai-tools",
+      "repo": "apache/airflow",
+      "stars": 45893,
+      "maintainer": "apache",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    }
+  ]
+}
