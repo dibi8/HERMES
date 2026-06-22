@@ -1,0 +1,76 @@
+{
+  "batch": 22,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "modelscope",
+      "category": "speech-ai",
+      "repo": "modelscope/modelscope",
+      "stars": 8982,
+      "maintainer": "modelscope",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "evolver",
+      "category": "ai-tools",
+      "repo": "EvoMap/evolver",
+      "stars": 8737,
+      "maintainer": "EvoMap",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      }
+    },
+    {
+      "name": "VAR",
+      "category": "ai-tools",
+      "repo": "FoundationVision/VAR",
+      "stars": 8702,
+      "maintainer": "FoundationVision",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "EmotiVoice",
+      "category": "ai-tools",
+      "repo": "netease-youdao/EmotiVoice",
+      "stars": 8479,
+      "maintainer": "netease-youdao",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "dream-textures",
+      "category": "ai-tools",
+      "repo": "carson-katri/dream-textures",
+      "stars": 8168,
+      "maintainer": "carson-katri",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      }
+    }
+  ]
+}
