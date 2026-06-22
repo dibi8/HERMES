@@ -1,0 +1,46 @@
+{
+  "batch": 6,
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "name": "MoneyPrinterTurbo",
+      "category": "video-generation",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "stars": 91188,
+      "maintainer": "harry0703",
+      "license": "MIT"
+    },
+    {
+      "name": "TauricResearch-TradingAgents",
+      "category": "ai-trading",
+      "repo": "TauricResearch/TradingAgents",
+      "stars": 87971,
+      "maintainer": "TauricResearch",
+      "license": "MIT"
+    },
+    {
+      "name": "D4Vinci-Scrapling",
+      "category": "web-scraping",
+      "repo": "D4Vinci/Scrapling",
+      "stars": 65567,
+      "maintainer": "D4Vinci",
+      "license": "MIT"
+    },
+    {
+      "name": "warpdotdev-warp",
+      "category": "terminal-ide",
+      "repo": "warpdotdev/warp",
+      "stars": 62181,
+      "maintainer": "warpdotdev",
+      "license": "Proprietary"
+    },
+    {
+      "name": "AntonOsika-gpt-engineer",
+      "category": "code-generation",
+      "repo": "AntonOsika/gpt-engineer",
+      "stars": 55200,
+      "maintainer": "AntonOsika",
+      "license": "MIT"
+    }
+  ]
+}
