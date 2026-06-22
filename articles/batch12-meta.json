@@ -1,0 +1,76 @@
+{
+  "batch": 12,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "MockingBird",
+      "category": "ai-tools",
+      "repo": "babysor/MockingBird",
+      "stars": 36903,
+      "maintainer": "babysor",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      }
+    },
+    {
+      "name": "oh-my-claudecode",
+      "category": "ai-tools",
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "stars": 36778,
+      "maintainer": "Yeachan-Heo",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "HanLP",
+      "category": "ai-tools",
+      "repo": "hankcs/HanLP",
+      "stars": 36422,
+      "maintainer": "hankcs",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "mediapipe",
+      "category": "ai-tools",
+      "repo": "google-ai-edge/mediapipe",
+      "stars": 35769,
+      "maintainer": "google-ai-edge",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "category": "ai-tools",
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "stars": 35631,
+      "maintainer": "rohitg00",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    }
+  ]
+}
