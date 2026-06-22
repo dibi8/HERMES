@@ -1,0 +1,46 @@
+{
+  "batch": 4,
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "name": "langflow",
+      "category": "llm-ui",
+      "repo": "langflow-ai/langflow",
+      "stars": 149940,
+      "maintainer": "langflow-ai",
+      "license": "MIT"
+    },
+    {
+      "name": "open-webui",
+      "category": "llm-webui",
+      "repo": "open-webui/open-webui",
+      "stars": 142621,
+      "maintainer": "open-webui",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "name": "comfyui",
+      "category": "ai-image-workflow",
+      "repo": "Comfy-Org/ComfyUI",
+      "stars": 117919,
+      "maintainer": "Comfy-Org",
+      "license": "GPL-3.0"
+    },
+    {
+      "name": "browser-use",
+      "category": "browser-automation",
+      "repo": "browser-use/browser-use",
+      "stars": 100083,
+      "maintainer": "browser-use",
+      "license": "MIT"
+    },
+    {
+      "name": "firecrawl",
+      "category": "web-scraping",
+      "repo": "mendableai/firecrawl",
+      "stars": 136818,
+      "maintainer": "mendableai",
+      "license": "MIT"
+    }
+  ]
+}
