@@ -1,0 +1,76 @@
+{
+  "batch": 14,
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "name": "VoxCPM",
+      "category": "speech-ai",
+      "repo": "OpenBMB/VoxCPM",
+      "stars": 31288,
+      "maintainer": "OpenBMB",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    },
+    {
+      "name": "Jobs_Applier_AI_Agent_AIHawk",
+      "category": "ai-agents",
+      "repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "stars": 29929,
+      "maintainer": "feder-cr",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      }
+    },
+    {
+      "name": "applied-ml",
+      "category": "ai-tools",
+      "repo": "eugeneyan/applied-ml",
+      "stars": 29820,
+      "maintainer": "eugeneyan",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "storm",
+      "category": "ai-tools",
+      "repo": "stanford-oval/storm",
+      "stars": 29208,
+      "maintainer": "stanford-oval",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "name": "sim",
+      "category": "ai-tools",
+      "repo": "simstudioai/sim",
+      "stars": 28838,
+      "maintainer": "simstudioai",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      }
+    }
+  ]
+}
