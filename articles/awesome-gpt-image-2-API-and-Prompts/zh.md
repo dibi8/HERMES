@@ -482,3 +482,38 @@ Awesome GPT Image 2 API and Prompts 是对开源 AI 生态系统的重大贡献�
 
 **附属披露：** 本文包含附属链接。如果您点击这些链接并进行购买，我们可能会收到少量佣金，而不会给您增加额外费用。这有助于支持本网站的维护和未来内容的创作。我们只推荐我们认为能为读者增添价值的产品和服务。
 ```
+### Q1: Is Awesome GPT Image 2 API and Prompts free to use?
+Yes, the repository is licensed under CC0-1.0, which means the code and prompts are free to use, modify, and distribute for any purpose, including commercial projects. However, if you use third-party APIs for image generation, those services may charge fees based on usage.
+
+
+### Q2: Can I use this tool for commercial projects?
+Absolutely. The CC0-1.0 license allows for unrestricted commercial use. You can integrate the generated images into products, services, or marketing materials without needing to attribute the source, although attribution is always appreciated in the open-source community.
+
+
+### Q3: Does it support multiple image models?
+Yes, the repository is designed to be model-agnostic. It provides wrappers and configurations for various models, including Stable Diffusion XL, DALL-E, and others. You can switch between models by updating the API endpoint and configuration settings.
+
+
+### Q4: How do I handle API rate limits?
+The repository includes examples for implementing rate limiting and retry logic in client applications. Additionally, when deploying locally, you can manage concurrency using tools like Kubernetes or Docker Swarm to optimize resource usage and avoid overwhelming the API endpoints.
+
+
+### Q5: Where can I find more prompt examples?
+The `/prompts` directory in the repository contains a comprehensive library of prompts categorized by style and subject. You can also contribute your own prompts by submitting pull requests to the EvoLinkAI GitHub organization.
+
+# Conclusion
+
+Awesome GPT Image 2 API and Prompts represents a significant contribution to the open-source AI ecosystem, providing developers with a powerful, flexible, and legally clear toolset for image generation. By combining a rich library of prompts with robust API integration guides, it lowers the barrier to entry for implementing advanced visual AI features in applications. Whether you are a solo developer building a side project or an enterprise architect designing a scalable media platform, this repository offers the resources needed to succeed.
+
+We encourage you to explore the repository, experiment with the prompts, and contribute to the growing community. For those interested in deploying scalable AI infrastructure, consider leveraging cloud providers like DigitalOcean to host your instances efficiently.
+
+![DigitalOcean Hosting](https://m.do.co/c/eca87ac14ee0)
+
+Join the conversation and stay updated with the latest developments by joining our Telegram group: [t.me/DIBI8_Group](https://t.me/DIBI8_Group).
+
+***
+
+*Disclaimer: This article is for informational purposes only. The performance and availability of API services may change over time. Always review the official documentation and terms of service for any third-party APIs used in conjunction with this repository.*
+
+**Affiliate Disclosure:** This article contains affiliate links. If you click on these links and make a purchase, we may receive a small commission at no additional cost to you. This helps support the maintenance of this website and the creation of future content. We only recommend products and services that we believe will add value to our readers.
+

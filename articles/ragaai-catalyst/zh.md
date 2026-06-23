@@ -721,8 +721,6 @@ LangSmith 紧密耦合到 LangChain 生态系统且仅限云端。RagaAI Catalys
 > **披露**: 上方部分链接含联盟推广。如通过链接注册，dibi8.com 可能获得佣金，不影响你的成本。这帮助 dibi8 持续免费运营。
 
 
-## FAQ
-
 ### 1. How to install RagaAI Catalyst?
 
 Run `pip install ragaai-catalyst`. Then set up authentication with your access and secret keys from the RagaAI platform. For self-hosted deployments, use `docker pull ragaai/catalyst:latest` and configure with `docker compose`.

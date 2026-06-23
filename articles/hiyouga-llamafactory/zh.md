@@ -299,11 +299,10 @@ num_train_epochs: 3
 ```
 
 
-## FAQ
-
 ### Q1: Can I use LlamaFactory to fine-tune models on CPU-only machines? (待翻译)
 
 Yes, LlamaFactory supports CPU training, but it is not recommended for large models due to the slow speed and high memory consumption. It is best suited for small-scale experiments or models with fewer parameters. [需要翻译为中文]
+
 
 
 ### Q2: Does LlamaFactory support distributed training across multiple GPUs? (待翻译)
@@ -311,9 +310,11 @@ Yes, LlamaFactory supports CPU training, but it is not recommended for large mod
 Absolutely. LlamaFactory integrates with DeepSpeed and Megatron-LM, enabling efficient distributed training across multiple GPUs and nodes. This is essential for training larger models or processing large datasets quickly. [需要翻译为中文]
 
 
+
 ### Q3: How do I handle multi-modal data for Vision-Language Models? (待翻译)
 
 LlamaFactory provides specific handlers for multi-modal data. You can specify the image and text columns in your dataset configuration, and the toolkit will automatically process the images and align them with the text embeddings during training. [需要翻译为中文]
+
 
 
 ### Q4: Is it possible to merge LoRA adapters back into the base model? (待翻译)
@@ -326,6 +327,7 @@ llamafactory-cli merge \
     --adapter ./lora_adapter \
     --merged_model ./merged_model
 ``` [需要翻译为中文]
+
 
 
 ### Q5: Can I use LlamaFactory for reinforcement learning from human feedback (RLHF)? (待翻译)
@@ -341,14 +343,14 @@ learning_rate: 5.0e-6
 num_train_epochs: 3
 ``` [需要翻译为中文]
 
-## 结论
+## Conclusion
 
-LlamaFactory 已在开源 AI 社区中确立了其基石地位，为微调各种 LLMs 和 VLMs 提供了一个统一、高效且易于访问的平台。其对各种训练算法的全面支持、与流行工具的集成以及稳健的部署选项使其成为开发人员和研究人员宝贵的资产。虽然没有任何工具是完美的，但 LlamaFactory 的好处远远超过了其局限性，特别是考虑到其积极的开发和强大的社区支持。
+LlamaFactory has established itself as a cornerstone in the open-source AI community, providing a unified, efficient, and accessible platform for fine-tuning a wide array of LLMs and VLMs. Its comprehensive support for various training algorithms, integration with popular tools, and robust deployment options make it an invaluable asset for developers and researchers alike. While no tool is perfect, the benefits of LlamaFactory far outweigh its limitations, especially given its active development and strong community support.
 
-对于那些希望利用定制 AI 模型的力量而不必忍受复杂基础设施的麻烦的人来说，LlamaFactory 是首选解决方案。无论您是构建聊天机器人、编码助手还是多模态应用，LlamaFactory 都提供了您成功所需的工具。
+For those looking to harness the power of custom AI models without the hassle of complex infrastructure, LlamaFactory is the go-to solution. Whether you are building a chatbot, a coding assistant, or a multimodal application, LlamaFactory provides the tools you need to succeed.
 
-通过今天探索 LlamaFactory，加入日益增长的 AI 爱好者和开发者社区。如需更多关于开源 AI 工具的见解、教程和讨论，请访问 [dibi8.com](https://dibi8.com) 并加入我们的 Telegram 群组 [t.me/DIBI8_Group](https://t.me/DIBI8_Group)。
+Join the growing community of AI enthusiasts and developers by exploring LlamaFactory today. For more insights, tutorials, and discussions on open-source AI tools, visit [dibi8.com](https://dibi8.com) and join our Telegram group at [t.me/DIBI8_Group](https://t.me/DIBI8_Group).
 
 ***
 
-*附属披露：本文可能包含附属链接。如果您通过这些链接进行购买，我们可能会赚取少量佣金，而不会给您带来额外费用。这有助于支持我们为 AI 社区创建全面评测和指南的工作。*
+*Affiliate Disclosure: This article may contain affiliate links. If you make a purchase through these links, we may earn a small commission at no extra cost to you. This helps support our work in creating comprehensive reviews and guides for the AI community.*

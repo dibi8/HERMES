@@ -856,6 +856,65 @@ Haystack 支持 10+ 种文档存储后端：Elasticsearch、Weaviate、Pinecone�
 - [基准数据集（dibi8.com）](https://github.com/dibi8/benchmarks) — 独立测试方法和原始数据
 - [Haystack Discord 社区](https://discord.gg/haystack) — 活跃的开发社区，用于提问和讨论
 
+
+### Q1: How do I install Haystack for the first time?
+
+The simplest way to install Haystack is via pip: `pip install haystack-ai`. For a complete setup with all optional dependencies, use `pip install "haystack-ai[all]"`. You will also need a document store backend (Elasticsearch, Weaviate, etc.) and an embedding model. See the [Installation & Setup](#installation--setup) section above for detailed instructions on each component.
+
+
+### Q2: What is the difference between Haystack and LangChain?
+
+Haystack is purpose-built for RAG pipelines with strong document processing, evaluation, and observability baked in. LangChain is a more general-purpose framework for building LLM applications of any kind — chatbots, agents, chains, and RAG. If your primary goal is building retrieval pipelines with production-grade document handling, Haystack tends to require less boilerplate. For broader LLM application patterns beyond RAG, LangChain's ecosystem is larger. See the [LangChain Complete Guide on dibi8.com](/articles/langchain-complete-guide) for more details.
+
+
+### Q3: Can I use Haystack with local/embedded models instead of API-based LLMs?
+
+Yes. Haystack fully supports local models through integrations with Ollama, vLLM, and Hugging Face transformers. For example:
+
+```python
+from haystack.components.generators import HuggingFaceTGIGenerator
+
+local_gen = HuggingFaceTGIGenerator(
+    model="mistralai/Mistral-7B-Instruct-v0.3",
+    device="cuda",
+    kwargs={"max_new_tokens": 512, "temperature": 0.7}
+)
+```
+
+This approach avoids API costs and keeps sensitive data within your infrastructure.
+
+
+### Q4: How does Haystack handle document preprocessing and splitting?
+
+Haystack provides multiple preprocessor components: `PreProcessor` (rule-based splitting by word/character/regex), `RecursiveCharacterTextSplitter`, and `MarkdownElementNodeSplitter` for structured documents. You can chain preprocessors and configure overlap, minimum chunk size, and cleaning rules:
+
+```python
+preprocessor = PreProcessor(
+    clean_empty_lines=True,
+    clean_whitespace=True,
+    split_by="sentence",
+    split_length=3,
+    split_overlap=1,
+    split_respect_sentence_boundary=True
+)
+```
+
+
+### Q5: Is Haystack suitable for production workloads?
+
+Yes. Haystack is used in production by numerous companies for document processing pipelines handling thousands of documents per day. Key production features include: built-in OpenTelemetry tracing, YAML pipeline definitions for reproducibility, batch processing support, and integration with Kubernetes for horizontal scaling. The framework's component model also makes it straightforward to add monitoring, caching, and retry logic at individual stages.
+
+
+### Q6: What vector databases does Haystack support?
+
+Haystack supports 10+ document store backends: Elasticsearch, Weaviate, Pinecone, Milvus, Chroma, Qdrant, MongoDB, Azure AI Search, Typesense, and FAISS (via a community plugin). Each backend implements the same `BaseDocumentStore` interface, so switching between them requires only a configuration change.
+
+
+### Q7: How does Haystack compare to other Haystack alternatives?
+
+If you are looking for a Haystack alternative, consider LlamaIndex for data-centric indexing workflows, LangChain for general-purpose LLM orchestration, or DSPy for programmatic prompt optimization. Each has different strengths depending on your use case. The comparison table above provides a detailed feature-by-feature breakdown.
+
+
 ## 结论
 
 Haystack 已经确立了自己作为构建生产级 Python RAG 应用的最实用框架之一的地位。凭借 **25,620 个 GitHub Star**、Apache-2.0 许可证以及不断增长的就绪生态系统，它开箱即用地提供了文档处理、向量搜索抽象和管道可观测性——缩短了从原型到生产的时间。

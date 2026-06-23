@@ -28,7 +28,6 @@ tags:
 ![DeerFlow 2.0 架构](https://sf16-sg.tiktokcdn.com/obj/eden-sg/hubseh7bsbps/20251208-160108.png)
 *图1：DeerFlow 2.0超级智能体框架——子智能体编排、记忆、沙箱和技能系统。图片来源：[字节跳动](https://github.com/bytedance/deer-flow)，dibi8.com整理。*
 
-## 简介
 
 **2026年2月**，来自**字节跳动**的一个项目在**GitHub趋势榜**上登顶，并在此后积累了**72,130+星标**（**MIT协议**）：**DeerFlow 2.0**——一个专为构建**长周期AI研究智能体**设计的**超级智能体框架**。与简单的聊天机器人或单轮自动化工具不同，DeerFlow在扩展工作流中编排**多个专业子智能体**，为每个子智能体配备独立的**记忆**、**沙箱执行环境**、**技能**和**工具集成**。它兼容**Claude**、**Gemini**、**Claude Code**、**Gemini CLI**、**Codex**和**Opencode**，使其成为当今开源生态中最通用的智能体框架之一。
 
@@ -606,6 +605,62 @@ helm install deerflow deerflow/deerflow \
   --set replicaCount=3 \
   --namespace research-team
 ```
+
+
+### Q1: Is DeerFlow 2.0 free to use
+
+Yes. DeerFlow 2.0 is released under the **MIT license**, meaning it's completely free for personal, commercial, and enterprise use. You only pay for the LLM API calls your sub-agents make (Claude, Gemini, etc.) and any infrastructure costs for running Docker sandboxes.
+
+
+### Q2: How many sub-agents can DeerFlow run simultaneously
+
+By default, the sub-agent pool size is **8**, but this is configurable via the `sub_agents.pool_size` setting in your configuration. In our benchmarks, we tested up to **32 concurrent sub-agents** on a 16-core machine with no stability issues.
+
+
+### Q3: Can I use DeerFlow with self-hosted/open-source LLMs
+
+Absolutely. DeerFlow 2.0 supports any OpenAI-compatible API endpoint through its `custom` LLM provider. You can point it to Ollama, vLLM, TGI, or any other self-hosted inference server. See the Custom LLM Endpoint Configuration section above for examples.
+
+
+### Q4: How does DeerFlow handle research task failures
+
+DeerFlow includes a built-in **retry and recovery mechanism**. If a sub-agent fails (e.g., due to a rate limit or network error), the system automatically retries up to the configured `max_retries` threshold. If all retries fail, the failure is logged, and the super agent attempts to re-route the task to an alternative sub-agent or skip it gracefully while preserving partial results.
+
+
+### Q5: What's the difference between DeerFlow 1.0 and 2.0
+
+DeerFlow 2.0 introduces several major upgrades over 1.0:
+- **Hierarchical sub-agent orchestration** (replacing flat task queues)
+- **Persistent memory system** with Redis/PostgreSQL backends
+- **Docker-based sandbox isolation** for all sub-agent executions
+- **Extensible skill system** with a plugin API
+- **Built-in message gateway** for inter-agent communication
+- **Multi-LLM support** across Claude, Gemini, and custom endpoints
+- **Production-grade monitoring** with health checks and alerting
+
+
+### Q6: Does DeerFlow support collaborative research teams
+
+Yes. Multiple researchers can connect to the same DeerFlow instance via the REST API or CLI. The shared memory store and message gateway enable **cross-user collaboration** — for example, one researcher can kick off a broad market scan while another drills down into specific findings, with both sharing context in real time.
+
+
+### Q7: How do I deploy DeerFlow in a Kubernetes cluster
+
+DeerFlow provides Helm charts for Kubernetes deployment. After installing the Helm CLI:
+
+```bash
+# Add the DeerFlow Helm repository
+helm repo add deerflow https://bytedance.github.io/deer-flow-helm
+helm repo update
+
+# Deploy to your cluster
+helm install deerflow deerflow/deerflow \
+  --set redis.enabled=true \
+  --set postgres.enabled=true \
+  --set replicaCount=3 \
+  --namespace research-team
+```
+
 
 ## 结论：立即开始使用DeerFlow 2.0
 

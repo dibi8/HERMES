@@ -760,6 +760,54 @@ freqtrade list-trades --ft-exchange binance --limit 50
 
 ---
 
+
+### Q1: Is Freqtrade really free
+
+Yes. Freqtrade is released under the **GPL-3.0 license**, meaning it is completely free to download, use, modify, and distribute. There are no subscription fees, no premium tiers, and no hidden costs. You only pay exchange trading fees and, optionally, server hosting costs.
+
+
+### Q2: Can I use Freqtrade without coding experience
+
+Basic setup requires minimal coding — just editing JSON configuration files and selecting from pre-built community strategies. However, creating custom strategies and optimizing parameters requires Python knowledge. The **dibi8.com** Telegram community ([join here](https://t.me/DIBI8_Group/2)) offers guidance for beginners navigating the learning curve.
+
+
+### Q3: Which exchanges work best with Freqtrade
+
+**Binance** and **OKX** are the most popular choices due to their deep liquidity, extensive trading pairs, and well-maintained CCXT integrations. Kraken, Bybit, KuCoin, Gate.io, and others are also fully supported. Always test with dry-run mode first before going live.
+
+
+### Q4: How does FreqAI work, and is it beginner-friendly
+
+FreqAI integrates machine learning models directly into the trading pipeline. You train models on historical data, and Freqtrade deploys them for real-time prediction during live trading. While the concept is powerful, using FreqAI effectively requires understanding of ML fundamentals. Start with simpler TA-based strategies before exploring FreqAI.
+
+
+### Q5: What is the minimum capital needed to trade with Freqtrade
+
+Technically, you can run Freqtrade with as little as **$10–$25** (the minimum order size on most exchanges). However, for meaningful diversification across multiple trading pairs and to absorb trading fees effectively, we recommend starting with at least **$100–$500**. Use **[Binance](https://www.bsmkweb.cc/register?ref=DIBI8)** or **[OKX](https://www.promoohubly.com/join/12190433)** for the lowest fee tiers.
+
+
+### Q6: Does Freqtrade guarantee profits
+
+Absolutely not. Freqtrade is a **tool**, not a profit generator. It automates execution of strategies you define. If your strategy is unprofitable, Freqtrade will automate your losses just as efficiently. Past backtest results do not guarantee future performance. Always manage risk and never invest more than you can afford to lose.
+
+
+### Q7: How do I handle tax reporting with Freqtrade
+
+Freqtrade exports trade history in CSV format that can be imported into tax software:
+
+```bash
+# Export trade history
+freqtrade export-trade-data --trade-stack-csv --filename trades_export.csv
+
+# View recent trades
+freqtrade list-trades --ft-exchange binance --limit 50
+```
+
+Consult a tax professional in your jurisdiction for compliant reporting. Automated trading generates numerous taxable events that require careful tracking.
+
+---
+
+
 ## 结论：立即开始使用 Freqtrade
 
 Freqtrade 代表了 2026 年开源加密交易机器人的标杆。凭借 **35,000+ GitHub stars**、全面的 **回测和 Hyperopt 能力**、重要的 **FreqAI 机器学习集成**以及对 **15+ 交易所**的支持，它为严肃交易者提供了构建、测试和部署系统化策略所需的一切。

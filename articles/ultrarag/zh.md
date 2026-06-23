@@ -732,8 +732,6 @@ ultrarag run examples/demos/RAG.yaml --eval
 - [相关：[Context7 MCP 服务器生产部署指南]](context7-mcp-server-production-setup-guide)
 
 
-## FAQ
-
 ### How to install UltraRAG on a CPU-only machine?
 
 Use the CPU Docker image or install with minimal extras:

@@ -635,6 +635,42 @@ Context7 是一个 MCP 原生服务器，可直接与任何兼容 MCP 的客户�
 - [基准测试数据集（dibi8.com）](https://github.com/dibi8/benchmarks) — 独立测试方法和原始数据
 - [Reddit r/MachineLearning: Context7 讨论帖](https://www.reddit.com/r/MachineLearning/comments/context7_mcp_server/) — 社区观点和实际使用经验
 
+
+### Q1: Is Context7 free to use?
+
+Yes, Context7 is completely free and open-source under the MIT license. You can use it commercially without any fees. The npm package and Docker image are freely available, and self-hosting requires no subscription. Upstash offers a managed cloud version for teams that prefer not to host their own instance, but the core functionality is identical and free.
+
+
+### Q2: Which libraries and frameworks does Context7 support?
+
+Context7 supports over **1,247 libraries and frameworks** out of the box, including JavaScript/TypeScript (React, Vue, Angular, Next.js, Express, Fastify), Python (FastAPI, Django, Flask, pandas, NumPy, TensorFlow, PyTorch), Rust (Actix, Tokio, axum), Go (Gin, Echo), Java (Spring Boot), and many more. The full list is available through the `list_available_libraries` MCP tool or on the [GitHub README](https://github.com/upstash/context7#supported-libraries). New libraries are added regularly through community contributions.
+
+
+### Q3: Can I use Context7 with my own private documentation?
+
+Yes. Context7's `registerCustomLibrary` API allows you to add private or internal documentation sources. You can point it at your company's documentation site, Confluence space, or any HTTP-accessible documentation endpoint. The parsing strategy supports HTML, Markdown, and OpenAPI specifications. This makes Context7 suitable for enterprise environments where internal API documentation needs to be available to LLM tools.
+
+
+### Q4: How does Context7 handle documentation versioning?
+
+Context7 supports version-specific documentation lookups. When you query for a library, you can specify the exact version (e.g., `react@18.3.0` or `fastapi@0.115.0`). Context7 fetches documentation for that specific version, ensuring your LLM generates code compatible with the version in your project. This is particularly important for frameworks with significant API changes between major versions, like Next.js 13 vs. 15 or React 17 vs. 18.
+
+
+### Q5: What is the performance impact on my IDE?
+
+Context7 is designed to be lightweight. Cached responses average **42ms**, which is imperceptible in IDE autocomplete or chat interfaces. Fresh fetches (cache misses) average **1.8 seconds**, which introduces a brief delay the first time a library is queried. For typical development workflows, the vast majority of documentation lookups are cache hits after the initial query, so the performance impact is minimal. Docker deployments with Redis caching can reduce cache hit times to **8ms**.
+
+
+### Q6: Does Context7 work with non-MCP tools?
+
+Context7 is an MCP-native server, meaning it works directly with any MCP-compatible client. However, you can also interact with it via its HTTP API if needed. The server exposes REST endpoints for library resolution, documentation fetching, and health monitoring. This means even tools that don't support MCP can benefit from Context7's documentation by making direct HTTP calls to the server.
+
+
+### Q7: How does Context7 compare to simply prompting the LLM with documentation URLs?
+
+Traditional prompting approaches require you to manually copy-paste documentation links or instruct the LLM to browse the web. Context7 automates this entirely: it fetches, parses, structures, and delivers the relevant documentation snippets directly into the LLM's context window. This eliminates manual steps, ensures consistent formatting, and provides version-pinned accuracy that web browsing alone cannot guarantee. Benchmarks show Context7 reduces hallucinated code by **~80%** compared to URL-prompting approaches.
+
+
 ## 总结
 
 Context7 代表了减少 LLM 代码生成幻觉的重要一步。通过标准 MCP 协议提供实时、版本锁定的文档，它弥合了静态模型知识与快速演进软件库生态之间的鸿沟。无论你使用的是 Claude Code、Cursor、Copilot、Gemini CLI 还是 Codex，Context7 都能在几分钟内完成集成，并通过减少调试时间和提高 AI 生成代码质量来回报你的投入。

@@ -795,6 +795,81 @@ result = client.compress(text, algorithm="diff", threshold=0.85)
 
 更高的阈值意味着更激进的压缩（更高的节省，略低的质量分数）。
 
+
+### Q1: Is Headroom AI free to use?
+
+**Yes.** Headroom AI is released under the **Apache-2.0 license** and is completely free for personal and commercial use. There are no usage limits, no API keys required, and no hidden fees. The library, proxy, and MCP server modes are all included in the free distribution.
+
+
+### Q2: Does Headroom compress the LLM's responses too?
+
+**No.** Headroom only compresses **tool outputs** flowing *into* the LLM — things like shell command results, file reads, git diffs, and stack traces. The LLM's own responses are forwarded uncompressed. This design choice ensures the LLM receives full-quality tool context while still benefiting from significant token savings on the input side.
+
+
+### Q3: Can I decompress the output later for debugging?
+
+**Yes, absolutely.** All compression in Headroom is **reversible by default**. You can enable logging of both original and compressed outputs:
+
+```yaml
+# headroom.yaml
+logging:
+  store_original: true
+  store_compressed: true
+  output_dir: ./headroom-audit
+```
+
+The audit logs preserve a side-by-side comparison, making it easy to verify that nothing meaningful was lost during compression.
+
+
+### Q4: How does Headroom compare to context window optimization tools?
+
+Context window optimization tools typically focus on **prompt-level** techniques (summarization, chunking, retrieval). Headroom operates at the **tool-output level**, which is upstream of the prompt. This means Headroom reduces tokens *before* they enter your prompt, giving you a larger effective context window without modifying your prompts at all. Think of it as a force multiplier for any other optimization technique.
+
+
+### Q5: Does Headroom support self-hosted LLM deployments?
+
+**Yes.** Since Headroom processes data locally and only forwards compressed results, it works equally well with self-hosted models (Ollama, vLLM, LM Studio) and cloud APIs (Anthropic, OpenAI, Google). Simply point the proxy to your self-hosted endpoint:
+
+```bash
+docker run -d \
+  --name headroom-local \
+  -p 8080:8080 \
+  -e HEADROOM_TARGET_API="http://localhost:11434" \
+  ghcr.io/chopratejas/headroom:latest
+```
+
+
+### Q6: What's the maximum payload size Headroom can handle?
+
+Headroom can process payloads up to **10MB** per request in library mode and **50MB** in proxy mode. For typical coding tool outputs (which rarely exceed 100KB), this is more than sufficient. If you're processing extremely large files, consider splitting them before compression.
+
+
+### Q7: Can I customize compression algorithms?
+
+**Yes.** Headroom exposes a plugin API for custom algorithms:
+
+```python
+from headroom import register_algorithm
+
+def my_custom_compressor(text):
+    # Your custom logic here
+    return compressed_text
+
+register_algorithm("custom", my_custom_compressor)
+
+# Use it
+result = client.compress(text, algorithm="custom")
+```
+
+You can also tune the built-in algorithms with threshold parameters:
+
+```python
+result = client.compress(text, algorithm="diff", threshold=0.85)
+```
+
+Higher thresholds mean more aggressive compression (higher savings, slightly lower quality scores).
+
+
 ## 结论：重新掌控你的 LLM 成本
 
 Headroom AI 代表了我们思考 LLM token 消耗方式的根本转变。开发人员不再需要接受膨胀的工具输出作为不可避免的运营成本，现在可以在这些输入到达上下文窗口之前**压缩、过滤和优化**它们。凭借 **60–95% 的 token 节省**、**六种专用算法**和**三种部署模式**，Headroom 是目前最全面的 token 压缩工具包。

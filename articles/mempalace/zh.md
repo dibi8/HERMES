@@ -856,6 +856,122 @@ prompt = f"""
 """
 ```
 
+
+### Q1: Does MemPalace store my data in the cloud
+
+**No.** MemPalace is fundamentally local-first. All conversation memory is stored on your machine using ChromaDB (or your chosen backend). No data is transmitted to external servers unless you explicitly configure remote sync. The default configuration keeps everything offline.
+
+
+### Q2: How much disk space does MemPalace require
+
+Disk usage depends on your conversation volume. As a rough estimate:
+- **1,000 conversations** (~5MB text): ~50 MB with embeddings
+- **10,000 conversations**: ~500 MB with embeddings
+- **100,000 conversations**: ~5 GB with embeddings
+
+The default configuration supports up to **100,000 indexed memories** with a 384-dimensional embedding model. Larger deployments can increase this limit by adjusting `max_memories` in the config.
+
+
+### Q3: Can I use MemPalace with non-Anthropic models
+
+**Yes.** MemPalace is model-agnostic. It works with Claude, ChatGPT (GPT-4/GPT-5), Gemini, and any other LLM. The Palace architecture and retrieval layer operate independently of the downstream model. You simply configure your AI tool to connect to your local MemPalace instance via MCP or the Python API.
+
+
+### Q4: What happens if I switch embedding models
+
+If you change the embedding model, existing memories will need to be **re-embedded**. MemPalace provides a migration utility for this:
+
+```bash
+# Migrate from MiniLM to a larger embedding model
+mempalace migrate \
+  --from-model sentence-transformers/all-MiniLM-L6-v2 \
+  --to-model sentence-transformers/all-mpnet-base-v2 \
+  --data-dir ~/.mempalace/data
+
+# Estimated migration time for 10,000 memories: ~45 seconds
+```
+
+
+### Q5: Is there a web UI for managing memories
+
+MemPalace includes a built-in admin interface accessible at `http://127.0.0.1:8787/admin` when the server is running. The web UI allows you to:
+- Browse wings, rooms, and drawers visually
+- Search memories with a graphical interface
+- Manage retention policies
+- Export memories as JSON or Markdown
+- Monitor system health and performance
+
+```bash
+# Enable the web UI
+mempalace serve --enable-ui --port 8787
+
+# Access at http://127.0.0.1:8787/admin
+```
+
+
+### Q6: How does MemPalace handle PII (Personally Identifiable Information)
+
+Since all data stays local, MemPalace gives you full control over PII. You can implement custom filters:
+
+```python
+from mempalace import PIIFilter
+
+pii_filter = PIIFilter(
+    patterns=["email", "phone", "ssn", "credit_card"],
+    action="mask"  # Options: mask, redact, skip
+)
+
+# Apply to incoming conversations
+session = cc.Session(
+    pre_processor=pii_filter,
+    model="claude-sonnet-4-20250514"
+)
+```
+
+
+### Q7: Can I export my MemPalace data
+
+Yes. MemPalace supports exporting memories in multiple formats:
+
+```bash
+# Export all memories as JSON
+mempalace export --format json --output mempalace-backup.json
+
+# Export as Markdown (human-readable)
+mempalace export --format markdown --output mempalace-backup.md
+
+# Export specific wing
+mempalace export --wing backend-architecture --format json --output wing-export.json
+```
+
+
+### Q8: Does MemPalace support RAG pipelines
+
+While MemPalace is primarily a conversation memory system, its retrieval capabilities can be integrated into RAG pipelines. The `search()` method returns ranked passages that can feed directly into a RAG framework:
+
+```python
+# Use MemPalace as a RAG memory source
+from mempalace import MemoryClient
+
+client = MemoryClient()
+
+# Retrieve relevant context for a RAG query
+context = client.search(
+    query="How did we configure the Redis cache?",
+    top_k=3
+)
+
+# Build RAG prompt
+prompt = f"""
+Based on the following stored memories, answer the question:
+
+{context.format_for_prompt()}
+
+Question: How did we configure the Redis cache?
+"""
+```
+
+
 ## 结论：给你的AI永久记忆
 
 MemPalace解决了AI辅助开发中最令人沮丧的问题之一：**会话间的上下文丢失**。凭借**96.6%的R@5检索准确率**、**本地优先架构**以及与整个AI工具生态系统的兼容性（Claude Code、Cursor、Gemini CLI、ChatGPT），它是目前最强大的开源记忆系统。
