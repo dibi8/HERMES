@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Agent-Reach: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "agentreach-guide"
@@ -12,9 +11,10 @@ image: "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/logo
 description: "A deep dive into Agent-Reach, the open-source AI tool that gives your agents eyes to see the entire internet, including Twitter and Reddit."
 tags: ["AI", "Open Source", "Agent-Reach", "Web Scraping", "Twitter API", "Reddit API", "Automation"]
 ---
-```
 
 # Agent-Reach: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![Agent-Reach repository overview](https://opengraph.githubicons.com/Panniantong/Agent-Reach/1.0.0)
 
 In the rapidly evolving landscape of artificial intelligence, the ability for an autonomous agent to perceive its environment is just as critical as its ability to reason. For years, LLMs have been powerful processors of text, but they lacked true sensory input from the live web. This limitation has begun to dissolve with tools like Agent-Reach, which empowers developers to grant their AI agents the capacity to browse, search, and interact with real-time data across major social platforms. As we move deeper into 2026, the demand for robust, open-source solutions that bridge the gap between static models and dynamic internet data has never been higher.
 

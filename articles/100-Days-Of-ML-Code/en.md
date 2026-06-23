@@ -14,6 +14,8 @@ image: "https://raw.githubusercontent.com/Avik-Jain/100-Days-Of-ML-Code/main/doc
 
 # 100-Days-Of-Ml-Code: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![100-Days-Of-ML-Code repository overview](https://opengraph.githubicons.com/Avik-Jain/100-Days-Of-ML-Code/1.0.0)
+
 ## Introduction
 
 In the rapidly evolving landscape of artificial intelligence, the gap between theoretical knowledge and practical application remains the most significant barrier for aspiring data scientists. While countless tutorials exist, few provide the structured, day-by-day rigor required to build genuine proficiency. Enter **100 Days of ML Code**, a seminal open-source project that has guided thousands of developers through the intricacies of machine learning. This article provides an in-depth review of this repository, analyzing its structure, utility, and relevance in the current technological ecosystem. By examining its codebase, community impact, and educational methodology, we aim to determine whether this tool is the right foundation for your AI journey in 2026.
@@ -170,7 +172,7 @@ Many developers prefer using Visual Studio Code (VS Code) for its robust debuggi
 # Ensure you have the Python extension installed
 ```
 
-When working in VS Code, you can leverage features like:
+When working in VS Code, you can utilize features like:
 *   **Intellisense:** Auto-completion for variables and functions.
 *   **Debugging:** Set breakpoints within notebook cells to inspect variable states.
 *   **Git Integration:** Track changes to your daily implementations directly within the editor.

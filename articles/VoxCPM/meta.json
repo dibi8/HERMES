@@ -1,0 +1,26 @@
+{
+  "id": 35,
+  "name": "VoxCPM",
+  "category": "speech-ai",
+  "repo": "https://github.com/OpenBMB/VoxCPM.git",
+  "stars": 31288,
+  "license": "Apache-2.0",
+  "maintainer": "OpenBMB",
+  "slug": "voxcpm-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2058,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/docs/logo.png",
+      "alt": "VoxCPM Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/VoxCPM/en.md"
+}

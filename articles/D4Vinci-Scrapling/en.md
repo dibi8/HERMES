@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Scrapling: Adaptive Web Scraping Framework for AI Data Pipelines in 2026 — Open Source AI Tool Review"
 slug: "scrapling-adaptive-scraping"
@@ -14,6 +13,8 @@ description: "A deep dive into Scrapling, the adaptive web scraping framework de
 ---
 
 # Scrapling: Adaptive Web Scraping Framework for AI Data Pipelines in 2026 — Open Source AI Tool Review
+
+![Scrapling repository overview](https://opengraph.githubicons.com/D4Vinci/Scrapling/1.0.0)
 
 In an era where Large Language Models (LLMs) demand high-quality, real-time data, traditional web scraping methods are rapidly becoming obsolete. The friction between static HTML extraction and dynamic, bot-protected modern websites has created a critical bottleneck for AI developers. Enter **D4Vinci Scrapling**, a robust, adaptive framework that bridges this gap by offering intelligent handling of anti-bot mechanisms while maintaining the speed required for large-scale data ingestion. This review explores how Scrapling has become a cornerstone tool for engineers building reliable data pipelines in 2026.
 
@@ -49,7 +50,6 @@ First, ensure you have Python 3.9 or higher installed. Then, install the main pa
 
 ```bash
 pip install scrapling
-```
 
 Next, you must install the browser engines. Scrapling recommends using Playwright for its speed and modern features. You can install the necessary binaries with:
 

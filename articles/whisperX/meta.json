@@ -1,0 +1,26 @@
+{
+  "id": 114,
+  "name": "whisperX",
+  "category": "ai-tools",
+  "repo": "https://github.com/m-bain/whisperx.git",
+  "stars": 22609,
+  "license": "BSD 2-Clause \"Simplified\" License",
+  "maintainer": "m-bain",
+  "slug": "whisperx-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2401,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/m-bain/whisperX/main/docs/logo.png",
+      "alt": "WhisperX Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/whisperX/en.md"
+}

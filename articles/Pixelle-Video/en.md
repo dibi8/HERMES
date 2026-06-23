@@ -13,6 +13,8 @@ maintainer: "AIDC-AI"
 
 # Pixelle-Video: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![Pixelle-Video repository overview](https://opengraph.githubicons.com/AIDC-AI/Pixelle-Video/1.0.0)
+
 In the rapidly evolving landscape of generative AI, video creation remains the most computationally intensive and complex frontier. As we move through 2026, the barrier to entry for high-quality automated video production has lowered significantly, thanks to robust open-source initiatives. This guide explores Pixelle Video, a fully automated short video engine that promises to streamline the entire workflow from script to screen. Whether you are a content creator looking to scale output or a developer interested in the underlying mechanics of autonomous media generation, this review provides the technical depth and practical insights needed to evaluate Pixelle Video effectively.
 
 ![Pixelle Video Logo](https://raw.githubusercontent.com/AIDC-AI/Pixelle-Video/main/docs/logo.png)

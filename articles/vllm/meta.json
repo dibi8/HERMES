@@ -1,0 +1,34 @@
+{
+  "id": 112,
+  "name": "vllm",
+  "category": "llm-serving",
+  "repo": "https://github.com/vllm-project/vllm.git",
+  "stars": 83496,
+  "license": "Apache-2.0",
+  "maintainer": "vllm-project",
+  "slug": "vllm-complete-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2461,
+  "h2_count": 9,
+  "code_blocks": 16,
+  "faq_count": 7,
+  "image_count": 3,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-dark.png",
+      "alt": "vLLM Logo"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/design/hierarchy.png",
+      "alt": "vLLM Hierarchy"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/deployment/anything-llm-chat-with-doc.png",
+      "alt": "AnythingLLM Chat with Docs"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/vllm/en.md"
+}

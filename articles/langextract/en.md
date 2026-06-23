@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Langextract: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: langextract-guide
@@ -64,7 +63,6 @@ text = "John Doe is 30 years old and works as an engineer."
 result = extractor.extract(text, schema)
 
 print(result)
-```
 
 ## Installation & Setup
 

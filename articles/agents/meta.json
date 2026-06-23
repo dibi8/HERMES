@@ -1,0 +1,26 @@
+{
+  "id": 36,
+  "name": "agents",
+  "category": "ai-tools",
+  "repo": "https://github.com/wshobson/agents",
+  "stars": 37047,
+  "license": "MIT",
+  "maintainer": "wshobson",
+  "slug": "agents-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2633,
+  "h2_count": 17,
+  "code_blocks": 16,
+  "faq_count": 5,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/wshobson/agents/main/docs/logo.png",
+      "alt": "Agents Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/agents/en.md"
+}

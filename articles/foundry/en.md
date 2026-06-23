@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Foundry: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: foundry-guide
@@ -14,9 +13,16 @@ tags: [ethereum, solidity, testing, smart-contracts, devops]
 
 # Foundry: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![foundry repository overview](https://opengraph.githubicons.com/foundry-rs/foundry/1.0.0)
+
+![foundry dark preview](https://opengraph.githubicons.com/dark/foundry-rs/foundry/1.0.0)
+
 The landscape of blockchain development has evolved significantly, demanding tools that match the speed and complexity of modern decentralized applications. For developers working on Ethereum-based projects, efficiency is no longer a luxury but a necessity. This guide explores Foundry, a robust toolkit designed to streamline the creation, testing, and deployment of smart contracts. By leveraging Rust for its core engine and Solidity for its testing environment, Foundry offers a unique approach to developer experience that prioritizes speed and modularity.
 
 ## What Is Foundry?
+
+*Reviewed and published by dibi8.com — the AI Source Code Hub.*
+
 
 Foundry is a blazing fast, portable, and modular toolkit for Ethereum application development written in Rust. It serves as an alternative to traditional toolchains like Hardhat or Truffle, offering a suite of tools that cover the entire lifecycle of smart contract development. Unlike monolithic frameworks, Foundry is designed to be lightweight and highly customizable, allowing developers to pick and choose components based on their specific needs.
 
@@ -38,7 +44,6 @@ Once Rust is set up, you can install Foundry using the following command:
 
 ```bash
 curl -L https://foundry.paradigm.xyz | bash
-```
 
 After the download completes, you need to add Foundry to your path:
 

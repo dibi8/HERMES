@@ -1,0 +1,26 @@
+{
+  "id": 92,
+  "name": "pytorch-CycleGAN-and-pix2pix",
+  "category": "ai-tools",
+  "repo": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.git",
+  "stars": 25162,
+  "license": "Other (NOASSERTION)",
+  "maintainer": "junyanz",
+  "slug": "pytorchcycleganandpix2pix-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2458,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/junyanz/pytorch-CycleGAN-and-Pix2Pix/main/docs/logo.png",
+      "alt": "PyTorch CycleGAN and pix2pix Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/pytorch-CycleGAN-and-pix2pix/en.md"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 100,
+  "name": "sim",
+  "category": "ai-tools",
+  "repo": "https://github.com/simstudioai/sim.git",
+  "stars": 28838,
+  "license": "Apache-2.0",
+  "maintainer": "simstudioai",
+  "slug": "sim-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2477,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/simstudioai/sim/main/docs/logo.png",
+      "alt": "Sim Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/sim/en.md"
+}

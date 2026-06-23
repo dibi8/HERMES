@@ -298,6 +298,49 @@ learning_rate: 5.0e-6
 num_train_epochs: 3
 ```
 
+
+## FAQ
+
+### Q1: Can I use LlamaFactory to fine-tune models on CPU-only machines? (待翻译)
+
+Yes, LlamaFactory supports CPU training, but it is not recommended for large models due to the slow speed and high memory consumption. It is best suited for small-scale experiments or models with fewer parameters. [需要翻译为中文]
+
+
+### Q2: Does LlamaFactory support distributed training across multiple GPUs? (待翻译)
+
+Absolutely. LlamaFactory integrates with DeepSpeed and Megatron-LM, enabling efficient distributed training across multiple GPUs and nodes. This is essential for training larger models or processing large datasets quickly. [需要翻译为中文]
+
+
+### Q3: How do I handle multi-modal data for Vision-Language Models? (待翻译)
+
+LlamaFactory provides specific handlers for multi-modal data. You can specify the image and text columns in your dataset configuration, and the toolkit will automatically process the images and align them with the text embeddings during training. [需要翻译为中文]
+
+
+### Q4: Is it possible to merge LoRA adapters back into the base model? (待翻译)
+
+Yes, LlamaFactory includes a utility to merge LoRA adapters with the base model weights. This is useful for deployment, as it eliminates the need to load the adapter separately during inference, simplifying the serving pipeline.
+
+```bash
+llamafactory-cli merge \
+    --base_model lmsys/vicuna-7b-v1.5 \
+    --adapter ./lora_adapter \
+    --merged_model ./merged_model
+``` [需要翻译为中文]
+
+
+### Q5: Can I use LlamaFactory for reinforcement learning from human feedback (RLHF)? (待翻译)
+
+Yes, LlamaFactory supports DPO (Direct Preference Optimization) and PPO (Proximal Policy Optimization) for RLHF. These methods allow you to align your model with human preferences, improving the quality and safety of its outputs.
+
+```yaml
+# dpo_config.yaml
+model_name_or_path: ./trained_model
+dataset: preference_data.json
+algorithm: dpo
+learning_rate: 5.0e-6
+num_train_epochs: 3
+``` [需要翻译为中文]
+
 ## 结论
 
 LlamaFactory 已在开源 AI 社区中确立了其基石地位，为微调各种 LLMs 和 VLMs 提供了一个统一、高效且易于访问的平台。其对各种训练算法的全面支持、与流行工具的集成以及稳健的部署选项使其成为开发人员和研究人员宝贵的资产。虽然没有任何工具是完美的，但 LlamaFactory 的好处远远超过了其局限性，特别是考虑到其积极的开发和强大的社区支持。

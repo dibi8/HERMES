@@ -1,0 +1,26 @@
+{
+  "id": 90,
+  "name": "openpose",
+  "category": "ai-tools",
+  "repo": "https://github.com/opencv/opencv.git",
+  "stars": 34159,
+  "license": "Other",
+  "maintainer": "CMU-Perceptual-Computing-Lab",
+  "slug": "openpose-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3086,
+  "h2_count": 10,
+  "code_blocks": 17,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/main/docs/logo.png",
+      "alt": "OpenPose Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/openpose/en.md"
+}

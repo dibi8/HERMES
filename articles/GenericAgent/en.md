@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Genericagent: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "genericagent-guide"
@@ -12,9 +11,10 @@ tags: ["open-source", "ai-agent", "self-evolving", "python", "llm"]
 image: "https://raw.githubusercontent.com/lsdefine/GenericAgent/main/docs/logo.png"
 description: "A deep dive into GenericAgent, the self-evolving AI tool that grows a skill tree from a minimal seed. Learn installation, benchmarks, and production deployment strategies."
 ---
-```
 
 # Genericagent: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![GenericAgent repository overview](https://opengraph.githubicons.com/lsdefine/GenericAgent/1.0.0)
 
 The landscape of artificial intelligence in 2026 is defined not just by larger models, but by smarter architectures. While many tools rely on massive, static codebases, a new contender has emerged that prioritizes autonomy and growth. This guide explores Genericagent, an open-source project that demonstrates how a tiny seed can expand into a fully functional system. For developers seeking efficiency and modularity, understanding this tool is essential. We will examine its core mechanics, installation processes, and real-world performance against established alternatives.
 

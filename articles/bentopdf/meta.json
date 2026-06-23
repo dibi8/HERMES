@@ -1,0 +1,26 @@
+{
+  "id": 46,
+  "name": "bentopdf",
+  "category": "ai-tools",
+  "repo": "https://github.com/alam00000/bentopdf.git",
+  "stars": 13832,
+  "license": "AGPL-3.0",
+  "maintainer": "alam00000",
+  "slug": "bentopdf-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2629,
+  "h2_count": 10,
+  "code_blocks": 21,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/alam00000/bentopdf/main/docs/logo.png",
+      "alt": "Bentopdf Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/bentopdf/en.md"
+}

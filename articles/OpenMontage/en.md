@@ -14,6 +14,8 @@ description: "A deep dive into Openmontage, the world's first open-source agenti
 
 # Openmontage: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![OpenMontage repository overview](https://opengraph.githubicons.com/calesthio/OpenMontage/1.0.0)
+
 The landscape of digital content creation has shifted dramatically from manual editing to automated, intelligent workflows. For creators and developers seeking autonomy over their media pipelines, **Openmontage** stands out as a pivotal solution. As the world’s first open-source, agentic video production system, it democratizes access to complex video synthesis without the constraints of proprietary black boxes. This guide explores its architecture, installation, and practical applications for the modern developer.
 
 ## What Is Openmontage?

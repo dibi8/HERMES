@@ -1,0 +1,26 @@
+{
+  "id": 95,
+  "name": "rails",
+  "category": "ai-tools",
+  "repo": "https://github.com/ohmyzsh/ohmyzsh",
+  "stars": 188204,
+  "license": "MIT",
+  "maintainer": "rails",
+  "slug": "rails-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2506,
+  "h2_count": 10,
+  "code_blocks": 35,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/rails/rails/main/docs/logo.png",
+      "alt": "Rails Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/rails/en.md"
+}

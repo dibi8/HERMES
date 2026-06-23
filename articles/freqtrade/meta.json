@@ -1,0 +1,30 @@
+{
+  "id": 62,
+  "name": "freqtrade",
+  "category": "ai-trading",
+  "repo": "https://github.com/freqtrade/freqtrade",
+  "stars": 35000,
+  "license": "GPL-3.0",
+  "maintainer": "",
+  "slug": "freqtrade-open-source-crypto-trading-bot-2026",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3851,
+  "h2_count": 11,
+  "code_blocks": 29,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png \"Freqtrade Web UI — real-time strategy visualization and trade monitoring\"",
+      "alt": "Freqtrade Dashboard Screenshot"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png",
+      "alt": "Freqtrade backtest performance chart"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/freqtrade/en.md"
+}

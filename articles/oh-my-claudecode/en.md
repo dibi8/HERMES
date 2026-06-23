@@ -18,6 +18,8 @@ maintainer: "Yeachan-Heo"
 
 # Introduction
 
+![oh-my-claudecode repository overview](https://opengraph.githubicons.com/Yeachan-Heo/oh-my-claudecode/1.0.0)
+
 In the rapidly evolving landscape of software development, the ability to orchestrate complex AI interactions without sacrificing control is paramount. As we move deeper into 2026, individual AI coding assistants have matured, but the demand for collaborative, team-based AI workflows has created a new necessity: robust multi-agent orchestration. Enter Oh My Claudecode, a high-performance, open-source framework designed to transform how developers utilize Claude Code within team environments. By enabling seamless multi-agent coordination, this tool addresses the critical gap between individual productivity and scalable team engineering. This guide provides an in-depth analysis of its architecture, installation, and practical applications for modern development teams.
 
 ![Oh My Claudecode Logo](https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/docs/logo.png)

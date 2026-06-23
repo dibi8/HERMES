@@ -1,0 +1,26 @@
+{
+  "id": 26,
+  "name": "OpenMontage",
+  "category": "ai-tools",
+  "repo": "https://github.com/calesthio/OpenMontage.git",
+  "stars": 11617,
+  "license": "AGPL-3.0",
+  "maintainer": "calesthio",
+  "slug": "openmontage-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2453,
+  "h2_count": 10,
+  "code_blocks": 20,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/docs/logo.png",
+      "alt": "Openmontage Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/OpenMontage/en.md"
+}

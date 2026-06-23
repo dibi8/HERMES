@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "name": "100-Days-Of-ML-Code",
+  "category": "ai-tools",
+  "repo": "https://github.com/Avik-Jain/100-Days-Of-ML-Code.git",
+  "stars": 51292,
+  "license": "MIT",
+  "maintainer": "Avik-Jain",
+  "slug": "100daysofmlcode-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3003,
+  "h2_count": 10,
+  "code_blocks": 18,
+  "faq_count": 14,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/Avik-Jain/100-Days-Of-ML-Code/main/docs/logo.png",
+      "alt": "100 Days of ML Code Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/100-Days-Of-ML-Code/en.md"
+}

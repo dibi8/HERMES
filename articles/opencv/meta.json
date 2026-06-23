@@ -1,0 +1,26 @@
+{
+  "id": 88,
+  "name": "opencv",
+  "category": "ai-tools",
+  "repo": "https://github.com/opencv/opencv.git",
+  "stars": 89313,
+  "license": "Apache-2.0",
+  "maintainer": "opencv",
+  "slug": "opencv-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2515,
+  "h2_count": 11,
+  "code_blocks": 17,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/opencv/opencv/main/docs/logo.png",
+      "alt": "OpenCV Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/opencv/en.md"
+}

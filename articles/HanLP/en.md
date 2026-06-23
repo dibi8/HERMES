@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Hanlp: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "hanlp-guide"
@@ -17,9 +16,12 @@ maintainer: hankcs
 image: "https://raw.githubusercontent.com/hankcs/HanLP/main/docs/logo.png"
 description: "A deep dive into HanLP, the leading open-source Natural Language Processing library for Chinese and multilingual text analysis. Learn installation, advanced features, benchmarks, and production deployment strategies."
 ---
-```
 
 # Hanlp: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![HanLP repository overview](https://opengraph.githubicons.com/hankcs/HanLP/1.0.0)
+
+![HanLP dark preview](https://opengraph.githubicons.com/dark/hankcs/HanLP/1.0.0)
 
 In the rapidly evolving landscape of artificial intelligence, natural language processing (NLP) remains one of the most critical pillars for enabling machines to understand human communication. Among the vast array of tools available, few have maintained such consistent relevance and technical depth as HanLP. As we navigate through 2026, the demand for robust, multilingual NLP solutions has never been higher, particularly for complex languages like Chinese where tokenization and syntactic structures differ significantly from English-centric models. This guide provides an exhaustive examination of HanLP, detailing its architecture, practical applications, and how it fits into modern AI development workflows. Whether you are a seasoned data scientist or a beginner exploring the field of computational linguistics, understanding HanLP is essential for building effective text analysis pipelines.
 

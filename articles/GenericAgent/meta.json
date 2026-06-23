@@ -1,0 +1,26 @@
+{
+  "id": 16,
+  "name": "GenericAgent",
+  "category": "ai-tools",
+  "repo": "https://github.com/lsdefine/GenericAgent.git",
+  "stars": 13001,
+  "license": "MIT",
+  "maintainer": "lsdefine",
+  "slug": "genericagent-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2548,
+  "h2_count": 10,
+  "code_blocks": 24,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/lsdefine/GenericAgent/main/docs/logo.png",
+      "alt": "GenericAgent Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/GenericAgent/en.md"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 72,
+  "name": "khoj",
+  "category": "ai-tools",
+  "repo": "https://github.com/khoj-ai/khoj.git",
+  "stars": 35249,
+  "license": "AGPL-3.0",
+  "maintainer": "khoj-ai",
+  "slug": "khoj-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2720,
+  "h2_count": 10,
+  "code_blocks": 24,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/khoj-ai/khoj/main/docs/logo.png",
+      "alt": "Khoj Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/khoj/en.md"
+}

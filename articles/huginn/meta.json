@@ -1,0 +1,26 @@
+{
+  "id": 69,
+  "name": "huginn",
+  "category": "ai-agents",
+  "repo": "https://github.com/huginn/huginn.git",
+  "stars": 49499,
+  "license": "MIT",
+  "maintainer": "huginn",
+  "slug": "huginn-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3063,
+  "h2_count": 10,
+  "code_blocks": 21,
+  "faq_count": 17,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/huginn/huginn/main/docs/logo.png",
+      "alt": "Huginn Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/huginn/en.md"
+}

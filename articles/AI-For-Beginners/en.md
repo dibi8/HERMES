@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Ai-For-Beginners: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "aiforbeginners-guide"
@@ -14,6 +13,8 @@ description: "A deep dive into Microsoft's AI For Beginners curriculum. Learn ho
 ---
 
 # Ai-For-Beginners: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![AI-For-Beginners repository overview](https://opengraph.githubicons.com/microsoft/AI-For-Beginners/1.0.0)
 
 Artificial intelligence has transitioned from a futuristic concept to a foundational skill set required across industries. In 2026, the barrier to entry for understanding and building AI solutions remains lower than ever, thanks largely to community-driven educational resources. Among these, one project stands out for its structured, academic approach to democratizing knowledge: **AI For Beginners**. This repository, maintained by Microsoft, offers a rigorous yet accessible pathway for learners to master the fundamentals of AI, machine learning, and generative models.
 
@@ -85,7 +86,6 @@ First, clone the official Microsoft repository to your local machine.
 ```bash
 git clone https://github.com/microsoft/AI-For-Beginners.git
 cd AI-For-Beginners
-```
 
 ### Setting Up the Environment
 

@@ -1,0 +1,30 @@
+{
+  "id": 55,
+  "name": "deerflow",
+  "category": "ai-tools",
+  "repo": "https://github.com/bytedance/deer-flow",
+  "stars": 72130,
+  "license": "MIT",
+  "maintainer": "bytedance",
+  "slug": "deerflow-2-byteDance-long-horizon-research-agents",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3257,
+  "h2_count": 11,
+  "code_blocks": 20,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://sf16-sg.tiktokcdn.com/obj/eden-sg/hubseh7bsbps/20251208-160108.png",
+      "alt": "DeerFlow 2.0 Architecture"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bytedance/deer-flow/main/public/deerflow-architecture.png",
+      "alt": "DeerFlow sub-agent orchestration diagram"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/deerflow/en.md"
+}

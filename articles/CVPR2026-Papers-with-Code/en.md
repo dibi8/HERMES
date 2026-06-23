@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Cvpr2026-Papers-With-Code: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "cvpr2026paperswithcode-guide"
@@ -12,11 +11,12 @@ image: "https://raw.githubusercontent.com/amusi/CVPR2026-Papers-with-Code/main/d
 description: "A detailed technical review of CVPR 2026 Papers With Code, covering installation, integration, benchmarks, and production deployment strategies for computer vision researchers."
 tags: ["computer-vision", "open-source", "cvpr2026", "deep-learning", "research"]
 ---
-```
 
 # Cvpr2026-Papers-With-Code: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
-The landscape of computer vision research is expanding at an unprecedented pace, particularly with the surge of publications leading up to and including CVPR 2026. For researchers and engineers, keeping track of every paper and its corresponding codebase is nearly impossible. This is where **Cvpr2026-Papers-With-Code** emerges as an essential resource, aggregating the most impactful works from the conference into a single, accessible repository. By bridging the gap between theoretical advancements and practical implementation, this tool allows developers to quickly reproduce results, benchmark new models, and integrate state-of-the-art algorithms into their own projects. In this article, we will explore how this repository functions, how to set it up, and how to leverage it for serious AI development.
+![CVPR2026-Papers-with-Code repository overview](https://opengraph.githubicons.com/amusi/CVPR2026-Papers-with-Code/1.0.0)
+
+The landscape of computer vision research is expanding at an unprecedented pace, particularly with the surge of publications leading up to and including CVPR 2026. For researchers and engineers, keeping track of every paper and its corresponding codebase is nearly impossible. This is where **Cvpr2026-Papers-With-Code** emerges as an essential resource, aggregating the most impactful works from the conference into a single, accessible repository. By bridging the gap between theoretical advancements and practical implementation, this tool allows developers to quickly reproduce results, benchmark new models, and integrate leading algorithms into their own projects. In this article, we will explore how this repository functions, how to set it up, and how to utilize it for serious AI development.
 
 ![CVPR 2026 Papers with Code Logo](https://raw.githubusercontent.com/amusi/CVPR2026-Papers-with-Code/main/docs/logo.png)
 

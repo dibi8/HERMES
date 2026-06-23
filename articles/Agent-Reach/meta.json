@@ -1,0 +1,26 @@
+{
+  "id": 4,
+  "name": "Agent-Reach",
+  "category": "ai-tools",
+  "repo": "https://github.com/Panniantong/Agent-Reach.git",
+  "stars": 37703,
+  "license": "MIT",
+  "maintainer": "Panniantong",
+  "slug": "agentreach-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2751,
+  "h2_count": 10,
+  "code_blocks": 12,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/logo.png",
+      "alt": "Agent Reach Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Agent-Reach/en.md"
+}

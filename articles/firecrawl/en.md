@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Firecrawl: Web Scraping API for AI Agents and LLM Data Pipelines in 2026 — Open Source AI Tool Review"
 slug: firecrawl-web-scraping-ai-agents
@@ -14,6 +13,10 @@ description: "A deep dive into Firecrawl, the open-source web scraping API desig
 ---
 
 # Firecrawl: Web Scraping API for AI Agents and LLM Data Pipelines in 2026 — Open Source AI Tool Review
+
+![firecrawl repository overview](https://opengraph.githubicons.com/firecrawl/firecrawl/1.0.0)
+
+![firecrawl dark preview](https://opengraph.githubicons.com/dark/firecrawl/firecrawl/1.0.0)
 
 In the rapidly evolving landscape of artificial intelligence, the quality and accessibility of training data remain the primary bottleneck for building robust Large Language Models (LLMs) and autonomous agents. While many developers focus on model architecture, they often overlook the critical infrastructure required to feed these models with clean, structured, and up-to-date information from the vast expanse of the internet. This is where specialized tools like Firecrawl emerge, offering a streamlined solution to the complex problem of web data extraction. By transforming raw HTML into machine-readable formats, Firecrawl bridges the gap between unstructured web content and the precise needs of modern AI applications, ensuring that agents have reliable access to real-world knowledge without the usual headaches of parsing dynamic websites.
 
@@ -46,7 +49,6 @@ data = {
 
 response = requests.post(url, json=data, headers=headers)
 print(response.json())
-```
 
 The above example demonstrates a basic HTTP request to scrape a webpage. The response includes the cleaned Markdown content, ready for ingestion into an LLM context window. This simplicity is a key feature of Firecrawl, reducing the boilerplate code typically associated with web scraping tasks.
 

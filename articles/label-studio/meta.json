@@ -1,0 +1,26 @@
+{
+  "id": 73,
+  "name": "label-studio",
+  "category": "ai-tools",
+  "repo": "https://github.com/HumanSignal/label-studio",
+  "stars": 27674,
+  "license": "Apache-2.0",
+  "maintainer": "HumanSignal",
+  "slug": "labelstudio-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2133,
+  "h2_count": 10,
+  "code_blocks": 14,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/HumanSignal/label-studio/main/docs/logo.png",
+      "alt": "Label Studio Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/label-studio/en.md"
+}

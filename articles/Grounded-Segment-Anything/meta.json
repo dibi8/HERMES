@@ -1,0 +1,26 @@
+{
+  "id": 17,
+  "name": "Grounded-Segment-Anything",
+  "category": "speech-ai",
+  "repo": "https://github.com/IDEA-Research/Grounded-Segment-Anything.git",
+  "stars": 17635,
+  "license": "Apache-2.0",
+  "maintainer": "IDEA-Research",
+  "slug": "groundedsegmentanything-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2541,
+  "h2_count": 10,
+  "code_blocks": 50,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/IDEA-Research/Grounded-Segment-Anything/main/docs/logo.png",
+      "alt": "Grounded Segment Anything Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Grounded-Segment-Anything/en.md"
+}

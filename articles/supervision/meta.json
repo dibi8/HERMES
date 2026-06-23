@@ -1,0 +1,26 @@
+{
+  "id": 106,
+  "name": "supervision",
+  "category": "ai-tools",
+  "repo": "https://github.com/roboflow/supervision.git",
+  "stars": 44796,
+  "license": "MIT",
+  "maintainer": "roboflow",
+  "slug": "supervision-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2402,
+  "h2_count": 10,
+  "code_blocks": 12,
+  "faq_count": 17,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/roboflow/supervision/main/docs/logo.png",
+      "alt": "Supervision Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/supervision/en.md"
+}

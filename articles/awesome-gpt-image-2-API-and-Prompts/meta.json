@@ -1,0 +1,30 @@
+{
+  "id": 43,
+  "name": "awesome-gpt-image-2-API-and-Prompts",
+  "category": "ai-tools",
+  "repo": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts.git",
+  "stars": 16905,
+  "license": "CC0-1.0",
+  "maintainer": "EvoLinkAI",
+  "slug": "awesomegptimage2apiandprompts-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3009,
+  "h2_count": 0,
+  "code_blocks": 18,
+  "faq_count": 5,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/docs/logo.png",
+      "alt": "Awesome GPT Image 2 API Logo"
+    },
+    {
+      "url": "https://m.do.co/c/eca87ac14ee0",
+      "alt": "DigitalOcean Hosting"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/awesome-gpt-image-2-API-and-Prompts/en.md"
+}

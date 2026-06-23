@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Langflow: Visual AI Agent Builder for Production Workflows in 2026 — Open Source AI Tool Review"
 slug: langflow-visual-ai-agent-builder
@@ -12,9 +11,12 @@ maintainer: "langflow-ai"
 feature_image: "https://raw.githubusercontent.com/langflow-ai/langflow/main/assets/images/langflow-feature.png"
 description: "A comprehensive review of Langflow, the leading open-source visual tool for building, testing, and deploying production-ready AI agents and workflows in 2026."
 ---
-```
 
 # Langflow: Visual AI Agent Builder for Production Workflows in 2026 — Open Source AI Tool Review
+
+![langflow repository overview](https://opengraph.githubicons.com/langflow-ai/langflow/1.0.0)
+
+![langflow dark preview](https://opengraph.githubicons.com/dark/langflow-ai/langflow/1.0.0)
 
 The landscape of artificial intelligence has shifted dramatically from simple text generation to complex, autonomous agent orchestration. As we navigate through 2026, developers and enterprise architects face a critical challenge: bridging the gap between experimental Python scripts and robust, scalable production environments. This is where **Langflow** emerges as an essential instrument in the modern AI engineering stack. By offering a visual, drag-and-drop interface that translates directly into executable code, Langflow allows teams to prototype, test, and deploy large language model (LLM) applications with unprecedented speed and clarity.
 

@@ -1,0 +1,26 @@
+{
+  "id": 63,
+  "name": "gaussian-splatting",
+  "category": "ai-tools",
+  "repo": "https://github.com/graphdeco-inria/gaussian-splatting.git",
+  "stars": 22430,
+  "license": "Other",
+  "maintainer": "graphdeco-inria",
+  "slug": "gaussiansplatting-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3176,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/docs/logo.png",
+      "alt": "Gaussian Splatting Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/gaussian-splatting/en.md"
+}

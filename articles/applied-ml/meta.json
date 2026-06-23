@@ -1,0 +1,30 @@
+{
+  "id": 41,
+  "name": "applied-ml",
+  "category": "ai-tools",
+  "repo": "https://github.com/eugeneyan/applied-ml",
+  "stars": 29820,
+  "license": "MIT",
+  "maintainer": "",
+  "slug": "appliedml-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2693,
+  "h2_count": 10,
+  "code_blocks": 24,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/eugeneyan/applied-ml/main/docs/logo.png",
+      "alt": "Applied-Ml Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/assets/partners/logos/digitalocean-logo.png",
+      "alt": "DigitalOcean Affiliate"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/applied-ml/en.md"
+}

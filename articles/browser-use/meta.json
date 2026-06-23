@@ -1,0 +1,26 @@
+{
+  "id": 49,
+  "name": "browser-use",
+  "category": "browser-automation",
+  "repo": "https://github.com/browser-use/browser-use",
+  "stars": 100237,
+  "license": "MIT",
+  "maintainer": "browser-use",
+  "slug": "browser-use-ai-web-automation",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2505,
+  "h2_count": 11,
+  "code_blocks": 14,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/browser-use/browser-use/main/docs/static/img/banner.png",
+      "alt": "Browser Use Banner"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/browser-use/en.md"
+}

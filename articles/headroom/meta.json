@@ -1,0 +1,30 @@
+{
+  "id": 66,
+  "name": "headroom",
+  "category": "dev-utils",
+  "repo": "https://github.com/chopratejas/headroom",
+  "stars": 42360,
+  "license": "Apache-2.0",
+  "maintainer": "chopratejas",
+  "slug": "headroom-ai-token-compression-library-proxy-mcp",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3983,
+  "h2_count": 11,
+  "code_blocks": 38,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
+      "alt": "Headroom AI Demo"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chopratejas/headroom/main/headroom_learn.gif",
+      "alt": "Headroom compression algorithm comparison"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/headroom/en.md"
+}

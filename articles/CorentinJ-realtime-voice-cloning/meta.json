@@ -1,0 +1,26 @@
+{
+  "id": 12,
+  "name": "CorentinJ-realtime-voice-cloning",
+  "category": "ai-tools",
+  "repo": "https://github.com/CorentinJ/Real-Time-Voice-Cloning.git",
+  "stars": 59929,
+  "license": "MIT",
+  "maintainer": "CorentinJ",
+  "slug": "realtime-voice-cloning-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2228,
+  "h2_count": 10,
+  "code_blocks": 20,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/CorentinJ/Real-Time-Voice-Cloning/master/demo-images/logo.png",
+      "alt": "CorentinJ Real-Time Voice Cloning Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/CorentinJ-realtime-voice-cloning/en.md"
+}

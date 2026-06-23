@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "ComfyUI: Node-Based Stable Diffusion GUI for Professional AI Image Workflows in 2026 — Open Source AI Tool Review"
 slug: comfyui-node-based-stable-diffusion-gui
@@ -14,6 +13,10 @@ description: "A deep dive into ComfyUI, the modular node-based interface for Sta
 ---
 
 # ComfyUI: Node-Based Stable Diffusion GUI for Professional AI Image Workflows in 2026 — Open Source AI Tool Review
+
+![ComfyUI repository overview](https://opengraph.githubicons.com/Comfy-Org/ComfyUI/1.0.0)
+
+![ComfyUI dark theme preview](https://opengraph.githubicons.com/dark/Comfy-Org/ComfyUI/1.0.0)
 
 ## Introduction
 
@@ -93,7 +96,6 @@ Below is a conceptual representation of how nodes are wired together in a simple
     }
   ]
 }
-```
 
 ## Installation & Setup
 

@@ -1,0 +1,26 @@
+{
+  "id": 20,
+  "name": "Jobs_Applier_AI_Agent_AIHawk",
+  "category": "ai-tools",
+  "repo": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk.git",
+  "stars": 29929,
+  "license": "AGPL-3.0",
+  "maintainer": "feder-cr",
+  "slug": "jobs_applier_ai_agent_aihawk-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2697,
+  "h2_count": 10,
+  "code_blocks": 17,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk/main/docs/logo.png",
+      "alt": "AIHawk Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Jobs_Applier_AI_Agent_AIHawk/en.md"
+}

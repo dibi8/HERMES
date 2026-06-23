@@ -14,6 +14,10 @@ maintainer: "Upsonic"
 
 # Upsonic: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![Upsonic repository overview](https://opengraph.githubicons.com/Upsonic/Upsonic/1.0.0)
+
+![Upsonic dark preview](https://opengraph.githubicons.com/dark/Upsonic/Upsonic/1.0.0)
+
 In an era where artificial intelligence has moved beyond simple chat interfaces to complex decision-making processes, the ability to build autonomous agents is no longer a luxury—it is a necessity. Upsonic has emerged as a pivotal tool in this landscape, offering developers a robust Python-based framework to construct, manage, and deploy intelligent agents that can interact with web applications, APIs, and local environments seamlessly. This guide provides an exhaustive analysis of Upsonic, detailing its architecture, installation process, integration capabilities, and performance benchmarks, ensuring you have all the technical insights required to implement it effectively in your projects.
 
 ![Upsonic Logo](https://raw.githubusercontent.com/Upsonic/Upsonic/main/docs/logo.png)

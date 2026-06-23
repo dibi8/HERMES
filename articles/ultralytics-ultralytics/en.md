@@ -26,7 +26,7 @@ In the rapidly evolving landscape of computer vision, few tools have established
 
 ## What Is Ultralytics YOLO?
 
-Ultralytics is a Python package that provides a unified interface for training and deploying state-of-the-art machine learning models, primarily focusing on the You Only Look Once (YOLO) family of algorithms. The library supports three main tasks: object detection, instance segmentation, and image classification. Unlike many other frameworks that require complex configurations for different model architectures, Ultralytics abstracts much of this complexity, allowing users to train, validate, predict, export, and track objects with minimal code.
+Ultralytics is a Python package that provides a unified interface for training and deploying leading machine learning models, primarily focusing on the You Only Look Once (YOLO) family of algorithms. The library supports three main tasks: object detection, instance segmentation, and image classification. Unlike many other frameworks that require complex configurations for different model architectures, Ultralytics abstracts much of this complexity, allowing users to train, validate, predict, export, and track objects with minimal code.
 
 The project is maintained by Glenn Jocher and the broader community, having gained significant traction due to its ease of use and high performance. In 2026, the repository continues to be one of the most starred projects on GitHub, reflecting its widespread adoption in both academic research and industrial applications. The core philosophy behind Ultralytics is simplicity and speed, enabling developers to iterate quickly on their computer vision pipelines.
 

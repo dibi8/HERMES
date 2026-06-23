@@ -1,0 +1,26 @@
+{
+  "id": 64,
+  "name": "guizang-ppt-skill",
+  "category": "ai-tools",
+  "repo": "https://github.com/op7418/guizang-ppt-skill.git",
+  "stars": 18454,
+  "license": "AGPL-3.0",
+  "maintainer": "op7418",
+  "slug": "guizangpptskill-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2951,
+  "h2_count": 12,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/op7418/guizang-ppt-skill/main/docs/logo.png",
+      "alt": "Guizang Ppt Skill Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/guizang-ppt-skill/en.md"
+}

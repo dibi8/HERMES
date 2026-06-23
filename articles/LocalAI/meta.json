@@ -1,0 +1,26 @@
+{
+  "id": 21,
+  "name": "LocalAI",
+  "category": "ai-tools",
+  "repo": "https://github.com/mudler/LocalAI",
+  "stars": 47059,
+  "license": "MIT",
+  "maintainer": "mudler",
+  "slug": "localai-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2712,
+  "h2_count": 10,
+  "code_blocks": 20,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/mudler/LocalAI/main/docs/logo.png",
+      "alt": "LocalAI Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/LocalAI/en.md"
+}

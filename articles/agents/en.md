@@ -18,6 +18,8 @@ maintainer: wshobson
 
 # Introduction
 
+![agents repository overview](https://opengraph.githubicons.com/wshobson/agents/1.0.0)
+
 Artificial intelligence has evolved from static chatbots into dynamic, autonomous entities capable of executing complex workflows across multiple domains. In 2026, the demand for reliable, modular, and open-source multi-agent frameworks has surged among developers seeking to build scalable AI applications without vendor lock-in. One such framework that has garnered significant attention is **Agents**, a Python library designed to facilitate the creation of multi-harness agentic systems. With over 37,000 stars on GitHub and a vibrant community, this tool stands out for its flexibility and integration capabilities. This article provides an in-depth review of Agents, exploring its architecture, installation, usage patterns, and how it compares to other solutions in the rapidly evolving AI landscape.
 
 ![Agents Logo](https://raw.githubusercontent.com/wshobson/agents/main/docs/logo.png)

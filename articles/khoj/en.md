@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Khoj: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "khoj-guide"
@@ -17,9 +16,10 @@ license: "AGPL-3.0"
 maintainer: "khoj-ai"
 image: "https://raw.githubusercontent.com/khoj-ai/khoj/main/docs/logo.png"
 ---
-```
 
 # Khoj: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![khoj repository overview](https://opengraph.githubicons.com/khoj-ai/khoj/1.0.0)
 
 In an era where information overload threatens to drown personal productivity, having a reliable, private, and intelligent assistant is no longer a luxury—it is a necessity. Khoj has emerged as a prominent solution for those seeking to reclaim control over their digital knowledge without sacrificing the power of modern Large Language Models (LLMs). By combining the flexibility of open-source software with the precision of Retrieval-Augmented Generation (RAG), Khoj offers a unique "second brain" experience that respects user privacy above all else. This guide explores how you can deploy, configure, and maximize this powerful tool within your own infrastructure.
 

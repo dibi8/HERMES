@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Dream-Textures: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: dreamtextures-guide
@@ -19,6 +18,8 @@ description: "A deep dive into Dream Textures for Blender, exploring installatio
 ---
 
 # Dream-Textures: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![dream-textures repository overview](https://opengraph.githubicons.com/carson-katri/dream-textures/1.0.0)
 
 Imagine generating photorealistic, tileable textures for your 3D models without leaving your favorite 3D software, all powered by the robust engine of Stable Diffusion. This is not a distant fantasy but the current reality for thousands of digital artists who have embraced **Dream Textures**. As we navigate through 2026, the integration of generative AI into traditional 3D pipelines has become less of a novelty and more of a standard utility. For artists working within the Blender ecosystem, this tool represents a significant leap in efficiency, allowing for rapid iteration on material properties and surface details that previously required hours of manual painting or external processing.
 
@@ -81,7 +82,6 @@ After installation, you will need to set up the backend dependencies. Dream Text
 ```bash
 cd path/to/dream-textures
 pip install -r requirements.txt
-```
 
 If you encounter issues with CUDA drivers, ensure that your NVIDIA drivers are up to date. You can verify CUDA availability by running:
 

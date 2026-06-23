@@ -1,0 +1,30 @@
+{
+  "id": 108,
+  "name": "ultralytics-ultralytics",
+  "category": "ai-tools",
+  "repo": "https://github.com/ultralytics/ultralytics.git",
+  "stars": 0,
+  "license": "",
+  "maintainer": "",
+  "slug": "ultralytics-yolo-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2819,
+  "h2_count": 10,
+  "code_blocks": 23,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner.png",
+      "alt": "Ultralytics YOLO Banner"
+    },
+    {
+      "url": "https://www.digitalocean.com/community/assets/logo-digitalocean.svg",
+      "alt": "DigitalOcean Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/ultralytics-ultralytics/en.md"
+}

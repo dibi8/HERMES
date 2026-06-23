@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Satori: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "satori-guide"
@@ -12,9 +11,12 @@ stars: 13558
 maintainer: "vercel"
 category: "image-generation"
 ---
-```
 
 # Satori: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![satori repository overview](https://opengraph.githubicons.com/vercel/satori/1.0.0)
+
+![satori dark preview](https://opengraph.githubicons.com/dark/vercel/satori/1.0.0)
 
 In the rapidly evolving landscape of server-side rendering and dynamic asset generation, developers often face a bottleneck when converting complex HTML structures into lightweight vector graphics. Traditional headless browsers are resource-intensive, while simple canvas libraries lack the semantic fidelity required for crisp, scalable output. Enter Satori, an enlightening library that bridges this gap with remarkable efficiency. This guide explores how Satori has become an indispensable tool for modern web applications, offering a seamless path from DOM-like structures to high-quality SVGs without the overhead of a full browser environment.
 

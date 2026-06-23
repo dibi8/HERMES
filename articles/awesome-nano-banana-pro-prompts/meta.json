@@ -1,0 +1,30 @@
+{
+  "id": 45,
+  "name": "awesome-nano-banana-pro-prompts",
+  "category": "ai-tools",
+  "repo": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts.git",
+  "stars": 12612,
+  "license": "Other",
+  "maintainer": "YouMind-OpenLab",
+  "slug": "awesomenanobananaproprompts-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2989,
+  "h2_count": 10,
+  "code_blocks": 10,
+  "faq_count": 12,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/docs/logo.png",
+      "alt": "Awesome Nano Banana Pro Prompts Logo"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/docs/logo.png",
+      "alt": "Awesome Nano Banana Pro Prompts Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/awesome-nano-banana-pro-prompts/en.md"
+}

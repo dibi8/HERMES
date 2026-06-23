@@ -1,0 +1,26 @@
+{
+  "id": 42,
+  "name": "autogen",
+  "category": "ai-tools",
+  "repo": "https://github.com/microsoft/markitdown",
+  "stars": 158011,
+  "license": "CC-BY-4.0",
+  "maintainer": "microsoft",
+  "slug": "autogen-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2837,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/microsoft/autogen/main/docs/logo.png",
+      "alt": "Autogen Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/autogen/en.md"
+}

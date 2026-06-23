@@ -1,0 +1,21 @@
+{
+  "id": 94,
+  "name": "ragflow",
+  "category": "rag-engine",
+  "repo": "https://github.com/infiniflow/ragflow.git",
+  "stars": 83302,
+  "license": "Apache-2.0",
+  "maintainer": "infiniflow",
+  "slug": "ragflow-deep-document-understanding",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2221,
+  "h2_count": 9,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 0,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [],
+  "file_path": "/root/HERMES/articles/ragflow/en.md"
+}

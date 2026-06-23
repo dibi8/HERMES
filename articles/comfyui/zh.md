@@ -359,6 +359,7 @@ class MyCustomNode:
 
 ## 常见问题解答 (FAQ)
 
+
 ### Q1: 什么是ComfyUI，谁应该使用它？
 ComfyUI 是用于Stable Diffusion的基于节点的图形界面。它非常适合希望对图像生成工作流进行细粒度控制的用户。
 

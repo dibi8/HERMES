@@ -1,0 +1,26 @@
+{
+  "id": 99,
+  "name": "silero-vad",
+  "category": "speech-ai",
+  "repo": "https://github.com/snakers4/silero-vad",
+  "stars": 9394,
+  "license": "MIT",
+  "maintainer": "snakers4",
+  "slug": "silerovad-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3001,
+  "h2_count": 10,
+  "code_blocks": 16,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/snakers4/silero-vad/main/docs/logo.png",
+      "alt": "Silero VAD Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/silero-vad/en.md"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 107,
+  "name": "system_prompts_leaks",
+  "category": "ai-tools",
+  "repo": "https://github.com/asgeirtj/system_prompts_leaks.git",
+  "stars": 44931,
+  "license": "CC0-1.0",
+  "maintainer": "asgeirtj",
+  "slug": "system_prompts_leaks-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2490,
+  "h2_count": 10,
+  "code_blocks": 21,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/main/docs/logo.png",
+      "alt": "System Prompts Leaks Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/system_prompts_leaks/en.md"
+}

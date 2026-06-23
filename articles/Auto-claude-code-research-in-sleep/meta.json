@@ -1,0 +1,26 @@
+{
+  "id": 7,
+  "name": "Auto-claude-code-research-in-sleep",
+  "category": "ai-tools",
+  "repo": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git",
+  "stars": 12484,
+  "license": "MIT",
+  "maintainer": "wanshuiyin",
+  "slug": "autoclaudecoderesearchinsleep-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2623,
+  "h2_count": 10,
+  "code_blocks": 21,
+  "faq_count": 17,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/main/docs/logo.png",
+      "alt": "Auto Claude Code Research In Sleep Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Auto-claude-code-research-in-sleep/en.md"
+}

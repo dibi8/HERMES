@@ -1,0 +1,21 @@
+{
+  "id": 57,
+  "name": "dify",
+  "category": "llm-app-platform",
+  "repo": "https://github.com/langgenius/dify.git",
+  "stars": 146077,
+  "license": "AGPL-3.0",
+  "maintainer": "langgenius",
+  "slug": "dify-llm-application-platform",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2571,
+  "h2_count": 9,
+  "code_blocks": 22,
+  "faq_count": 7,
+  "image_count": 0,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [],
+  "file_path": "/root/HERMES/articles/dify/en.md"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 74,
+  "name": "langextract",
+  "category": "ai-tools",
+  "repo": "",
+  "stars": 36936,
+  "license": "Apache-2.0",
+  "maintainer": "",
+  "slug": "langextract-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2651,
+  "h2_count": 10,
+  "code_blocks": 14,
+  "faq_count": 12,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/google/langextract/main/docs/logo.png",
+      "alt": "Langextract Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/assets/partners/logos/do-logo-partner.svg",
+      "alt": "DigitalOcean Banner"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/langextract/en.md"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 79,
+  "name": "llm-course",
+  "category": "ai-tools",
+  "repo": "https://github.com/mlabonne/llm-course.git",
+  "stars": 80288,
+  "license": "Apache-2.0",
+  "maintainer": "mlabonne",
+  "slug": "llmcourse-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2827,
+  "h2_count": 10,
+  "code_blocks": 17,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/mlabonne/llm-course/main/docs/logo.png",
+      "alt": "Llm-Course Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/llm-course/en.md"
+}

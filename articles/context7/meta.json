@@ -1,0 +1,30 @@
+{
+  "id": 52,
+  "name": "context7",
+  "category": "llm-frameworks",
+  "repo": "https://github.com/upstash/context7",
+  "stars": 57787,
+  "license": "MIT",
+  "maintainer": "upstash",
+  "slug": "context7-mcp-server-production-setup-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3935,
+  "h2_count": 12,
+  "code_blocks": 32,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/upstash/context7/master/public/cover.png",
+      "alt": "Context7 hero image"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/upstash/context7/master/docs/images/on-premise-architecture.png",
+      "alt": "Context7 architecture diagram"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/context7/en.md"
+}

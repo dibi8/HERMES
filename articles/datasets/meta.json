@@ -1,0 +1,26 @@
+{
+  "id": 54,
+  "name": "datasets",
+  "category": "ai-tools",
+  "repo": "https://github.com/fighting41love/funNLP",
+  "stars": 81402,
+  "license": "Apache-2.0",
+  "maintainer": "huggingface",
+  "slug": "datasets-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2686,
+  "h2_count": 10,
+  "code_blocks": 17,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/huggingface/datasets/main/docs/logo.png",
+      "alt": "Hugging Face Datasets Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/datasets/en.md"
+}

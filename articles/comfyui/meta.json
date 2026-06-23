@@ -1,0 +1,21 @@
+{
+  "id": 51,
+  "name": "comfyui",
+  "category": "ai-image-workflow",
+  "repo": "https://github.com/Comfy-Org/ComfyUI.git",
+  "stars": 117919,
+  "license": "GPL-3.0",
+  "maintainer": "Comfy-Org",
+  "slug": "comfyui-node-based-stable-diffusion-gui",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2574,
+  "h2_count": 11,
+  "code_blocks": 12,
+  "faq_count": 7,
+  "image_count": 0,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [],
+  "file_path": "/root/HERMES/articles/comfyui/en.md"
+}

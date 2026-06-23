@@ -1,0 +1,26 @@
+{
+  "id": 29,
+  "name": "RAG_Techniques",
+  "category": "ai-tools",
+  "repo": "https://github.com/NirDiamant/RAG_Techniques.git",
+  "stars": 28114,
+  "license": "Other",
+  "maintainer": "NirDiamant",
+  "slug": "rag_techniques-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 1918,
+  "h2_count": 11,
+  "code_blocks": 16,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/NirDiamant/RAG_Techniques/main/docs/logo.png",
+      "alt": "Rag_Techniques Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/RAG_Techniques/en.md"
+}

@@ -19,6 +19,8 @@ description: A deep dive into CycleGAN, the open-source PyTorch framework for un
 
 # Introduction
 
+![pytorch-CycleGAN-and-pix2pix repository overview](https://opengraph.githubicons.com/junyanz/pytorch-CycleGAN-and-pix2pix/1.0.0)
+
 In the rapidly evolving landscape of generative artificial intelligence, few models have captured the public imagination quite like the ability to transform one visual domain into another without requiring perfectly paired data. Imagine taking a photograph of a horse and automatically converting it into a zebra, or turning a sketch into a realistic building facade, all while preserving the structural integrity and semantic content of the original image. This is not magic; it is the power of unsupervised learning applied to computer vision. For developers, researchers, and creative technologists seeking robust, open-source solutions for image translation, CycleGAN remains a cornerstone technology. As we navigate through 2026, understanding its architecture, practical implementation, and limitations is essential for anyone building visual AI applications. This guide provides a thorough technical review of the tool maintained by junyanz on GitHub, detailing how to install, configure, and deploy it effectively within modern workflows.
 
 ![CycleGAN Logo](https://raw.githubusercontent.com/junyanz/CycleGAN/main/docs/logo.png)

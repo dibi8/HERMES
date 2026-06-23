@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Rag_Techniques: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: rag_techniques-guide
@@ -18,6 +17,8 @@ tags:
 ---
 
 # Rag_Techniques: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![RAG_Techniques repository overview](https://opengraph.githubicons.com/NirDiamant/RAG_Techniques/1.0.0)
 
 ## Introduction
 
@@ -46,7 +47,6 @@ First, ensure you have Python 3.9+ installed. Then, clone the repository:
 ```bash
 git clone https://github.com/NirDiamant/RAG_Techniques.git
 cd RAG_Techniques
-```
 
 Next, create a virtual environment to isolate dependencies:
 

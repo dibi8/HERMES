@@ -359,6 +359,7 @@ def456         ragflow-parser    45.00%    4.1GiB / 16GiB        25.63%    2.1MB
 
 ## 常见问题解答 (FAQ)
 
+
 ### Q1: RAGFlow 支持哪些文档类型？
 RAGFlow 支持广泛的文档类型，包括 PDF、DOCX、PPTX、XLSX、TXT、HTML 和图像。它使用深度文档理解来准确提取和索引内容。
 

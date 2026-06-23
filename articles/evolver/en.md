@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Evolver: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: evolver-guide
@@ -16,11 +15,12 @@ tags:
   - Open Source
   - DevOps
 ---
-```
 
 ![Evolver Logo](https://raw.githubusercontent.com/EvoMap/evolver/main/docs/logo.png)
 
 # Introduction
+
+![evolver repository overview](https://opengraph.githubicons.com/EvoMap/evolver/1.0.0)
 
 In the rapidly evolving landscape of artificial intelligence, static models are becoming obsolete. Developers and enterprises alike are seeking dynamic systems that can adapt, improve, and optimize themselves without constant human intervention. Enter **Evolver**, the Gen-Evolutionary Program (GEP)-powered self-evolving engine for AI agents. With over 8,700 stars on GitHub and a robust GPL-3.0 license, Evolver has emerged as a critical tool for building auditable, autonomous AI workflows. This guide explores how Evolver transforms rigid AI pipelines into living, breathing entities capable of self-correction and optimization. Whether you are a seasoned ML engineer or a curious developer, understanding Evolver’s architecture is essential for staying ahead in 2026.
 

@@ -1,0 +1,26 @@
+{
+  "id": 96,
+  "name": "satori",
+  "category": "image-generation",
+  "repo": "https://github.com/vercel/satori",
+  "stars": 13560,
+  "license": "MPL-2.0",
+  "maintainer": "vercel",
+  "slug": "satori-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2755,
+  "h2_count": 10,
+  "code_blocks": 17,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/vercel/satori/main/docs/logo.png",
+      "alt": "Satori Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/satori/en.md"
+}

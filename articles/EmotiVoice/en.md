@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Emotivoice: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "emotivoice-guide"
@@ -17,9 +16,10 @@ license: "Apache-2.0"
 maintainer: "netease-youdao"
 description: "A deep dive into EmotiVoice, the multi-voice and prompt-controlled TTS engine. Learn installation, benchmarks, production deployment, and alternatives."
 ---
-```
 
 # Emotivoice: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![EmotiVoice repository overview](https://opengraph.githubicons.com/netease-youdao/EmotiVoice/1.0.0)
 
 Imagine generating human-like speech that conveys genuine emotion, supports multiple distinct voices, and requires no expensive API subscriptions. In the rapidly evolving landscape of artificial intelligence, Text-to-Speech (TTS) has moved far beyond robotic monotone outputs. Today, content creators, developers, and researchers demand synthesis engines that understand nuance, context, and emotional tone. This is where EmotiVoice enters the frame, offering a robust, open-source solution that bridges the gap between technical precision and natural human expression.
 
@@ -28,6 +28,9 @@ In this comprehensive guide, we will explore every facet of EmotiVoice, from its
 ![EmotiVoice Logo](https://raw.githubusercontent.com/netease-youdao/EmotiVoice/main/docs/logo.png)
 
 ## What Is Emotivoice?
+
+*Reviewed and published by dibi8.com — the AI Source Code Hub.*
+
 
 EmotiVoice, developed by Netease Youdao, is an advanced open-source TTS engine designed to generate high-quality speech with fine-grained control over voice characteristics and emotional tones. Unlike traditional TTS systems that rely on predefined phoneme mappings or rigid prosody models, EmotiVoice utilizes a prompt-controlled mechanism. This allows users to specify not just *what* is said, but *how* it is said—incorporating emotions such as happiness, sadness, anger, or neutrality through simple text prompts.
 

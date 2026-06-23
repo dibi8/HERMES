@@ -14,6 +14,8 @@ description: "A deep dive into System_Prompts_Leaks, an open-source tool for ext
 
 # System_Prompts_Leaks: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![system_prompts_leaks repository overview](https://opengraph.githubicons.com/asgeirtj/system_prompts_leaks/1.0.0)
+
 The black box of Large Language Model (LLM) internals has long been a subject of intense curiosity and concern within the AI community. As models grow more complex, understanding their underlying instructions becomes critical for security, compliance, and optimization. Enter **System_Prompts_Leaks**, a high-profile open-source repository that has garnered significant attention for its ability to extract system prompts from leading proprietary models. This guide provides a thorough examination of the tool, its technical underpinnings, and its implications for the future of AI transparency.
 
 ## What Is System_Prompts_Leaks?

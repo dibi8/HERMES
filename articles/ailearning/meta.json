@@ -1,0 +1,26 @@
+{
+  "id": 38,
+  "name": "ailearning",
+  "category": "ai-tools",
+  "repo": "https://github.com/apachecn/ailearning.git",
+  "stars": 0,
+  "license": "Other",
+  "maintainer": "apachecn",
+  "slug": "ailearning-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2721,
+  "h2_count": 10,
+  "code_blocks": 22,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/apachecn/ailearning/main/docs/logo.png",
+      "alt": "Ailearning Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/ailearning/en.md"
+}

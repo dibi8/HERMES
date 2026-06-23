@@ -1,0 +1,26 @@
+{
+  "id": 56,
+  "name": "diffusers",
+  "category": "image-generation",
+  "repo": "https://github.com/huggingface/diffusers",
+  "stars": 33906,
+  "license": "Apache-2.0",
+  "maintainer": "huggingface",
+  "slug": "diffusers-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2508,
+  "h2_count": 10,
+  "code_blocks": 10,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/huggingface/diffusers/main/docs/logo.png",
+      "alt": "Hugging Face Diffusers Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/diffusers/en.md"
+}

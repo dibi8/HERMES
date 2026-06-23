@@ -1,0 +1,26 @@
+{
+  "id": 33,
+  "name": "Upsonic",
+  "category": "ai-agents",
+  "repo": "https://github.com/Upsonic/Upsonic",
+  "stars": 7899,
+  "license": "MIT",
+  "maintainer": "Upsonic",
+  "slug": "upsonic-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2519,
+  "h2_count": 10,
+  "code_blocks": 22,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/Upsonic/Upsonic/main/docs/logo.png",
+      "alt": "Upsonic Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Upsonic/en.md"
+}

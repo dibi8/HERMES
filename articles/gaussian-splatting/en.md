@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Gaussian-Splatting: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: gaussiansplatting-guide
@@ -17,9 +16,10 @@ maintainer: graphdeco-inria
 featured_image: https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/docs/logo.png
 description: "A deep dive into Gaussian Splatting by INRIA, covering installation, optimization, benchmarking, and production deployment for real-time 3D radiance field rendering."
 ---
-```
 
 # Gaussian-Splatting: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![gaussian-splatting repository overview](https://opengraph.githubicons.com/graphdeco-inria/gaussian-splatting/1.0.0)
 
 In the rapidly evolving landscape of computer vision and 3D graphics, few technologies have captured the imagination of developers and researchers quite like Gaussian Splatting. Originally introduced by researchers from INRIA and ETH Zurich, this technique has fundamentally shifted how we approach 3D scene reconstruction, offering unprecedented speed and visual fidelity without the heavy computational burden of traditional Neural Radiance Fields (NeRFs). As we move deeper into 2026, the ecosystem surrounding Gaussian Splatting has matured significantly, transforming it from an academic experiment into a robust tool for virtual reality, digital twin creation, and immersive web experiences. This guide provides a thorough examination of the original reference implementation maintained by `graphdeco-inria`, exploring its architecture, setup process, integration capabilities, and practical applications for modern AI-driven development workflows.
 

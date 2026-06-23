@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Mockingbird: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "mockingbird-guide"
@@ -19,6 +18,8 @@ description: "A detailed technical review of Mockingbird, an open-source voice c
 ---
 
 # Mockingbird: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![MockingBird repository overview](https://opengraph.githubicons.com/babysor/MockingBird/1.0.0)
 
 In the rapidly evolving landscape of artificial intelligence, few technologies have captured the imagination of developers and creators quite like voice synthesis. The ability to replicate human speech with startling fidelity has moved from science fiction to practical application, reshaping industries from content creation to accessibility services. Among the tools driving this shift, Mockingbird stands out as a pivotal open-source project that democratizes access to high-quality text-to-speech technology. This guide explores how Mockingbird works, its installation process, and its place in the modern AI ecosystem.
 
@@ -70,7 +71,6 @@ First, clone the repository from GitHub.
 ```bash
 git clone https://github.com/babysor/MockingBird.git
 cd MockingBird
-```
 
 ### Creating a Virtual Environment
 

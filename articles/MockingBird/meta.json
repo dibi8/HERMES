@@ -1,0 +1,26 @@
+{
+  "id": 23,
+  "name": "MockingBird",
+  "category": "ai-tools",
+  "repo": "https://github.com/babysor/MockingBird.git",
+  "stars": 36903,
+  "license": "Other",
+  "maintainer": "babysor",
+  "slug": "mockingbird-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2408,
+  "h2_count": 10,
+  "code_blocks": 32,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/babysor/MockingBird/main/docs/logo.png",
+      "alt": "Mockingbird Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/MockingBird/en.md"
+}

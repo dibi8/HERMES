@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Huginn: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "huginn-guide"
@@ -14,6 +13,8 @@ description: "A deep dive into Huginn, the powerful open-source agent framework 
 ---
 
 # Huginn: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![huginn repository overview](https://opengraph.githubicons.com/huginn/huginn/1.0.0)
 
 In an era where digital workflows are increasingly fragmented across dozens of platforms, the need for autonomous orchestration has never been more critical. While commercial automation tools often lock users into expensive subscriptions and opaque black-box algorithms, a robust alternative stands out for its transparency and flexibility. Huginn empowers developers and power users to build custom agents that monitor, interpret, and act upon data from virtually any source on the internet. This guide explores how Huginn serves as the backbone for private, reliable, and scalable automation infrastructure. By leveraging this open-source framework, you can reclaim control over your digital environment, ensuring that your specific business logic and privacy standards are strictly maintained without third-party interference.
 
@@ -52,7 +53,6 @@ First, clone the Huginn repository from GitHub to access the latest version and 
 ```bash
 git clone https://github.com/huginn/huginn.git
 cd huginn
-```
 
 ### Step 2: Configure Environment Variables
 

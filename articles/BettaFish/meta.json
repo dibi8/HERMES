@@ -1,0 +1,26 @@
+{
+  "id": 9,
+  "name": "BettaFish",
+  "category": "ai-tools",
+  "repo": "https://github.com/666ghj/BettaFish.git",
+  "stars": 41469,
+  "license": "GPL-2.0",
+  "maintainer": "666ghj",
+  "slug": "bettafish-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2717,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/666ghj/BettaFish/main/docs/logo.png",
+      "alt": "Bettafish Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/BettaFish/en.md"
+}

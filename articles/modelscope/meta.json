@@ -1,0 +1,26 @@
+{
+  "id": 84,
+  "name": "modelscope",
+  "category": "speech-ai",
+  "repo": "https://github.com/modelscope/modelscope",
+  "stars": 8983,
+  "license": "",
+  "maintainer": "",
+  "slug": "modelscope-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2212,
+  "h2_count": 10,
+  "code_blocks": 17,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/modelscope/modelscope/main/docs/logo.png",
+      "alt": "ModelScope Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/modelscope/en.md"
+}

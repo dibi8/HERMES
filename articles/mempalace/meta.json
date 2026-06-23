@@ -1,0 +1,30 @@
+{
+  "id": 81,
+  "name": "mempalace",
+  "category": "data-science",
+  "repo": "https://github.com/MemPalace/mempalace",
+  "stars": 56077,
+  "license": "MIT",
+  "maintainer": "MemPalace",
+  "slug": "mempalace-local-ai-memory-system-chromadb",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 4011,
+  "h2_count": 11,
+  "code_blocks": 33,
+  "faq_count": 8,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/MemPalace/mempalace/main/assets/mempalace_logo.png",
+      "alt": "MemPalace logo"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MemPalace/mempalace/main/assets/mempalace_logo.png",
+      "alt": "MemPalace palace architecture diagram"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/mempalace/en.md"
+}

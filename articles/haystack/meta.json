@@ -1,0 +1,34 @@
+{
+  "id": 65,
+  "name": "haystack",
+  "category": "'rag-framework'",
+  "repo": "https://github.com/deepset-ai/haystack",
+  "stars": 25620,
+  "license": "'Apache-2.0'",
+  "maintainer": "'deepset-ai'",
+  "slug": "'haystack-ai-production-rag-framework-llm-applications-2026'",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3907,
+  "h2_count": 12,
+  "code_blocks": 34,
+  "faq_count": 7,
+  "image_count": 3,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/images/banner.png",
+      "alt": "Haystack banner"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/docs/images/pipeline-run.drawio.png",
+      "alt": "Haystack architecture overview"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/docs/images/pipeline.drawio.png",
+      "alt": "Haystack pipeline visualization"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/haystack/en.md"
+}

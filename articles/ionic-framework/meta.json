@@ -1,0 +1,26 @@
+{
+  "id": 70,
+  "name": "ionic-framework",
+  "category": "ai-tools",
+  "repo": "https://github.com/ionic-team/ionic-framework",
+  "stars": 52540,
+  "license": "MIT",
+  "maintainer": "ionic-team",
+  "slug": "ionicframework-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2726,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/ionic-team/ionic-framework/main/docs/logo.png",
+      "alt": "Ionic Framework Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/ionic-framework/en.md"
+}

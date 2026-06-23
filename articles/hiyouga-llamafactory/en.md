@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "LlamaFactory: Unified Efficient Fine-Tuning of 100+ LLMs and VLMs in 2026 — Open Source AI Tool Review"
 slug: "llamafactory-fine-tuning-guide"
@@ -11,9 +10,10 @@ stars: 72378
 license: "MIT"
 maintainer: "hiyouga"
 ---
-```
 
 # LlamaFactory: Unified Efficient Fine-Tuning of 100+ LLMs and VLMs in 2026 — Open Source AI Tool Review
+
+![LLaMA-Factory repository overview](https://opengraph.githubicons.com/hiyouga/LLaMA-Factory/1.0.0)
 
 ## Introduction
 

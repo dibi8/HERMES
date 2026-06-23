@@ -1,0 +1,26 @@
+{
+  "id": 47,
+  "name": "bert",
+  "category": "ai-tools",
+  "repo": "https://github.com/fighting41love/funNLP",
+  "stars": 81402,
+  "license": "Apache-2.0",
+  "maintainer": "google-research",
+  "slug": "bert-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2592,
+  "h2_count": 10,
+  "code_blocks": 29,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/google-research/bert/main/docs/logo.png",
+      "alt": "BERT Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/bert/en.md"
+}

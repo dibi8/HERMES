@@ -1,0 +1,26 @@
+{
+  "id": 102,
+  "name": "spaCy",
+  "category": "ai-tools",
+  "repo": "https://github.com/fighting41love/funNLP",
+  "stars": 81402,
+  "license": "MIT",
+  "maintainer": "explosion",
+  "slug": "spacy-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3118,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/explosion/spaCy/main/docs/logo.png",
+      "alt": "Spacy Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/spaCy/en.md"
+}

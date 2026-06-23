@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Kaldi: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: kaldi-guide
@@ -21,6 +20,8 @@ tags:
 
 # Kaldi: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![kaldi repository overview](https://opengraph.githubicons.com/kaldi-asr/kaldi/1.0.0)
+
 ## Introduction
 
 Speech recognition technology has become an invisible yet indispensable layer of modern digital interaction, powering everything from smart home assistants to automated customer service centers. Among the myriad of tools available to developers and researchers, few have maintained such a steadfast presence in the academic and industrial landscapes as Kaldi. Despite the rise of newer, more abstracted frameworks, Kaldi remains a critical reference point for understanding the underlying mechanics of Automatic Speech Recognition (ASR). This guide explores how this robust toolkit continues to serve as a foundation for building high-quality speech processing systems in 2026, offering a deep dive into its architecture, setup, and practical applications for technical professionals.
@@ -33,7 +34,7 @@ Speech recognition technology has become an invisible yet indispensable layer of
 
 Kaldi is a toolkit for speech recognition written in C++ and licensed under the Apache 2.0 License. It was initially developed by Johns Hopkins University and Dan Povey, with contributions from a global community of researchers and engineers. Unlike many modern end-to-end AI models that offer simple API calls, Kaldi provides a modular framework that allows users to construct complex speech recognition pipelines. It is particularly renowned for its support of Hidden Markov Models (HMMs) combined with Gaussian Mixture Models (GMMs) and later, Deep Neural Networks (DNNs).
 
-In the context of 2026, Kaldi is often viewed not just as a standalone application, but as a rigorous educational and experimental platform. Many state-of-the-art architectures today were first prototyped or benchmarked within the Kaldi ecosystem. Its codebase is designed for clarity and reproducibility, making it a favorite among academics who need to dissect every component of the speech recognition process, from feature extraction to decoding. While newer tools like Whisper or Paraformer may offer easier out-of-the-box experiences, Kaldi remains unmatched in terms of flexibility and granular control over the acoustic modeling process.
+In the context of 2026, Kaldi is often viewed not just as a standalone application, but as a rigorous educational and experimental platform. Many leading architectures today were first prototyped or benchmarked within the Kaldi ecosystem. Its codebase is designed for clarity and reproducibility, making it a favorite among academics who need to dissect every component of the speech recognition process, from feature extraction to decoding. While newer tools like Whisper or Paraformer may offer easier out-of-the-box experiences, Kaldi remains unmatched in terms of flexibility and granular control over the acoustic modeling process.
 
 For businesses and developers seeking to customize speech recognition for specific domains—such as medical transcription, legal proceedings, or specialized industrial commands—Kaldi offers the necessary depth. It does not hide the complexity of the task; instead, it empowers users to master that complexity. The project’s longevity is a testament to its solid engineering principles and the active maintenance by the `kaldi-asr` community, ensuring that it remains relevant even as neural network techniques evolve rapidly.
 
@@ -53,7 +54,6 @@ steps/make_mfcc.sh --nj 4 \
                    exp/make_mfcc/$train_dir \
                    $featdir \
                    $logdir
-```
 
 ### Acoustic Modeling
 

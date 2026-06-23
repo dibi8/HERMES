@@ -1,0 +1,26 @@
+{
+  "id": 15,
+  "name": "EmotiVoice",
+  "category": "ai-tools",
+  "repo": "https://github.com/netease-youdao/EmotiVoice.git",
+  "stars": 8479,
+  "license": "Apache-2.0",
+  "maintainer": "netease-youdao",
+  "slug": "emotivoice-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3067,
+  "h2_count": 10,
+  "code_blocks": 21,
+  "faq_count": 17,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/netease-youdao/EmotiVoice/main/docs/logo.png",
+      "alt": "EmotiVoice Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/EmotiVoice/en.md"
+}

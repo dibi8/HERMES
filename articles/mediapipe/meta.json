@@ -1,0 +1,26 @@
+{
+  "id": 80,
+  "name": "mediapipe",
+  "category": "ai-tools",
+  "repo": "https://github.com/google/mediapipe.git",
+  "stars": 35769,
+  "license": "Apache-2.0",
+  "maintainer": "google-ai-edge",
+  "slug": "mediapipe-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2406,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/main/docs/logo.png",
+      "alt": "MediaPipe Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/mediapipe/en.md"
+}

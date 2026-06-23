@@ -1,0 +1,26 @@
+{
+  "id": 77,
+  "name": "lightRAG",
+  "category": "graph-rag",
+  "repo": "https://github.com/HKUDS/LightRAG",
+  "stars": 36880,
+  "license": "MIT",
+  "maintainer": "HKUDS",
+  "slug": "lightrag-graph-rag-implementation",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2599,
+  "h2_count": 9,
+  "code_blocks": 16,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://learnopencv.com/wp-content/uploads/2024/11/LightRAG-VectorDB-Json-KV-Store-Indexing-Flowchart-scaled.jpg",
+      "alt": "LightRAG Architecture Overview"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/lightRAG/en.md"
+}

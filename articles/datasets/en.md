@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Datasets: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "datasets-guide"
@@ -14,6 +13,10 @@ description: "A deep dive into the Hugging Face Datasets library, covering insta
 ---
 
 # Datasets: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![funNLP repository overview](https://opengraph.githubicons.com/fighting41love/funNLP/1.0.0)
+
+![funNLP dark preview](https://opengraph.githubicons.com/dark/fighting41love/funNLP/1.0.0)
 
 Data is the fuel that powers modern artificial intelligence, yet preparing this fuel remains one of the most tedious aspects of machine learning engineering. Enter **Datasets**, the robust Python library maintained by Hugging Face that has become the standard for accessing, preprocessing, and managing large-scale datasets for AI models. With over 21,000 stars on GitHub and an Apache 2.0 license, it offers a streamlined interface that allows developers to load massive datasets with just a few lines of code, significantly reducing the time between idea and implementation. This guide explores how Datasets integrates seamlessly into the MLOps pipeline, providing the efficiency needed for today’s complex AI projects.
 
@@ -45,7 +48,6 @@ Here is the command to install the core library via pip:
 
 ```bash
 pip install datasets
-```
 
 If you intend to work with multiple file formats and want to optimize performance, it is advisable to install the "all" extras package. This includes support for various data serialization formats and compression libraries:
 

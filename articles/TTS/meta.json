@@ -1,0 +1,30 @@
+{
+  "id": 30,
+  "name": "TTS",
+  "category": "speech-ai",
+  "repo": "https://github.com/coqui-ai/TTS.git",
+  "stars": 0,
+  "license": "MPL-2.0",
+  "maintainer": "mozilla",
+  "slug": "tts-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3105,
+  "h2_count": 10,
+  "code_blocks": 52,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/mozilla/TTS/main/docs/logo.png",
+      "alt": "Mozilla TTS Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/assets/brand/logos/digitalocean-horizontal-black.svg",
+      "alt": "DigitalOcean"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/TTS/en.md"
+}

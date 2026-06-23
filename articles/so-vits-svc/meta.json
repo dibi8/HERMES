@@ -1,0 +1,26 @@
+{
+  "id": 101,
+  "name": "so-vits-svc",
+  "category": "ai-tools",
+  "repo": "https://github.com/svc-develop-team/so-vits-svc.git",
+  "stars": 28107,
+  "license": "AGPL-3.0",
+  "maintainer": "svc-develop-team",
+  "slug": "sovitssvc-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2377,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/svc-develop-team/so-vits-svc/main/docs/logo.png",
+      "alt": "So-Vits-Svc Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/so-vits-svc/en.md"
+}

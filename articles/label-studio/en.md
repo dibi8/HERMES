@@ -14,6 +14,10 @@ maintainer: "HumanSignal"
 
 # Label-Studio: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![label-studio repository overview](https://opengraph.githubicons.com/HumanSignal/label-studio/1.0.0)
+
+![label-studio dark preview](https://opengraph.githubicons.com/dark/HumanSignal/label-studio/1.0.0)
+
 Data is the fuel of modern artificial intelligence, but raw data is useless without structure. In the rapidly evolving landscape of 2026, the ability to efficiently label, annotate, and manage datasets has become a critical bottleneck for AI development teams. Enter Label Studio, a versatile platform that has established itself as a cornerstone for supervised learning workflows. This guide explores how Label Studio simplifies complex annotation tasks, integrates seamlessly with existing tech stacks, and empowers developers to build higher-quality models faster than ever before.
 
 ## What Is Label Studio?

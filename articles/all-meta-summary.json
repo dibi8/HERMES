@@ -1,0 +1,3073 @@
+[
+  {
+    "id": 1,
+    "name": "100-Days-Of-ML-Code",
+    "category": "ai-tools",
+    "repo": "Avik-Jain/100-Days-Of-ML-Code",
+    "stars": 51292,
+    "license": "MIT",
+    "maintainer": "Avik-Jain",
+    "slug": "100daysofmlcode-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3003,
+    "h2_count": 10,
+    "code_blocks": 18,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/Avik-Jain/100-Days-Of-ML-Code/main/docs/logo.png",
+        "alt": "100 Days of ML Code Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/100-Days-Of-ML-Code/en.md"
+  },
+  {
+    "id": 2,
+    "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "category": "ai-tools",
+    "repo": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "stars": 34769,
+    "license": "None",
+    "maintainer": "ashishpatel26",
+    "slug": "500aimachinelearningdeeplearningcomputervisionnlpprojectswithcode-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3011,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code/main/docs/logo.png",
+        "alt": "500 AI Projects Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code/en.md"
+  },
+  {
+    "id": 3,
+    "name": "AI-For-Beginners",
+    "category": "ai-tools",
+    "repo": "microsoft/AI-For-Beginners",
+    "stars": 48373,
+    "license": "MIT",
+    "maintainer": "microsoft",
+    "slug": "aiforbeginners-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2923,
+    "h2_count": 10,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/microsoft/AI-For-Beginners/main/docs/logo.png",
+        "alt": "AI For Beginners Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/AI-For-Beginners/en.md"
+  },
+  {
+    "id": 4,
+    "name": "Agent-Reach",
+    "category": "ai-tools",
+    "repo": "Panniantong/Agent-Reach",
+    "stars": 37703,
+    "license": "MIT",
+    "maintainer": "Panniantong",
+    "slug": "agentreach-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2751,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/logo.png",
+        "alt": "Agent Reach Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Agent-Reach/en.md"
+  },
+  {
+    "id": 5,
+    "name": "AntonOsika-gpt-engineer",
+    "category": "code-generation",
+    "repo": "AntonOsika/AntonOsika-gpt-engineer",
+    "stars": 55200,
+    "license": "MIT",
+    "maintainer": "AntonOsika",
+    "slug": "gpt-engineer-cli-codegen",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2737,
+    "h2_count": 12,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/AntonOsika/gpt-engineer/main/assets/logo.png",
+        "alt": "gpt-engineer Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/AntonOsika-gpt-engineer/en.md"
+  },
+  {
+    "id": 6,
+    "name": "AudioGPT",
+    "category": "speech-ai",
+    "repo": "AIGC-Audio/AudioGPT",
+    "stars": 10172,
+    "license": "Other",
+    "maintainer": "AIGC-Audio",
+    "slug": "audiogpt-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2512,
+    "h2_count": 10,
+    "code_blocks": 23,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/AIGC-Audio/AudioGPT/main/docs/logo.png",
+        "alt": "AudioGPT Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/AudioGPT/en.md"
+  },
+  {
+    "id": 7,
+    "name": "Auto-claude-code-research-in-sleep",
+    "category": "ai-tools",
+    "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "stars": 12484,
+    "license": "MIT",
+    "maintainer": "wanshuiyin",
+    "slug": "autoclaudecoderesearchinsleep-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2623,
+    "h2_count": 10,
+    "code_blocks": 21,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/main/docs/logo.png",
+        "alt": "Auto Claude Code Research In Sleep Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Auto-claude-code-research-in-sleep/en.md"
+  },
+  {
+    "id": 8,
+    "name": "Awesome-Chinese-LLM",
+    "category": "ai-tools",
+    "repo": "AiHubCN/Awesome-Chinese-LLM",
+    "stars": 22633,
+    "license": "None",
+    "maintainer": "AiHubCN",
+    "slug": "awesomechinesellm-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2220,
+    "h2_count": 10,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/AiHubCN/Awesome-Chinese-LLM/main/docs/logo.png",
+        "alt": "Awesome Chinese LLM Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Awesome-Chinese-LLM/en.md"
+  },
+  {
+    "id": 9,
+    "name": "BettaFish",
+    "category": "ai-tools",
+    "repo": "666ghj/BettaFish",
+    "stars": 41469,
+    "license": "GPL-2.0",
+    "maintainer": "666ghj",
+    "slug": "bettafish-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2717,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/666ghj/BettaFish/main/docs/logo.png",
+        "alt": "Bettafish Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/BettaFish/en.md"
+  },
+  {
+    "id": 10,
+    "name": "CV",
+    "category": "ai-tools",
+    "repo": "AccumulateMore/CV",
+    "stars": 22074,
+    "license": "None",
+    "maintainer": "AccumulateMore",
+    "slug": "cv-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2352,
+    "h2_count": 11,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/AccumulateMore/CV/main/docs/logo.png",
+        "alt": "CV Repository Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/CV/en.md"
+  },
+  {
+    "id": 11,
+    "name": "CVPR2026-Papers-with-Code",
+    "category": "ai-tools",
+    "repo": "amusi/CVPR2026-Papers-with-Code",
+    "stars": 22716,
+    "license": "None",
+    "maintainer": "amusi",
+    "slug": "cvpr2026paperswithcode-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2301,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/amusi/CVPR2026-Papers-with-Code/main/docs/logo.png",
+        "alt": "CVPR 2026 Papers with Code Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/CVPR2026-Papers-with-Code/en.md"
+  },
+  {
+    "id": 12,
+    "name": "CorentinJ-realtime-voice-cloning",
+    "category": "uncategorized",
+    "repo": "CorentinJ/CorentinJ-realtime-voice-cloning",
+    "stars": 59929,
+    "license": "MIT",
+    "maintainer": "CorentinJ",
+    "slug": "realtime-voice-cloning-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2228,
+    "h2_count": 10,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/CorentinJ/Real-Time-Voice-Cloning/master/demo-images/logo.png",
+        "alt": "CorentinJ Real-Time Voice Cloning Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/CorentinJ-realtime-voice-cloning/en.md"
+  },
+  {
+    "id": 13,
+    "name": "CycleGAN",
+    "category": "ai-tools",
+    "repo": "junyanz/CycleGAN",
+    "stars": 12863,
+    "license": "Other",
+    "maintainer": "junyanz",
+    "slug": "cyclegan-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2443,
+    "h2_count": 30,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/junyanz/CycleGAN/main/docs/logo.png",
+        "alt": "CycleGAN Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/CycleGAN/en.md"
+  },
+  {
+    "id": 14,
+    "name": "D4Vinci-Scrapling",
+    "category": "web-scraping",
+    "repo": "D4Vinci/D4Vinci-Scrapling",
+    "stars": 65567,
+    "license": "MIT",
+    "maintainer": "D4Vinci",
+    "slug": "scrapling-adaptive-scraping",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2442,
+    "h2_count": 10,
+    "code_blocks": 12,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/logo.png",
+        "alt": "Scrapling Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/D4Vinci-Scrapling/en.md"
+  },
+  {
+    "id": 15,
+    "name": "EmotiVoice",
+    "category": "ai-tools",
+    "repo": "netease-youdao/EmotiVoice",
+    "stars": 8479,
+    "license": "Apache-2.0",
+    "maintainer": "netease-youdao",
+    "slug": "emotivoice-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3067,
+    "h2_count": 10,
+    "code_blocks": 21,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/netease-youdao/EmotiVoice/main/docs/logo.png",
+        "alt": "EmotiVoice Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/EmotiVoice/en.md"
+  },
+  {
+    "id": 16,
+    "name": "GenericAgent",
+    "category": "ai-tools",
+    "repo": "lsdefine/GenericAgent",
+    "stars": 13001,
+    "license": "MIT",
+    "maintainer": "lsdefine",
+    "slug": "genericagent-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2548,
+    "h2_count": 10,
+    "code_blocks": 24,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/lsdefine/GenericAgent/main/docs/logo.png",
+        "alt": "GenericAgent Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/GenericAgent/en.md"
+  },
+  {
+    "id": 17,
+    "name": "Grounded-Segment-Anything",
+    "category": "speech-ai",
+    "repo": "IDEA-Research/Grounded-Segment-Anything",
+    "stars": 17635,
+    "license": "Apache-2.0",
+    "maintainer": "IDEA-Research",
+    "slug": "groundedsegmentanything-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2541,
+    "h2_count": 10,
+    "code_blocks": 50,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/IDEA-Research/Grounded-Segment-Anything/main/docs/logo.png",
+        "alt": "Grounded Segment Anything Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Grounded-Segment-Anything/en.md"
+  },
+  {
+    "id": 18,
+    "name": "HanLP",
+    "category": "ai-tools",
+    "repo": "hankcs/HanLP",
+    "stars": 36422,
+    "license": "Apache-2.0",
+    "maintainer": "hankcs",
+    "slug": "hanlp-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3094,
+    "h2_count": 10,
+    "code_blocks": 18,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/hankcs/HanLP/main/docs/logo.png",
+        "alt": "HanLP Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/HanLP/en.md"
+  },
+  {
+    "id": 19,
+    "name": "InvokeAI",
+    "category": "ai-tools",
+    "repo": "invoke-ai/InvokeAI",
+    "stars": 27488,
+    "license": "Apache-2.0",
+    "maintainer": "invoke-ai",
+    "slug": "invokeai-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2816,
+    "h2_count": 10,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/docs/logo.png",
+        "alt": "InvokeAI Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/InvokeAI/en.md"
+  },
+  {
+    "id": 20,
+    "name": "Jobs_Applier_AI_Agent_AIHawk",
+    "category": "uncategorized",
+    "repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "stars": 29929,
+    "license": "AGPL-3.0",
+    "maintainer": "feder-cr",
+    "slug": "jobs_applier_ai_agent_aihawk-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2697,
+    "h2_count": 10,
+    "code_blocks": 23,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk/main/docs/logo.png",
+        "alt": "AIHawk Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Jobs_Applier_AI_Agent_AIHawk/en.md"
+  },
+  {
+    "id": 21,
+    "name": "LocalAI",
+    "category": "ai-tools",
+    "repo": "mudler/LocalAI",
+    "stars": 47059,
+    "license": "MIT",
+    "maintainer": "mudler",
+    "slug": "localai-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2712,
+    "h2_count": 10,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/mudler/LocalAI/main/docs/logo.png",
+        "alt": "LocalAI Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/LocalAI/en.md"
+  },
+  {
+    "id": 22,
+    "name": "Made-With-ML",
+    "category": "ai-tools",
+    "repo": "GokuMohandas/Made-With-ML",
+    "stars": 48323,
+    "license": "MIT",
+    "maintainer": "GokuMohandas",
+    "slug": "madewithml-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3249,
+    "h2_count": 10,
+    "code_blocks": 21,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/GokuMohandas/Made-With-ML/main/docs/logo.png",
+        "alt": "Made With ML Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Made-With-ML/en.md"
+  },
+  {
+    "id": 23,
+    "name": "MockingBird",
+    "category": "ai-tools",
+    "repo": "babysor/MockingBird",
+    "stars": 36903,
+    "license": "Other",
+    "maintainer": "babysor",
+    "slug": "mockingbird-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2408,
+    "h2_count": 10,
+    "code_blocks": 32,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/babysor/MockingBird/main/docs/logo.png",
+        "alt": "Mockingbird Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/MockingBird/en.md"
+  },
+  {
+    "id": 24,
+    "name": "MoneyPrinterTurbo",
+    "category": "video-generation",
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "stars": 91188,
+    "license": "MIT",
+    "maintainer": "harry0703",
+    "slug": "moneyprinter-turbo-video-gen",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3657,
+    "h2_count": 10,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 0,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [],
+    "file_path": "/root/HERMES/articles/MoneyPrinterTurbo/en.md"
+  },
+  {
+    "id": 25,
+    "name": "OpenHands",
+    "category": "ai-tools",
+    "repo": "OpenHands/OpenHands",
+    "stars": 78005,
+    "license": "Other",
+    "maintainer": "OpenHands",
+    "slug": "openhands-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3372,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/docs/logo.png",
+        "alt": "OpenHands Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/OpenHands/en.md"
+  },
+  {
+    "id": 26,
+    "name": "OpenMontage",
+    "category": "ai-tools",
+    "repo": "calesthio/OpenMontage",
+    "stars": 11617,
+    "license": "AGPL-3.0",
+    "maintainer": "calesthio",
+    "slug": "openmontage-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2453,
+    "h2_count": 10,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/docs/logo.png",
+        "alt": "Openmontage Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/OpenMontage/en.md"
+  },
+  {
+    "id": 27,
+    "name": "Pixelle-Video",
+    "category": "ai-tools",
+    "repo": "AIDC-AI/Pixelle-Video",
+    "stars": 23333,
+    "license": "Apache-2.0",
+    "maintainer": "AIDC-AI",
+    "slug": "pixellevideo-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2614,
+    "h2_count": 10,
+    "code_blocks": 24,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/AIDC-AI/Pixelle-Video/main/docs/logo.png",
+        "alt": "Pixelle Video Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Pixelle-Video/en.md"
+  },
+  {
+    "id": 28,
+    "name": "Prompt-Engineering-Guide",
+    "category": "ai-agents",
+    "repo": "dair-ai/Prompt-Engineering-Guide",
+    "stars": 0,
+    "license": "MIT",
+    "maintainer": "dair-ai",
+    "slug": "promptengineeringguide-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2927,
+    "h2_count": 10,
+    "code_blocks": 18,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/main/docs/logo.png",
+        "alt": "Prompt Engineering Guide Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Prompt-Engineering-Guide/en.md"
+  },
+  {
+    "id": 29,
+    "name": "RAG_Techniques",
+    "category": "ai-tools",
+    "repo": "NirDiamant/RAG_Techniques",
+    "stars": 28114,
+    "license": "Other",
+    "maintainer": "NirDiamant",
+    "slug": "rag_techniques-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 1918,
+    "h2_count": 11,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/NirDiamant/RAG_Techniques/main/docs/logo.png",
+        "alt": "Rag_Techniques Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/RAG_Techniques/en.md"
+  },
+  {
+    "id": 30,
+    "name": "TTS",
+    "category": "speech-ai",
+    "repo": "mozilla/TTS",
+    "stars": 0,
+    "license": "MPL-2.0",
+    "maintainer": "mozilla",
+    "slug": "tts-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3105,
+    "h2_count": 10,
+    "code_blocks": 52,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/mozilla/TTS/main/docs/logo.png",
+        "alt": "Mozilla TTS Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/assets/brand/logos/digitalocean-horizontal-black.svg",
+        "alt": "DigitalOcean"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/TTS/en.md"
+  },
+  {
+    "id": 31,
+    "name": "TauricResearch-TradingAgents",
+    "category": "ai-trading",
+    "repo": "TauricResearch/TauricResearch-TradingAgents",
+    "stars": 87971,
+    "license": "MIT",
+    "maintainer": "TauricResearch",
+    "slug": "tradingagents-llm-framework",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2852,
+    "h2_count": 10,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/main/docs/logo.png",
+        "alt": "TradingAgents Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/community/assets/images/digitalocean-logo.png",
+        "alt": "DigitalOcean Affiliate Banner"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/TauricResearch-TradingAgents/en.md"
+  },
+  {
+    "id": 32,
+    "name": "Toonflow-app",
+    "category": "ai-tools",
+    "repo": "HBAI-Ltd/Toonflow-app",
+    "stars": 10363,
+    "license": "Apache-2.0",
+    "maintainer": "HBAI-Ltd",
+    "slug": "toonflowapp-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2249,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/HBAI-Ltd/Toonflow-app/main/docs/logo.png",
+        "alt": "Toonflow Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Toonflow-app/en.md"
+  },
+  {
+    "id": 33,
+    "name": "Upsonic",
+    "category": "ai-agents",
+    "repo": "Upsonic/Upsonic",
+    "stars": 7898,
+    "license": "MIT",
+    "maintainer": "Upsonic",
+    "slug": "upsonic-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2519,
+    "h2_count": 10,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/Upsonic/Upsonic/main/docs/logo.png",
+        "alt": "Upsonic Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/Upsonic/en.md"
+  },
+  {
+    "id": 34,
+    "name": "VAR",
+    "category": "ai-tools",
+    "repo": "FoundationVision/VAR",
+    "stars": 8702,
+    "license": "MIT",
+    "maintainer": "FoundationVision",
+    "slug": "var-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2750,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/FoundationVision/VAR/main/docs/logo.png",
+        "alt": "VAR Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/VAR/en.md"
+  },
+  {
+    "id": 35,
+    "name": "VoxCPM",
+    "category": "speech-ai",
+    "repo": "OpenBMB/VoxCPM",
+    "stars": 31288,
+    "license": "Apache-2.0",
+    "maintainer": "OpenBMB",
+    "slug": "voxcpm-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2058,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/docs/logo.png",
+        "alt": "VoxCPM Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/VoxCPM/en.md"
+  },
+  {
+    "id": 36,
+    "name": "agents",
+    "category": "ai-tools",
+    "repo": "wshobson/agents",
+    "stars": 37047,
+    "license": "MIT",
+    "maintainer": "wshobson",
+    "slug": "agents-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2633,
+    "h2_count": 17,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/wshobson/agents/main/docs/logo.png",
+        "alt": "Agents Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/agents/en.md"
+  },
+  {
+    "id": 37,
+    "name": "ai-engineering-from-scratch",
+    "category": "ai-tools",
+    "repo": "rohitg00/ai-engineering-from-scratch",
+    "stars": 35631,
+    "license": "MIT",
+    "maintainer": "rohitg00",
+    "slug": "aiengineeringfromscratch-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2390,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/docs/logo.png",
+        "alt": "Ai Engineering From Scratch Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/ai-engineering-from-scratch/en.md"
+  },
+  {
+    "id": 38,
+    "name": "ailearning",
+    "category": "ai-tools",
+    "repo": "apachecn/ailearning",
+    "stars": 0,
+    "license": "Other",
+    "maintainer": "apachecn",
+    "slug": "ailearning-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2721,
+    "h2_count": 10,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/apachecn/ailearning/main/docs/logo.png",
+        "alt": "Ailearning Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/ailearning/en.md"
+  },
+  {
+    "id": 39,
+    "name": "airflow",
+    "category": "ai-tools",
+    "repo": "apache/airflow",
+    "stars": 45893,
+    "license": "Apache-2.0",
+    "maintainer": "apache",
+    "slug": "airflow-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2499,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/apache/airflow/main/docs/logo.png",
+        "alt": "Apache Airflow Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/airflow/en.md"
+  },
+  {
+    "id": 40,
+    "name": "annyang",
+    "category": "speech-ai",
+    "repo": "TalAter/annyang",
+    "stars": 6813,
+    "license": "MIT",
+    "maintainer": "TalAter",
+    "slug": "annyang-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2927,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/TalAter/annyang/main/docs/logo.png",
+        "alt": "Annyang Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/assets/images/brand/DigitalOcean_logo.svg",
+        "alt": "DigitalOcean Affiliate"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/annyang/en.md"
+  },
+  {
+    "id": 41,
+    "name": "applied-ml",
+    "category": "ai-tools",
+    "repo": "",
+    "stars": 29820,
+    "license": "MIT",
+    "maintainer": "",
+    "slug": "appliedml-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2693,
+    "h2_count": 10,
+    "code_blocks": 24,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/eugeneyan/applied-ml/main/docs/logo.png",
+        "alt": "Applied-Ml Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/assets/partners/logos/digitalocean-logo.png",
+        "alt": "DigitalOcean Affiliate"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/applied-ml/en.md"
+  },
+  {
+    "id": 42,
+    "name": "autogen",
+    "category": "ai-tools",
+    "repo": "microsoft/autogen",
+    "stars": 59145,
+    "license": "CC-BY-4.0",
+    "maintainer": "microsoft",
+    "slug": "autogen-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2837,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/microsoft/autogen/main/docs/logo.png",
+        "alt": "Autogen Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/autogen/en.md"
+  },
+  {
+    "id": 43,
+    "name": "awesome-gpt-image-2-API-and-Prompts",
+    "category": "ai-tools",
+    "repo": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+    "stars": 16905,
+    "license": "CC0-1.0",
+    "maintainer": "EvoLinkAI",
+    "slug": "awesomegptimage2apiandprompts-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3009,
+    "h2_count": 0,
+    "code_blocks": 18,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/docs/logo.png",
+        "alt": "Awesome GPT Image 2 API Logo"
+      },
+      {
+        "url": "https://m.do.co/c/eca87ac14ee0",
+        "alt": "DigitalOcean Hosting"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/awesome-gpt-image-2-API-and-Prompts/en.md"
+  },
+  {
+    "id": 44,
+    "name": "awesome-gpt4o-images",
+    "category": "ai-tools",
+    "repo": "jamez-bondos/awesome-gpt4o-images",
+    "stars": 8079,
+    "license": "Other",
+    "maintainer": "jamez-bondos",
+    "slug": "awesomegpt4oimages-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2939,
+    "h2_count": 10,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/docs/logo.png",
+        "alt": "Awesome Gpt4O Images Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/awesome-gpt4o-images/en.md"
+  },
+  {
+    "id": 45,
+    "name": "awesome-nano-banana-pro-prompts",
+    "category": "ai-tools",
+    "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "stars": 12612,
+    "license": "Other",
+    "maintainer": "YouMind-OpenLab",
+    "slug": "awesomenanobananaproprompts-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2989,
+    "h2_count": 10,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/docs/logo.png",
+        "alt": "Awesome Nano Banana Pro Prompts Logo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/main/docs/logo.png",
+        "alt": "Awesome Nano Banana Pro Prompts Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/awesome-nano-banana-pro-prompts/en.md"
+  },
+  {
+    "id": 46,
+    "name": "bentopdf",
+    "category": "ai-tools",
+    "repo": "alam00000/bentopdf",
+    "stars": 13832,
+    "license": "AGPL-3.0",
+    "maintainer": "alam00000",
+    "slug": "bentopdf-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2629,
+    "h2_count": 10,
+    "code_blocks": 21,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/alam00000/bentopdf/main/docs/logo.png",
+        "alt": "Bentopdf Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/bentopdf/en.md"
+  },
+  {
+    "id": 47,
+    "name": "bert",
+    "category": "ai-tools",
+    "repo": "google-research/bert",
+    "stars": 40034,
+    "license": "Apache-2.0",
+    "maintainer": "google-research",
+    "slug": "bert-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2592,
+    "h2_count": 10,
+    "code_blocks": 29,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/google-research/bert/main/docs/logo.png",
+        "alt": "BERT Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/bert/en.md"
+  },
+  {
+    "id": 48,
+    "name": "best-of-ml-python",
+    "category": "ai-tools",
+    "repo": "lukasmasuch/best-of-ml-python",
+    "stars": 23646,
+    "license": "CC-BY-SA-4.0",
+    "maintainer": "lukasmasuch",
+    "slug": "bestofmlpython-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2430,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/lukasmasuch/best-of-ml-python/main/docs/logo.png",
+        "alt": "Best-Of-Ml-Python Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/best-of-ml-python/en.md"
+  },
+  {
+    "id": 49,
+    "name": "browser-use",
+    "category": "browser-automation",
+    "repo": "browser-use/browser-use",
+    "stars": 100083,
+    "license": "MIT",
+    "maintainer": "browser-use",
+    "slug": "browser-use-ai-web-automation",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2505,
+    "h2_count": 11,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/browser-use/browser-use/main/docs/static/img/banner.png",
+        "alt": "Browser Use Banner"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/browser-use/en.md"
+  },
+  {
+    "id": 50,
+    "name": "career-ops",
+    "category": "ai-tools",
+    "repo": "santifer/career-ops",
+    "stars": 55189,
+    "license": "MIT",
+    "maintainer": "santifer",
+    "slug": "careerops-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2421,
+    "h2_count": 10,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/logo.png",
+        "alt": "Career-Ops Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/community/assets/images/digitalocean-logo.svg",
+        "alt": "DigitalOcean"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/career-ops/en.md"
+  },
+  {
+    "id": 51,
+    "name": "comfyui",
+    "category": "ai-image-workflow",
+    "repo": "Comfy-Org/comfyui",
+    "stars": 117919,
+    "license": "GPL-3.0",
+    "maintainer": "Comfy-Org",
+    "slug": "comfyui-node-based-stable-diffusion-gui",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2574,
+    "h2_count": 11,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 0,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [],
+    "file_path": "/root/HERMES/articles/comfyui/en.md"
+  },
+  {
+    "id": 52,
+    "name": "context7",
+    "category": "llm-frameworks",
+    "repo": "upstash/context7",
+    "stars": 57787,
+    "license": "MIT",
+    "maintainer": "upstash",
+    "slug": "context7-mcp-server-production-setup-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3935,
+    "h2_count": 12,
+    "code_blocks": 32,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/upstash/context7/master/public/cover.png",
+        "alt": "Context7 hero image"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/upstash/context7/master/docs/images/on-premise-architecture.png",
+        "alt": "Context7 architecture diagram"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/context7/en.md"
+  },
+  {
+    "id": 53,
+    "name": "crewai",
+    "category": "ai-agents",
+    "repo": "https://github.com/crewAIInc/crewAI",
+    "stars": 54092,
+    "license": "MIT",
+    "maintainer": "crewAIInc",
+    "slug": "crewai-autonomous-multi-agent-orchestration-framework-2026",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3756,
+    "h2_count": 12,
+    "code_blocks": 28,
+    "faq_count": 0,
+    "image_count": 3,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/docs/images/asset.png",
+        "alt": "CrewAI Hero Image"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/docs/images/crewai-process-flow.png",
+        "alt": "CrewAI Architecture Diagram"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/docs/images/crewai-terminal-output.png",
+        "alt": "CrewAI Installation Screenshot"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/crewai/en.md"
+  },
+  {
+    "id": 54,
+    "name": "datasets",
+    "category": "ai-tools",
+    "repo": "huggingface/datasets",
+    "stars": 21641,
+    "license": "Apache-2.0",
+    "maintainer": "huggingface",
+    "slug": "datasets-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2686,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/huggingface/datasets/main/docs/logo.png",
+        "alt": "Hugging Face Datasets Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/datasets/en.md"
+  },
+  {
+    "id": 55,
+    "name": "deerflow",
+    "category": "ai-tools",
+    "repo": "bytedance/deerflow",
+    "stars": 72130,
+    "license": "MIT",
+    "maintainer": "bytedance",
+    "slug": "deerflow-2-byteDance-long-horizon-research-agents",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3257,
+    "h2_count": 11,
+    "code_blocks": 20,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://sf16-sg.tiktokcdn.com/obj/eden-sg/hubseh7bsbps/20251208-160108.png",
+        "alt": "DeerFlow 2.0 Architecture"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/bytedance/deer-flow/main/public/deerflow-architecture.png",
+        "alt": "DeerFlow sub-agent orchestration diagram"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/deerflow/en.md"
+  },
+  {
+    "id": 56,
+    "name": "diffusers",
+    "category": "image-generation",
+    "repo": "huggingface/diffusers",
+    "stars": 33901,
+    "license": "Apache-2.0",
+    "maintainer": "huggingface",
+    "slug": "diffusers-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2508,
+    "h2_count": 10,
+    "code_blocks": 10,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/huggingface/diffusers/main/docs/logo.png",
+        "alt": "Hugging Face Diffusers Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/diffusers/en.md"
+  },
+  {
+    "id": 57,
+    "name": "dify",
+    "category": "llm-app-platform",
+    "repo": "langgenius/dify",
+    "stars": 146077,
+    "license": "AGPL-3.0",
+    "maintainer": "langgenius",
+    "slug": "dify-llm-application-platform",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2571,
+    "h2_count": 9,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 0,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [],
+    "file_path": "/root/HERMES/articles/dify/en.md"
+  },
+  {
+    "id": 58,
+    "name": "dream-textures",
+    "category": "ai-tools",
+    "repo": "carson-katri/dream-textures",
+    "stars": 8168,
+    "license": "GPL-3.0",
+    "maintainer": "carson-katri",
+    "slug": "dreamtextures-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3168,
+    "h2_count": 10,
+    "code_blocks": 8,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/carson-katri/dream-textures/main/docs/logo.png",
+        "alt": "Dream Textures Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/dream-textures/en.md"
+  },
+  {
+    "id": 59,
+    "name": "evolver",
+    "category": "ai-tools",
+    "repo": "EvoMap/evolver",
+    "stars": 8737,
+    "license": "GPL-3.0",
+    "maintainer": "EvoMap",
+    "slug": "evolver-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2116,
+    "h2_count": 0,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/EvoMap/evolver/main/docs/logo.png",
+        "alt": "Evolver Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/evolver/en.md"
+  },
+  {
+    "id": 60,
+    "name": "firecrawl",
+    "category": "web-scraping",
+    "repo": "mendableai/firecrawl",
+    "stars": 136818,
+    "license": "MIT",
+    "maintainer": "mendableai",
+    "slug": "firecrawl-web-scraping-ai-agents",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2481,
+    "h2_count": 10,
+    "code_blocks": 11,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/mendableai/firecrawl/main/frontend/public/logo.svg",
+        "alt": "Firecrawl Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/firecrawl/en.md"
+  },
+  {
+    "id": 61,
+    "name": "foundry",
+    "category": "ai-tools",
+    "repo": "foundry-rs/foundry",
+    "stars": 10444,
+    "license": "Apache-2.0",
+    "maintainer": "foundry-rs",
+    "slug": "foundry-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2224,
+    "h2_count": 10,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/foundry-rs/foundry/main/docs/logo.png",
+        "alt": "Foundry Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/foundry/en.md"
+  },
+  {
+    "id": 62,
+    "name": "freqtrade",
+    "category": "ai-trading",
+    "repo": "",
+    "stars": 0,
+    "license": "GPL-3.0",
+    "maintainer": "",
+    "slug": "freqtrade-open-source-crypto-trading-bot-2026",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3851,
+    "h2_count": 11,
+    "code_blocks": 29,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png \"Freqtrade Web UI — real-time strategy visualization and trade monitoring\"",
+        "alt": "Freqtrade Dashboard Screenshot"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png",
+        "alt": "Freqtrade backtest performance chart"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/freqtrade/en.md"
+  },
+  {
+    "id": 63,
+    "name": "gaussian-splatting",
+    "category": "ai-tools",
+    "repo": "graphdeco-inria/gaussian-splatting",
+    "stars": 22430,
+    "license": "Other",
+    "maintainer": "graphdeco-inria",
+    "slug": "gaussiansplatting-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3176,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/graphdeco-inria/gaussian-splatting/main/docs/logo.png",
+        "alt": "Gaussian Splatting Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/gaussian-splatting/en.md"
+  },
+  {
+    "id": 64,
+    "name": "guizang-ppt-skill",
+    "category": "ai-tools",
+    "repo": "op7418/guizang-ppt-skill",
+    "stars": 18454,
+    "license": "AGPL-3.0",
+    "maintainer": "op7418",
+    "slug": "guizangpptskill-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2951,
+    "h2_count": 12,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/op7418/guizang-ppt-skill/main/docs/logo.png",
+        "alt": "Guizang Ppt Skill Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/guizang-ppt-skill/en.md"
+  },
+  {
+    "id": 65,
+    "name": "haystack",
+    "category": "rag-framework",
+    "repo": "https://github.com/deepset-ai/haystack",
+    "stars": 25620,
+    "license": "Apache-2.0",
+    "maintainer": "deepset-ai",
+    "slug": "haystack-ai-production-rag-framework-llm-applications-2026",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3907,
+    "h2_count": 12,
+    "code_blocks": 34,
+    "faq_count": 0,
+    "image_count": 3,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/images/banner.png",
+        "alt": "Haystack banner"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/docs/images/pipeline-run.drawio.png",
+        "alt": "Haystack architecture overview"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/docs/images/pipeline.drawio.png",
+        "alt": "Haystack pipeline visualization"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/haystack/en.md"
+  },
+  {
+    "id": 66,
+    "name": "headroom",
+    "category": "dev-utils",
+    "repo": "chopratejas/headroom",
+    "stars": 42360,
+    "license": "Apache-2.0",
+    "maintainer": "chopratejas",
+    "slug": "headroom-ai-token-compression-library-proxy-mcp",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3983,
+    "h2_count": 11,
+    "code_blocks": 38,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
+        "alt": "Headroom AI Demo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/chopratejas/headroom/main/headroom_learn.gif",
+        "alt": "Headroom compression algorithm comparison"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/headroom/en.md"
+  },
+  {
+    "id": 67,
+    "name": "hiyouga-llamafactory",
+    "category": "fine-tuning",
+    "repo": "hiyouga/hiyouga-llamafactory",
+    "stars": 72378,
+    "license": "MIT",
+    "maintainer": "hiyouga",
+    "slug": "llamafactory-fine-tuning-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2492,
+    "h2_count": 11,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/hiyouga/LlamaFactory/main/assets/logo.png",
+        "alt": "LlamaFactory Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/hiyouga-llamafactory/en.md"
+  },
+  {
+    "id": 68,
+    "name": "huggingface-transformers",
+    "category": "ml-framework",
+    "repo": "huggingface/huggingface-transformers",
+    "stars": 161804,
+    "license": "Apache-2.0",
+    "maintainer": "huggingface",
+    "slug": "huggingface-transformers-complete-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2727,
+    "h2_count": 11,
+    "code_blocks": 37,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/main/docs/logo.png",
+        "alt": "Hugging Face Transformers Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/huggingface-transformers/en.md"
+  },
+  {
+    "id": 69,
+    "name": "huginn",
+    "category": "ai-agents",
+    "repo": "huginn/huginn",
+    "stars": 49499,
+    "license": "MIT",
+    "maintainer": "huginn",
+    "slug": "huginn-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3063,
+    "h2_count": 10,
+    "code_blocks": 21,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/huginn/huginn/main/docs/logo.png",
+        "alt": "Huginn Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/huginn/en.md"
+  },
+  {
+    "id": 70,
+    "name": "ionic-framework",
+    "category": "ai-tools",
+    "repo": "ionic-team/ionic-framework",
+    "stars": 52536,
+    "license": "MIT",
+    "maintainer": "ionic-team",
+    "slug": "ionicframework-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2726,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/ionic-team/ionic-framework/main/docs/logo.png",
+        "alt": "Ionic Framework Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/ionic-framework/en.md"
+  },
+  {
+    "id": 71,
+    "name": "kaldi",
+    "category": "speech-ai",
+    "repo": "kaldi-asr/kaldi",
+    "stars": 15417,
+    "license": "Other",
+    "maintainer": "kaldi-asr",
+    "slug": "kaldi-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3146,
+    "h2_count": 11,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/kaldi-asr/kaldi/main/docs/logo.png",
+        "alt": "Kaldi Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/kaldi/en.md"
+  },
+  {
+    "id": 72,
+    "name": "khoj",
+    "category": "ai-tools",
+    "repo": "khoj-ai/khoj",
+    "stars": 35249,
+    "license": "AGPL-3.0",
+    "maintainer": "khoj-ai",
+    "slug": "khoj-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2720,
+    "h2_count": 10,
+    "code_blocks": 24,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/khoj-ai/khoj/main/docs/logo.png",
+        "alt": "Khoj Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/khoj/en.md"
+  },
+  {
+    "id": 73,
+    "name": "label-studio",
+    "category": "ai-tools",
+    "repo": "HumanSignal/label-studio",
+    "stars": 27666,
+    "license": "Apache-2.0",
+    "maintainer": "HumanSignal",
+    "slug": "labelstudio-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2133,
+    "h2_count": 10,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/HumanSignal/label-studio/main/docs/logo.png",
+        "alt": "Label Studio Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/label-studio/en.md"
+  },
+  {
+    "id": 74,
+    "name": "langextract",
+    "category": "ai-tools",
+    "repo": "",
+    "stars": 36936,
+    "license": "Apache-2.0",
+    "maintainer": "",
+    "slug": "langextract-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2651,
+    "h2_count": 10,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/google/langextract/main/docs/logo.png",
+        "alt": "Langextract Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/assets/partners/logos/do-logo-partner.svg",
+        "alt": "DigitalOcean Banner"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/langextract/en.md"
+  },
+  {
+    "id": 75,
+    "name": "langflow",
+    "category": "llm-ui",
+    "repo": "langflow-ai/langflow",
+    "stars": 149940,
+    "license": "MIT",
+    "maintainer": "langflow-ai",
+    "slug": "langflow-visual-ai-agent-builder",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2957,
+    "h2_count": 10,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/langflow-ai/langflow/main/assets/images/langflow-feature.png",
+        "alt": "Langflow Feature Image"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/langflow/en.md"
+  },
+  {
+    "id": 76,
+    "name": "learnopencv",
+    "category": "ai-tools",
+    "repo": "spmallick/learnopencv",
+    "stars": 22983,
+    "license": "None",
+    "maintainer": "spmallick",
+    "slug": "learnopencv-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2924,
+    "h2_count": 10,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/spmallick/learnopencv/main/docs/logo.png",
+        "alt": "LearnOpenCV Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/assets/partners/logos/digitalocean.svg",
+        "alt": "DigitalOcean"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/learnopencv/en.md"
+  },
+  {
+    "id": 77,
+    "name": "lightRAG",
+    "category": "graph-rag",
+    "repo": "HKUDS/lightRAG",
+    "stars": 36826,
+    "license": "MIT",
+    "maintainer": "HKUDS",
+    "slug": "lightrag-graph-rag-implementation",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2599,
+    "h2_count": 9,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://learnopencv.com/wp-content/uploads/2024/11/LightRAG-VectorDB-Json-KV-Store-Indexing-Flowchart-scaled.jpg",
+        "alt": "LightRAG Architecture Overview"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/lightRAG/en.md"
+  },
+  {
+    "id": 78,
+    "name": "llama_index",
+    "category": "ai-tools",
+    "repo": "run-llama/llama_index",
+    "stars": 50287,
+    "license": "MIT",
+    "maintainer": "run-llama",
+    "slug": "llama_index-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2480,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/run-llama/llama_index/main/docs/logo.png",
+        "alt": "LlamaIndex Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/llama_index/en.md"
+  },
+  {
+    "id": 79,
+    "name": "llm-course",
+    "category": "ai-tools",
+    "repo": "mlabonne/llm-course",
+    "stars": 80288,
+    "license": "Apache-2.0",
+    "maintainer": "mlabonne",
+    "slug": "llmcourse-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2827,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/mlabonne/llm-course/main/docs/logo.png",
+        "alt": "Llm-Course Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/llm-course/en.md"
+  },
+  {
+    "id": 80,
+    "name": "mediapipe",
+    "category": "ai-tools",
+    "repo": "google-ai-edge/mediapipe",
+    "stars": 35769,
+    "license": "Apache-2.0",
+    "maintainer": "google-ai-edge",
+    "slug": "mediapipe-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2406,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/main/docs/logo.png",
+        "alt": "MediaPipe Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/mediapipe/en.md"
+  },
+  {
+    "id": 81,
+    "name": "mempalace",
+    "category": "data-science",
+    "repo": "MemPalace/mempalace",
+    "stars": 56077,
+    "license": "MIT",
+    "maintainer": "MemPalace",
+    "slug": "mempalace-local-ai-memory-system-chromadb",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 4011,
+    "h2_count": 11,
+    "code_blocks": 33,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/MemPalace/mempalace/main/assets/mempalace_logo.png",
+        "alt": "MemPalace logo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/MemPalace/mempalace/main/assets/mempalace_logo.png",
+        "alt": "MemPalace palace architecture diagram"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/mempalace/en.md"
+  },
+  {
+    "id": 82,
+    "name": "metagpt",
+    "category": "multi-agent",
+    "repo": "FoundationAgents/metagpt",
+    "stars": 68943,
+    "license": "Apache-2.0",
+    "maintainer": "FoundationAgents",
+    "slug": "metagpt-multi-agent-software-company",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2303,
+    "h2_count": 10,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/MetaGPT-new-log-v2.png",
+        "alt": "MetaGPT Logo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/software_company_cd.jpeg",
+        "alt": "Software Company Workflow"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/metagpt/en.md"
+  },
+  {
+    "id": 83,
+    "name": "models",
+    "category": "speech-ai",
+    "repo": "PaddlePaddle/models",
+    "stars": 6935,
+    "license": "Apache-2.0",
+    "maintainer": "PaddlePaddle",
+    "slug": "models-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2721,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 0,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [],
+    "file_path": "/root/HERMES/articles/models/en.md"
+  },
+  {
+    "id": 84,
+    "name": "modelscope",
+    "category": "speech-ai",
+    "repo": "",
+    "stars": 0,
+    "license": "Unknown",
+    "maintainer": "",
+    "slug": "modelscope-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2212,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/modelscope/modelscope/main/docs/logo.png",
+        "alt": "ModelScope Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/modelscope/en.md"
+  },
+  {
+    "id": 85,
+    "name": "neural-doodle",
+    "category": "ai-tools",
+    "repo": "alexjc/neural-doodle",
+    "stars": 9854,
+    "license": "AGPL-3.0",
+    "maintainer": "alexjc",
+    "slug": "neuraldoodle-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2683,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/alexjc/neural-doodle/main/docs/logo.png",
+        "alt": "Neural Doodle Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/assets/images/partners/cloud-marketplace/partner-logo.svg",
+        "alt": "DigitalOcean Affiliate Link"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/neural-doodle/en.md"
+  },
+  {
+    "id": 86,
+    "name": "oh-my-claudecode",
+    "category": "ai-tools",
+    "repo": "Yeachan-Heo/oh-my-claudecode",
+    "stars": 36778,
+    "license": "MIT",
+    "maintainer": "Yeachan-Heo",
+    "slug": "ohmyclaudecode-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3271,
+    "h2_count": 10,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/docs/logo.png",
+        "alt": "Oh My Claudecode Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/oh-my-claudecode/en.md"
+  },
+  {
+    "id": 87,
+    "name": "open-webui",
+    "category": "llm-webui",
+    "repo": "open-webui/open-webui",
+    "stars": 142621,
+    "license": "BSD-3-Clause",
+    "maintainer": "open-webui",
+    "slug": "open-webui-self-hosted-llm-interface",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2454,
+    "h2_count": 11,
+    "code_blocks": 27,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/frontend/src/assets/og-image.png",
+        "alt": "Open WebUI Interface"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/open-webui/en.md"
+  },
+  {
+    "id": 88,
+    "name": "opencv",
+    "category": "ai-tools",
+    "repo": "opencv/opencv",
+    "stars": 89313,
+    "license": "Apache-2.0",
+    "maintainer": "opencv",
+    "slug": "opencv-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2515,
+    "h2_count": 11,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/opencv/opencv/main/docs/logo.png",
+        "alt": "OpenCV Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/opencv/en.md"
+  },
+  {
+    "id": 89,
+    "name": "openinterpreter",
+    "category": "coding-agent",
+    "repo": "openinterpreter/openinterpreter",
+    "stars": 64089,
+    "license": "MIT",
+    "maintainer": "openinterpreter",
+    "slug": "open-interpreter-coding-agent",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2835,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/docs/favicon.ico",
+        "alt": "Open Interpreter Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/openinterpreter/en.md"
+  },
+  {
+    "id": 90,
+    "name": "openpose",
+    "category": "ai-tools",
+    "repo": "CMU-Perceptual-Computing-Lab/openpose",
+    "stars": 34159,
+    "license": "Other",
+    "maintainer": "CMU-Perceptual-Computing-Lab",
+    "slug": "openpose-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3086,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/main/docs/logo.png",
+        "alt": "OpenPose Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/openpose/en.md"
+  },
+  {
+    "id": 91,
+    "name": "pix2pix",
+    "category": "ai-tools",
+    "repo": "phillipi/pix2pix",
+    "stars": 10644,
+    "license": "Other",
+    "maintainer": "phillipi",
+    "slug": "pix2pix-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2702,
+    "h2_count": 10,
+    "code_blocks": 23,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/phillipi/pix2pix/main/docs/logo.png",
+        "alt": "Pix2Pix Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/pix2pix/en.md"
+  },
+  {
+    "id": 92,
+    "name": "pytorch-CycleGAN-and-pix2pix",
+    "category": "ai-tools",
+    "repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+    "stars": 0,
+    "license": "Other (NOASSERTION)",
+    "maintainer": "junyanz",
+    "slug": "pytorchcycleganandpix2pix-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2458,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/junyanz/pytorch-CycleGAN-and-Pix2Pix/main/docs/logo.png",
+        "alt": "PyTorch CycleGAN and pix2pix Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/pytorch-CycleGAN-and-pix2pix/en.md"
+  },
+  {
+    "id": 93,
+    "name": "ragaai-catalyst",
+    "category": "ai-observability",
+    "repo": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+    "stars": 16149,
+    "license": "Apache-2.0",
+    "maintainer": "raga-ai-hub",
+    "slug": "ragaai-catalyst-llm-agent-observability-monitoring-evaluation-2026",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3421,
+    "h2_count": 12,
+    "code_blocks": 23,
+    "faq_count": 0,
+    "image_count": 5,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/dataset.png",
+        "alt": "RagaAI Catalyst dataset management"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/autheticate.gif",
+        "alt": "RagaAI Catalyst authentication flow"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/last_main.png",
+        "alt": "RagaAI Catalyst agentic tracing visualization"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/guardrails.png",
+        "alt": "RagaAI Catalyst guardrails management"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/create_project.gif",
+        "alt": "RagaAI Catalyst project management dashboard"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/ragaai-catalyst/en.md"
+  },
+  {
+    "id": 94,
+    "name": "ragflow",
+    "category": "rag-engine",
+    "repo": "infiniflow/ragflow",
+    "stars": 83302,
+    "license": "Apache-2.0",
+    "maintainer": "infiniflow",
+    "slug": "ragflow-deep-document-understanding",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2221,
+    "h2_count": 9,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 0,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [],
+    "file_path": "/root/HERMES/articles/ragflow/en.md"
+  },
+  {
+    "id": 95,
+    "name": "rails",
+    "category": "ai-tools",
+    "repo": "rails/rails",
+    "stars": 58713,
+    "license": "MIT",
+    "maintainer": "rails",
+    "slug": "rails-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2506,
+    "h2_count": 10,
+    "code_blocks": 35,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/rails/rails/main/docs/logo.png",
+        "alt": "Rails Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/rails/en.md"
+  },
+  {
+    "id": 96,
+    "name": "satori",
+    "category": "image-generation",
+    "repo": "vercel/satori",
+    "stars": 13558,
+    "license": "MPL-2.0",
+    "maintainer": "vercel",
+    "slug": "satori-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2755,
+    "h2_count": 10,
+    "code_blocks": 17,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/vercel/satori/main/docs/logo.png",
+        "alt": "Satori Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/satori/en.md"
+  },
+  {
+    "id": 97,
+    "name": "sglang",
+    "category": "model-serving",
+    "repo": "https://github.com/sgl-project/sglang",
+    "stars": 29498,
+    "license": "Apache-2.0",
+    "maintainer": "sgl-project",
+    "slug": "sglang-high-performance-llm-serving-framework-2026",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3282,
+    "h2_count": 12,
+    "code_blocks": 25,
+    "faq_count": 0,
+    "image_count": 3,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sgl-project/sglang/main/assets/logo.png",
+        "alt": "SGLang Logo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sgl-project/sglang/main/docs/en/_static/radixtree.png",
+        "alt": "SGLang Architecture"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sgl-project/sglang/main/docs/en/_static/serving_overview.png",
+        "alt": "SGLang RadixTree Visualization"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/sglang/en.md"
+  },
+  {
+    "id": 98,
+    "name": "silero-models",
+    "category": "speech-ai",
+    "repo": "snakers4/silero-models",
+    "stars": 5976,
+    "license": "Other (NOASSERTION)",
+    "maintainer": "snakers4",
+    "slug": "sileromodels-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3072,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/snakers4/silero-models/main/docs/logo.png",
+        "alt": "Silero Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/silero-models/en.md"
+  },
+  {
+    "id": 99,
+    "name": "silero-vad",
+    "category": "speech-ai",
+    "repo": "snakers4/silero-vad",
+    "stars": 9386,
+    "license": "MIT",
+    "maintainer": "snakers4",
+    "slug": "silerovad-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3001,
+    "h2_count": 10,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/snakers4/silero-vad/main/docs/logo.png",
+        "alt": "Silero VAD Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/silero-vad/en.md"
+  },
+  {
+    "id": 100,
+    "name": "sim",
+    "category": "ai-tools",
+    "repo": "simstudioai/sim",
+    "stars": 28838,
+    "license": "Apache-2.0",
+    "maintainer": "simstudioai",
+    "slug": "sim-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2477,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/simstudioai/sim/main/docs/logo.png",
+        "alt": "Sim Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/sim/en.md"
+  },
+  {
+    "id": 101,
+    "name": "so-vits-svc",
+    "category": "ai-tools",
+    "repo": "svc-develop-team/so-vits-svc",
+    "stars": 28107,
+    "license": "AGPL-3.0",
+    "maintainer": "svc-develop-team",
+    "slug": "sovitssvc-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2377,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/svc-develop-team/so-vits-svc/main/docs/logo.png",
+        "alt": "So-Vits-Svc Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/so-vits-svc/en.md"
+  },
+  {
+    "id": 102,
+    "name": "spaCy",
+    "category": "ai-tools",
+    "repo": "explosion/spaCy",
+    "stars": 33686,
+    "license": "MIT",
+    "maintainer": "explosion",
+    "slug": "spacy-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3118,
+    "h2_count": 10,
+    "code_blocks": 15,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/explosion/spaCy/main/docs/logo.png",
+        "alt": "Spacy Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/spaCy/en.md"
+  },
+  {
+    "id": 103,
+    "name": "stable-diffusion-webui-colab",
+    "category": "ai-tools",
+    "repo": "camenduru/stable-diffusion-webui-colab",
+    "stars": 15941,
+    "license": "The Unlicense",
+    "maintainer": "camenduru",
+    "slug": "stablediffusionwebuicolab-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2598,
+    "h2_count": 10,
+    "code_blocks": 14,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/camenduru/stable-diffusion-webui-colab/main/docs/logo.png",
+        "alt": "Stable Diffusion Webui Colab Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/stable-diffusion-webui-colab/en.md"
+  },
+  {
+    "id": 104,
+    "name": "storm",
+    "category": "ai-tools",
+    "repo": "stanford-oval/storm",
+    "stars": 0,
+    "license": "MIT",
+    "maintainer": "stanford-oval",
+    "slug": "storm-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3077,
+    "h2_count": 10,
+    "code_blocks": 24,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/stanford-oval/storm/main/docs/logo.png",
+        "alt": "Storm Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/storm/en.md"
+  },
+  {
+    "id": 105,
+    "name": "streamlit",
+    "category": "ai-tools",
+    "repo": "streamlit/streamlit",
+    "stars": 45031,
+    "license": "Apache-2.0",
+    "maintainer": "streamlit",
+    "slug": "streamlit-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2922,
+    "h2_count": 10,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/streamlit/streamlit/main/docs/logo.png",
+        "alt": "Streamlit Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/streamlit/en.md"
+  },
+  {
+    "id": 106,
+    "name": "supervision",
+    "category": "ai-tools",
+    "repo": "roboflow/supervision",
+    "stars": 44796,
+    "license": "MIT",
+    "maintainer": "roboflow",
+    "slug": "supervision-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2402,
+    "h2_count": 10,
+    "code_blocks": 12,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/roboflow/supervision/main/docs/logo.png",
+        "alt": "Supervision Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/supervision/en.md"
+  },
+  {
+    "id": 107,
+    "name": "system_prompts_leaks",
+    "category": "uncategorized",
+    "repo": "asgeirtj/system_prompts_leaks",
+    "stars": 44931,
+    "license": "CC0-1.0",
+    "maintainer": "asgeirtj",
+    "slug": "system_prompts_leaks-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2490,
+    "h2_count": 10,
+    "code_blocks": 21,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/main/docs/logo.png",
+        "alt": "System Prompts Leaks Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/system_prompts_leaks/en.md"
+  },
+  {
+    "id": 108,
+    "name": "ultralytics-ultralytics",
+    "category": "uncategorized",
+    "repo": "",
+    "stars": 0,
+    "license": "Unknown",
+    "maintainer": "",
+    "slug": "ultralytics-yolo-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2819,
+    "h2_count": 10,
+    "code_blocks": 23,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner.png",
+        "alt": "Ultralytics YOLO Banner"
+      },
+      {
+        "url": "https://www.digitalocean.com/community/assets/logo-digitalocean.svg",
+        "alt": "DigitalOcean Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/ultralytics-ultralytics/en.md"
+  },
+  {
+    "id": 109,
+    "name": "ultrarag",
+    "category": "advanced-rag",
+    "repo": "https://github.com/OpenBMB/UltraRAG",
+    "stars": 5603,
+    "license": "MIT",
+    "maintainer": "OpenBMB",
+    "slug": "ultrarag-low-code-mcp-rag-framework-innovative-pipelines-2026",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3364,
+    "h2_count": 12,
+    "code_blocks": 40,
+    "faq_count": 0,
+    "image_count": 4,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenBMB/UltraRAG/main/docs/architecture.png",
+        "alt": "UltraRAG architecture"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OpenBMB/UltraRAG/main/docs/ultrarag.svg",
+        "alt": "UltraRAG architecture diagram"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OpenBMB/UltraRAG/main/docs/chat_menu.png",
+        "alt": "UltraRAG UI canvas"
+      },
+      {
+        "url": "https://api.star-history.com/svg?repos=OpenBMB/UltraRAG&type=Date",
+        "alt": "UltraRAG star history"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/ultrarag/en.md"
+  },
+  {
+    "id": 110,
+    "name": "unilm",
+    "category": "ai-tools",
+    "repo": "microsoft/unilm",
+    "stars": 22151,
+    "license": "MIT License",
+    "maintainer": "microsoft",
+    "slug": "unilm-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2471,
+    "h2_count": 10,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 2,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/microsoft/unilm/main/docs/logo.png",
+        "alt": "Unilm Logo"
+      },
+      {
+        "url": "https://www.digitalocean.com/community/tutorials/images/digitalocean-logo.png",
+        "alt": "DigitalOcean Banner"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/unilm/en.md"
+  },
+  {
+    "id": 111,
+    "name": "vit-pytorch",
+    "category": "ai-tools",
+    "repo": "lucidrains/vit-pytorch",
+    "stars": 25335,
+    "license": "MIT",
+    "maintainer": "lucidrains",
+    "slug": "vitpytorch-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2945,
+    "h2_count": 10,
+    "code_blocks": 21,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/lucidrains/vit-pytorch/main/docs/logo.png",
+        "alt": "Vit Pytorch Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/vit-pytorch/en.md"
+  },
+  {
+    "id": 112,
+    "name": "vllm",
+    "category": "llm-serving",
+    "repo": "vllm-project/vllm",
+    "stars": 83496,
+    "license": "Apache-2.0",
+    "maintainer": "vllm-project",
+    "slug": "vllm-complete-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2461,
+    "h2_count": 9,
+    "code_blocks": 16,
+    "faq_count": 0,
+    "image_count": 3,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-dark.png",
+        "alt": "vLLM Logo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/design/hierarchy.png",
+        "alt": "vLLM Hierarchy"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/deployment/anything-llm-chat-with-doc.png",
+        "alt": "AnythingLLM Chat with Docs"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/vllm/en.md"
+  },
+  {
+    "id": 113,
+    "name": "warpdotdev-warp",
+    "category": "terminal-ide",
+    "repo": "warpdotdev/warpdotdev-warp",
+    "stars": 62181,
+    "license": "Proprietary",
+    "maintainer": "warpdotdev",
+    "slug": "warp-terminal-ide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 3569,
+    "h2_count": 10,
+    "code_blocks": 22,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/warpdotdev/warp/main/docs/logo.png",
+        "alt": "Warp Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/warpdotdev-warp/en.md"
+  },
+  {
+    "id": 114,
+    "name": "whisperX",
+    "category": "uncategorized",
+    "repo": "m-bain/whisperX",
+    "stars": 22609,
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "maintainer": "m-bain",
+    "slug": "whisperx-guide",
+    "date": "2026-06-22",
+    "language": "en",
+    "word_count": 2401,
+    "h2_count": 10,
+    "code_blocks": 19,
+    "faq_count": 0,
+    "image_count": 1,
+    "comparison_table": true,
+    "affiliate_links": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/m-bain/whisperX/main/docs/logo.png",
+        "alt": "WhisperX Logo"
+      }
+    ],
+    "file_path": "/root/HERMES/articles/whisperX/en.md"
+  }
+]

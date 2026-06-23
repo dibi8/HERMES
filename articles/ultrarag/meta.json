@@ -1,0 +1,38 @@
+{
+  "id": 109,
+  "name": "ultrarag",
+  "category": "'advanced-rag'",
+  "repo": "https://github.com/OpenBMB/UltraRAG",
+  "stars": 5603,
+  "license": "'MIT'",
+  "maintainer": "'OpenBMB'",
+  "slug": "'ultrarag-low-code-mcp-rag-framework-innovative-pipelines-2026'",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3364,
+  "h2_count": 12,
+  "code_blocks": 40,
+  "faq_count": 0,
+  "image_count": 4,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenBMB/UltraRAG/main/docs/architecture.png",
+      "alt": "UltraRAG architecture"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenBMB/UltraRAG/main/docs/ultrarag.svg",
+      "alt": "UltraRAG architecture diagram"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenBMB/UltraRAG/main/docs/chat_menu.png",
+      "alt": "UltraRAG UI canvas"
+    },
+    {
+      "url": "https://api.star-history.com/svg?repos=OpenBMB/UltraRAG&type=Date",
+      "alt": "UltraRAG star history"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/ultrarag/en.md"
+}

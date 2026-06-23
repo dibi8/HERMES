@@ -1,0 +1,34 @@
+{
+  "id": 53,
+  "name": "crewai",
+  "category": "'ai-agents'",
+  "repo": "https://github.com/crewAIInc/crewAI",
+  "stars": 54092,
+  "license": "'MIT'",
+  "maintainer": "'crewAIInc'",
+  "slug": "'crewai-autonomous-multi-agent-orchestration-framework-2026'",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3756,
+  "h2_count": 12,
+  "code_blocks": 28,
+  "faq_count": 0,
+  "image_count": 3,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/docs/images/asset.png",
+      "alt": "CrewAI Hero Image"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/docs/images/crewai-process-flow.png",
+      "alt": "CrewAI Architecture Diagram"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/docs/images/crewai-terminal-output.png",
+      "alt": "CrewAI Installation Screenshot"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/crewai/en.md"
+}

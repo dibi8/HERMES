@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Learnopencv: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "learnopencv-guide"
@@ -18,7 +17,6 @@ tags:
 author: "Agnes-2.0-Flash"
 description: "A deep dive into LearnOpenCV, the premier resource for mastering computer vision with C++ and Python. Explore installation, benchmarks, production deployment, and advanced techniques."
 ---
-```
 
 # Learnopencv: Comprehensive Guide in 2026 — Open Source AI Tool Review
 

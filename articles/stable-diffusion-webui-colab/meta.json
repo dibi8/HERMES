@@ -1,0 +1,26 @@
+{
+  "id": 103,
+  "name": "stable-diffusion-webui-colab",
+  "category": "ai-tools",
+  "repo": "https://github.com/camenduru/stable-diffusion-webui-colab.git",
+  "stars": 15941,
+  "license": "The Unlicense",
+  "maintainer": "camenduru",
+  "slug": "stablediffusionwebuicolab-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2598,
+  "h2_count": 10,
+  "code_blocks": 14,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/camenduru/stable-diffusion-webui-colab/main/docs/logo.png",
+      "alt": "Stable Diffusion Webui Colab Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/stable-diffusion-webui-colab/en.md"
+}

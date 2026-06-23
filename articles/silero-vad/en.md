@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Silero-Vad: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "silerovad-guide"
@@ -12,15 +11,21 @@ maintainer: "snakers4"
 image: "https://raw.githubusercontent.com/snakers4/silero-vad/main/docs/logo.png"
 description: "A deep dive into Silero VAD, the enterprise-grade voice activity detector powering modern speech AI applications. Learn installation, benchmarks, and production deployment strategies."
 ---
-```
 
 # Silero-Vad: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![silero-vad repository overview](https://opengraph.githubicons.com/snakers4/silero-vad/1.0.0)
+
+![silero-vad dark preview](https://opengraph.githubicons.com/dark/snakers4/silero-vad/1.0.0)
 
 In the rapidly evolving landscape of speech artificial intelligence, accurate voice detection is the critical first step that determines the success of downstream tasks like transcription, translation, and intent recognition. Silero VAD has emerged as a foundational component for developers seeking reliable, low-latency, and high-precision voice activity detection without the burden of heavy computational overhead. This guide explores how Silero VAD works, its integration capabilities, and why it remains a top choice for engineering teams building real-time audio processing pipelines in 2026.
 
 ![Silero VAD Logo](https://raw.githubusercontent.com/snakers4/silero-vad/main/docs/logo.png)
 
 ## What Is Silero Vad?
+
+*Reviewed and published by dibi8.com — the AI Source Code Hub.*
+
 
 Silero VAD (Voice Activity Detector) is an open-source, pre-trained model designed to detect whether speech is present in an audio stream. Unlike full Automatic Speech Recognition (ASR) systems, which transcribe audio into text, VAD acts as a gatekeeper. It analyzes audio chunks and outputs a binary decision: speech or non-speech. This distinction is vital for optimizing costs and latency in AI applications.
 

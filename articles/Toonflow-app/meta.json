@@ -1,0 +1,26 @@
+{
+  "id": 32,
+  "name": "Toonflow-app",
+  "category": "ai-tools",
+  "repo": "https://github.com/HBAI-Ltd/Toonflow-app",
+  "stars": 10363,
+  "license": "Apache-2.0",
+  "maintainer": "HBAI-Ltd",
+  "slug": "toonflowapp-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2249,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/HBAI-Ltd/Toonflow-app/main/docs/logo.png",
+      "alt": "Toonflow Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Toonflow-app/en.md"
+}

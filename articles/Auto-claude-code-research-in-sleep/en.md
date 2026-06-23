@@ -14,6 +14,8 @@ image: "https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-i
 
 # Auto-Claude-Code-Research-In-Sleep: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![Auto-claude-code-research-in-sleep repository overview](https://opengraph.githubicons.com/wanshuiyin/Auto-claude-code-research-in-sleep/1.0.0)
+
 In an era where information overload threatens productivity, finding efficient ways to automate deep technical research has become a critical skill for developers. Enter **Auto Claude Code Research In Sleep (ARIS)**, a lightweight, open-source tool that promises to handle complex research tasks while you focus on other priorities. With over 12,000 stars and a robust MIT license, ARIS has quickly become a staple in the AI-assisted development workflow. This guide explores its architecture, setup, and practical applications, providing you with the knowledge to integrate it seamlessly into your projects. Whether you are a solo developer or part of a large engineering team, understanding how to harness autonomous research tools can significantly accelerate your development cycle.
 
 ![Auto Claude Code Research In Sleep Logo](https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/main/docs/logo.png)

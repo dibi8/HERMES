@@ -720,6 +720,41 @@ LangSmith 紧密耦合到 LangChain 生态系统且仅限云端。RagaAI Catalys
 
 > **披露**: 上方部分链接含联盟推广。如通过链接注册，dibi8.com 可能获得佣金，不影响你的成本。这帮助 dibi8 持续免费运营。
 
+
+## FAQ
+
+### 1. How to install RagaAI Catalyst?
+
+Run `pip install ragaai-catalyst`. Then set up authentication with your access and secret keys from the RagaAI platform. For self-hosted deployments, use `docker pull ragaai/catalyst:latest` and configure with `docker compose`.
+
+### 2. What is RagaAI Catalyst used for?
+
+RagaAI Catalyst is used for LLM agent observability, monitoring, and evaluation. It provides tracing for single and multi-agent systems, batch evaluation of RAG pipelines, dataset management, prompt versioning, synthetic data generation, guardrail deployment, and red-teaming for safety assessment.
+
+### 3. How does RagaAI Catalyst compare to LangSmith?
+
+LangSmith is tightly coupled to the LangChain ecosystem and cloud-only. RagaAI Catalyst supports multiple frameworks (LangChain, LangGraph, CrewAI, OpenAI, LiteLLM), offers self-hosted deployment, and includes additional features like synthetic data generation, guardrails, and red-teaming that LangSmith does not provide natively.
+
+### 4. Can RagaAI Catalyst be used without an internet connection?
+
+Partially. The SDK requires authentication with the RagaAI backend for initial setup. Self-hosted deployments via Docker reduce external dependencies, but full offline operation would require modifying the SDK to remove the authentication layer. Basic tracing can work locally if the dashboard is self-hosted.
+
+### 5. Does RagaAI Catalyst support multi-agent frameworks like CrewAI?
+
+Yes. RagaAI Catalyst has dedicated tracer types for CrewAI, LangGraph, LangChain, and other frameworks. Use `tracer_type="agentic"` for CrewAI and LangGraph setups, and decorators like `@trace_llm`, `@trace_tool`, and `@trace_agent` for fine-grained instrumentation.
+
+### 6. What evaluation metrics does RagaAI Catalyst support?
+
+Built-in metrics include Faithfulness, Hallucination, Answer Relevance, Context Precision, and Context Recall. You can configure thresholds (gte, lte, eq) and specify the evaluation model (e.g., `gpt-4o-mini`, `claude-sonnet-4-20250514`). Custom metrics can be added through the evaluation API.
+
+### 7. How to migrate from another observability tool to RagaAI Catalyst?
+
+Export your existing traces as JSON or CSV, create a dataset in RagaAI Catalyst using `Dataset.create_from_csv()`, and map your schema using the `schema_mapping` parameter. For tracing, replace your existing instrumentation library with `init_tracing()` and the RagaAI `Tracer` class.
+
+### 8. Is RagaAI Catalyst free to use?
+
+The SDK is open-source under Apache-2.0 and free to install. The platform offers a free tier with limited traces and evaluations. Paid plans unlock higher throughput, more storage, and advanced features like custom guardrail models. Check the RagaAI pricing page for current tiers.
+
 ## 结论：行动号召 (CTA)
 
 RagaAI Catalyst 填补了 LLM 工程工具包中的一个关键空白：它将可观测性、评估和安全性整合到一个单一的 Python SDK 中。对于构建基于智能体的应用程序的团队——无论是使用 LangChain、CrewAI 还是自定义框架——智能体追踪、批量评估、提示词版本控制和红队测试的组合使其成为最全面的开源选项之一。

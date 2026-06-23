@@ -1,0 +1,26 @@
+{
+  "id": 71,
+  "name": "kaldi",
+  "category": "speech-ai",
+  "repo": "https://github.com/kaldi-asr/kaldi.git",
+  "stars": 15417,
+  "license": "Other",
+  "maintainer": "kaldi-asr",
+  "slug": "kaldi-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3146,
+  "h2_count": 11,
+  "code_blocks": 22,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/kaldi-asr/kaldi/main/docs/logo.png",
+      "alt": "Kaldi Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/kaldi/en.md"
+}

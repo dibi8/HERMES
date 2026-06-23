@@ -1,0 +1,30 @@
+{
+  "id": 31,
+  "name": "TauricResearch-TradingAgents",
+  "category": "ai-trading",
+  "repo": "https://github.com/TauricResearch/TradingAgents.git",
+  "stars": 87971,
+  "license": "MIT",
+  "maintainer": "TauricResearch",
+  "slug": "tradingagents-llm-framework",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2852,
+  "h2_count": 10,
+  "code_blocks": 16,
+  "faq_count": 12,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/main/docs/logo.png",
+      "alt": "TradingAgents Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/community/assets/images/digitalocean-logo.png",
+      "alt": "DigitalOcean Affiliate Banner"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/TauricResearch-TradingAgents/en.md"
+}

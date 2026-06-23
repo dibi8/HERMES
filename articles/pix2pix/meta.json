@@ -1,0 +1,26 @@
+{
+  "id": 91,
+  "name": "pix2pix",
+  "category": "ai-tools",
+  "repo": "https://github.com/phillipi/pix2pix.git",
+  "stars": 10644,
+  "license": "Other",
+  "maintainer": "phillipi",
+  "slug": "pix2pix-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2702,
+  "h2_count": 10,
+  "code_blocks": 23,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/phillipi/pix2pix/main/docs/logo.png",
+      "alt": "Pix2Pix Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/pix2pix/en.md"
+}

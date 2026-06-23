@@ -1,0 +1,26 @@
+{
+  "id": 19,
+  "name": "InvokeAI",
+  "category": "ai-tools",
+  "repo": "https://github.com/invoke-ai/InvokeAI",
+  "stars": 27499,
+  "license": "Apache-2.0",
+  "maintainer": "invoke-ai",
+  "slug": "invokeai-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2816,
+  "h2_count": 10,
+  "code_blocks": 20,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/docs/logo.png",
+      "alt": "InvokeAI Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/InvokeAI/en.md"
+}

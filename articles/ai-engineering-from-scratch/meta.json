@@ -1,0 +1,26 @@
+{
+  "id": 37,
+  "name": "ai-engineering-from-scratch",
+  "category": "ai-tools",
+  "repo": "https://github.com/rohitg00/ai-engineering-from-scratch.git",
+  "stars": 35631,
+  "license": "MIT",
+  "maintainer": "rohitg00",
+  "slug": "aiengineeringfromscratch-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2390,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/docs/logo.png",
+      "alt": "Ai Engineering From Scratch Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/ai-engineering-from-scratch/en.md"
+}

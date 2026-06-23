@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Tts: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "tts-guide"
@@ -12,7 +11,6 @@ github_stars: 10151
 maintainer: "mozilla"
 category: "speech-ai"
 ---
-```
 
 # Tts: Comprehensive Guide in 2026 — Open Source AI Tool Review
 

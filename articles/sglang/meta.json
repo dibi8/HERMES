@@ -1,0 +1,34 @@
+{
+  "id": 97,
+  "name": "sglang",
+  "category": "'model-serving'",
+  "repo": "https://github.com/sgl-project/sglang",
+  "stars": 29498,
+  "license": "'Apache-2.0'",
+  "maintainer": "'sgl-project'",
+  "slug": "'sglang-high-performance-llm-serving-framework-2026'",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3282,
+  "h2_count": 12,
+  "code_blocks": 25,
+  "faq_count": 0,
+  "image_count": 3,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/sgl-project/sglang/main/assets/logo.png",
+      "alt": "SGLang Logo"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sgl-project/sglang/main/docs/en/_static/radixtree.png",
+      "alt": "SGLang Architecture"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sgl-project/sglang/main/docs/en/_static/serving_overview.png",
+      "alt": "SGLang RadixTree Visualization"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/sglang/en.md"
+}

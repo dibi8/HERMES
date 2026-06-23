@@ -709,6 +709,41 @@ CrewAI 在智能体遇到错误时会抛出异常。默认情况下，团队会�
 - [AgentMemory MCP](https://dibi8.com/agentmemory-mcp-persistent-memory) — AI 智能体的持久化内存方案
 - [Context7 MCP Server](https://dibi8.com/context7-mcp-server-production-setup-guide) — MCP 服务器生产部署指南
 
+
+## FAQ
+
+### 1. How to install CrewAI on a fresh system?
+
+To install CrewAI, first ensure Python 3.10+ is available. Then run `pip install crewai`. For tool integrations, use `pip install 'crewai[tools]'`. Set your API keys as environment variables before running any crew. See the Installation & Setup section above for the complete walkthrough.
+
+### 2. CrewAI vs AutoGen: Which framework should I choose?
+
+CrewAI uses a role-based task assignment model where agents are defined with specific roles, goals, and tools. AutoGen relies on conversational patterns where agents negotiate through message exchanges. For the CrewAI vs AutoGen debate, CrewAI is generally easier to set up for pipeline-style workflows, while AutoGen offers more flexibility for open-ended multi-agent dialogues. For a detailed comparison, refer to the comparison table above.
+
+### 3. Can CrewAI run with local models instead of cloud APIs?
+
+Yes. CrewAI supports any OpenAI-compatible endpoint, including local models served through Ollama, LM Studio, or vLLM. Configure the `llm` parameter with your local model name and set the base URL via environment variables or the `ollama_base_url` parameter. This is useful for air-gapped environments or cost reduction.
+
+### 4. How do I handle agent memory persistence across sessions?
+
+CrewAI provides built-in process memory for active sessions. For cross-session persistence, integrate with external storage solutions. You can use vector databases (ChromaDB, Pinecone) for semantic memory or connect to MCP-based memory servers like [agentmemory-mcp-persistent-memory](https://dibi8.com/agentmemory-mcp-persistent-memory) for durable state management.
+
+### 5. Is CrewAI suitable for production workloads?
+
+Yes, CrewAI is production-ready for many use cases. Teams use it for automated code review, content generation, market research, and customer support triage. For production deployments, implement rate limiting, error recovery, security sanitization, and monitoring as described in the Advanced Usage section. Key considerations include token budget management, CrewAI security best practices, and robust logging.
+
+### 6. How much does CrewAI cost to run?
+
+CrewAI itself is free (MIT license). Costs come from LLM API usage. A typical 2-agent crew with moderate complexity might consume 10,000–50,000 tokens per execution. At standard API rates, this translates to roughly $0.05–$0.50 per run depending on the models used. Optimize costs by using smaller models for routine tasks and reserving premium models for critical reasoning steps.
+
+### 7. What happens if an agent fails during execution?
+
+CrewAI raises exceptions when agents encounter errors. By default, the crew stops and returns the partial result. You can implement retry logic using libraries like `tenacity` (shown in the Advanced Usage section) or configure the `allow_delegation` flag to let other agents handle failed tasks. Structured error handling is essential for reliable CrewAI production setup.
+
+### 8. Can I use CrewAI with non-English LLMs?
+
+Yes. CrewAI works with any LLM accessible through its provider interface. Models like Qwen, Baichuan, and GLM are supported through OpenAI-compatible endpoints. Just set the appropriate `llm` parameter and ensure the model supports the desired language. Prompt engineering may need adjustment for non-English contexts.
+
 ## 总结
 
 CrewAI 已确立了其作为多智能体编排领先框架的地位，拥有超过 54,000 个 GitHub Star，活跃的社区推动着快速迭代发展。其基于角色的智能体模型、灵活的工具集成以及对顺序和层级两种执行模式的支持，使其适用于广泛的应用场景——从自动化内容流水线到代码审查系统和市场调研工作流。

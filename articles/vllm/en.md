@@ -403,4 +403,10 @@ vLLM supports sequence lengths up to 32,768 tokens for models that support long 
 
 ### Q7: How does vLLM handle concurrent requests?
 vLLM uses continuous batching to handle concurrent requests efficiently. Multiple requests can be processed simultaneously without waiting for completion, dramatically improving throughput.
+---
 
+**Disclosure:** Some links above are affiliate links. dibi8.com may earn a commission if you sign up, at no extra cost to you. Helps keep the site running and the content free.
+
+---
+
+**Join our community:** [Telegram Group](https://t.me/DIBI8_Group) | Visit [dibi8.com](https://dibi8.com) for more AI tool reviews and tutorials.

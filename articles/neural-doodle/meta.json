@@ -1,0 +1,30 @@
+{
+  "id": 85,
+  "name": "neural-doodle",
+  "category": "ai-tools",
+  "repo": "https://github.com/alexjc/neural-doodle.git",
+  "stars": 9854,
+  "license": "AGPL-3.0",
+  "maintainer": "alexjc",
+  "slug": "neuraldoodle-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2683,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/alexjc/neural-doodle/main/docs/logo.png",
+      "alt": "Neural Doodle Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/assets/images/partners/cloud-marketplace/partner-logo.svg",
+      "alt": "DigitalOcean Affiliate Link"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/neural-doodle/en.md"
+}

@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "So-Vits-Svc: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: sovitssvc-guide
@@ -12,9 +11,10 @@ maintainer: "svc-develop-team"
 feature_image: "https://raw.githubusercontent.com/svc-develop-team/so-vits-svc/main/docs/logo.png"
 description: "A detailed technical review and installation guide for So-Vits-Svc, the leading open-source singing voice conversion model. Learn how to set up, train, and deploy this powerful AI tool."
 ---
-```
 
 # So-Vits-Svc: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![so-vits-svc repository overview](https://opengraph.githubicons.com/svc-develop-team/so-vits-svc/1.0.0)
 
 Voice synthesis and conversion have evolved from robotic text-to-speech systems to nuanced, emotive digital performances. At the forefront of this shift is **So-Vits-Svc** (SoftVC VITS Singing Voice Conversion), a project that has democratized high-fidelity voice cloning for musicians, content creators, and developers alike. In 2026, despite the emergence of newer architectures, So-Vits-Svc remains a cornerstone of the open-source AI audio community, boasting over 28,000 stars on GitHub and a massive ecosystem of pre-trained models.
 

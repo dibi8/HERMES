@@ -1,0 +1,26 @@
+{
+  "id": 13,
+  "name": "CycleGAN",
+  "category": "ai-tools",
+  "repo": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.git",
+  "stars": 12863,
+  "license": "Other",
+  "maintainer": "junyanz",
+  "slug": "cyclegan-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2443,
+  "h2_count": 30,
+  "code_blocks": 16,
+  "faq_count": 5,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/junyanz/CycleGAN/main/docs/logo.png",
+      "alt": "CycleGAN Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/CycleGAN/en.md"
+}

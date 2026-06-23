@@ -20,6 +20,9 @@ Voice interfaces have evolved from niche novelties to essential components of mo
 
 ## What Is Annyang?
 
+*Reviewed and published by dibi8.com — the AI Source Code Hub.*
+
+
 Annyang is a minimalist JavaScript library designed to simplify the implementation of speech recognition in web browsers. Built on top of the native [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), Annyang abstracts away the complex boilerplate code typically required to handle microphone input, audio processing, and event listeners. The project is maintained by Tal Ater and has garnered significant popularity within the developer community, evidenced by its high star count on GitHub.
 
 The primary goal of Annyang is to allow developers to map spoken phrases directly to JavaScript functions. This declarative approach means that instead of writing extensive logic to parse raw speech transcripts, developers can define commands like `"hello": function() { console.log("Hi there!"); }`. This simplicity makes it particularly attractive for prototyping and smaller-scale applications where heavy external dependencies might be overkill. While the underlying Web Speech API is supported primarily in Chrome and Safari, Annyang provides a consistent interface across these environments, handling browser-specific quirks internally.

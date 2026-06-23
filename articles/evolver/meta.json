@@ -1,0 +1,26 @@
+{
+  "id": 59,
+  "name": "evolver",
+  "category": "ai-tools",
+  "repo": "https://github.com/EvoMap/evolver.git",
+  "stars": 8737,
+  "license": "GPL-3.0",
+  "maintainer": "EvoMap",
+  "slug": "evolver-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2116,
+  "h2_count": 0,
+  "code_blocks": 17,
+  "faq_count": 5,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/EvoMap/evolver/main/docs/logo.png",
+      "alt": "Evolver Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/evolver/en.md"
+}

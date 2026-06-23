@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Awesome-Gpt-Image-2-Api-And-Prompts: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: awesomegptimage2apiandprompts-guide
@@ -16,7 +15,6 @@ license: CC0-1.0
 maintainer: EvoLinkAI
 featured_image: https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/docs/logo.png
 ---
-```
 
 ![Awesome GPT Image 2 API Logo](https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/docs/logo.png)
 
@@ -47,6 +45,9 @@ By consolidating these resources, Awesome GPT Image 2 API and Prompts reduces th
 Understanding the underlying mechanics of Awesome GPT Image 2 API and Prompts requires a look at the interaction between the user, the API gateway, and the generative models. The system operates on a client-server architecture where the repository provides the "client-side" logic and configuration, while the actual image generation is handled by backend AI models, such as Stable Diffusion, DALL-E, or other proprietary diffusion networks.
 
 ### The Prompt Engineering Layer
+
+*Reviewed and published by dibi8.com — the AI Source Code Hub.*
+
 
 The first step in the workflow is prompt formulation. The repository provides a library of optimized prompts that serve as templates. Users can select a base prompt and modify parameters such as style, lighting, composition, and subject details. For example, a user might start with a generic prompt for a "futuristic city" and refine it using the provided templates to specify "cyberpunk aesthetic," "neon lighting," and "rainy atmosphere."
 

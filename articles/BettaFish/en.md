@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Bettafish: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "bettafish-guide"
@@ -14,6 +13,8 @@ description: "A deep dive into Bettafish, the zero-dependency multi-agent public
 ---
 
 # Bettafish: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![BettaFish repository overview](https://opengraph.githubicons.com/666ghj/BettaFish/1.0.0)
 
 In an era where information overload threatens to obscure truth, the ability to analyze public sentiment accurately is no longer a luxury—it is a necessity for businesses, researchers, and policymakers. **Bettafish** emerges as a powerful, lightweight solution designed to dismantle the barriers of traditional sentiment analysis by employing a multi-agent architecture that operates independently of bulky frameworks. This guide explores how Bettafish restores the original shape of public opinion, offers predictive insights, and empowers decision-making through pure Python implementation. As we navigate the complexities of digital discourse in 2026, understanding tools like Bettafish becomes crucial for anyone seeking clarity amidst the noise.
 
@@ -81,7 +82,6 @@ class BettafishWorkflow:
         for source in sources:
             data.extend(scrape(source, query))
         return data
-```
 
 ### Breaking the Information Cocoon
 

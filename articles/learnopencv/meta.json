@@ -1,0 +1,30 @@
+{
+  "id": 76,
+  "name": "learnopencv",
+  "category": "ai-tools",
+  "repo": "https://github.com/spmallick/learnopencv.git",
+  "stars": 22983,
+  "license": "None",
+  "maintainer": "spmallick",
+  "slug": "learnopencv-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2924,
+  "h2_count": 10,
+  "code_blocks": 14,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/spmallick/learnopencv/main/docs/logo.png",
+      "alt": "LearnOpenCV Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/assets/partners/logos/digitalocean.svg",
+      "alt": "DigitalOcean"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/learnopencv/en.md"
+}

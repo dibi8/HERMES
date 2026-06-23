@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Prompt-Engineering-Guide: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "promptengineeringguide-guide"
@@ -16,9 +15,10 @@ stars: "75,864"
 maintainer: "dair-ai"
 feature_image: "https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/main/docs/logo.png"
 ---
-```
 
 # Prompt-Engineering-Guide: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![Prompt-Engineering-Guide repository overview](https://opengraph.githubicons.com/dair-ai/Prompt-Engineering-Guide/1.0.0)
 
 The landscape of artificial intelligence has shifted dramatically. In 2026, the ability to communicate effectively with Large Language Models (LLMs) is no longer just a niche skill for developers; it is a fundamental competency for data scientists, product managers, and researchers alike. As models become more complex, the gap between a mediocre output and an exceptional one often lies not in the model itself, but in how we instruct it. This is where the **Prompt Engineering Guide** stands out as an essential resource. Maintained by `dair-ai`, this repository has garnered over 75,000 stars, making it one of the most significant open-source contributions to the AI community. For teams looking to build robust infrastructure to support these advanced workflows, consider optimizing your deployment environment with [DigitalOcean](https://m.do.co/c/eca87ac14ee0).
 

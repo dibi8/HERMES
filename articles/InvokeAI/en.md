@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Invokeai: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "invokeai-guide"
@@ -12,9 +11,12 @@ maintainer: "invoke-ai"
 image: "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/docs/logo.png"
 description: "A deep dive into InvokeAI, the leading open-source creative engine for Stable Diffusion. Learn installation, advanced workflows, production deployment, and benchmarks."
 ---
-```
 
 # Invokeai: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![InvokeAI repository overview](https://opengraph.githubicons.com/invoke-ai/InvokeAI/1.0.0)
+
+![InvokeAI dark preview](https://opengraph.githubicons.com/dark/invoke-ai/InvokeAI/1.0.0)
 
 Artificial intelligence has reshaped the creative landscape, moving from experimental novelty to industrial standard. Among the myriad of tools available, few have maintained such a consistent trajectory of innovation and community trust as InvokeAI. As we navigate through 2026, the demand for robust, local-first, and privacy-respecting generative AI solutions has never been higher. This guide explores InvokeAI, a powerful creative engine that empowers users to harness the full potential of Stable Diffusion models without the complexity often associated with command-line interfaces or fragmented software ecosystems. Whether you are a digital artist, a developer, or an enterprise looking to integrate AI into your workflow, understanding InvokeAI is essential for staying ahead in this rapidly evolving field.
 

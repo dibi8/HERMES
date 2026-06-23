@@ -1,0 +1,26 @@
+{
+  "id": 111,
+  "name": "vit-pytorch",
+  "category": "ai-tools",
+  "repo": "https://github.com/lucidrains/vit-pytorch.git",
+  "stars": 25335,
+  "license": "MIT",
+  "maintainer": "lucidrains",
+  "slug": "vitpytorch-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2945,
+  "h2_count": 10,
+  "code_blocks": 21,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/lucidrains/vit-pytorch/main/docs/logo.png",
+      "alt": "Vit Pytorch Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/vit-pytorch/en.md"
+}

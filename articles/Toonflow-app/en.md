@@ -13,11 +13,16 @@ tags: [ai-tools, open-source, animation, video-generation, toonflow]
 
 # Toonflow-App: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![Toonflow-app repository overview](https://opengraph.githubicons.com/HBAI-Ltd/Toonflow-app/1.0.0)
+
 The landscape of digital content creation has shifted dramatically, moving from manual animation pipelines to automated, AI-driven workflows. For creators seeking to transform text narratives into animated short films without massive infrastructure costs, **Toonflow** has emerged as a compelling solution. This guide explores how Toonflow bridges the gap between scriptwriting and visual storytelling, offering a lightweight, cross-platform desktop experience. By leveraging advanced AI models, it automates the tedious processes of storyboarding and character consistency, allowing writers to focus on narrative integrity rather than technical bottlenecks.
 
 ![Toonflow Logo](https://raw.githubusercontent.com/HBAI-Ltd/Toonflow-app/main/docs/logo.png)
 
 ## What Is Toonflow App?
+
+*Reviewed and published by dibi8.com — the AI Source Code Hub.*
+
 
 Toonflow is an open-source, all-in-one AI tool designed specifically for creating short animated dramas. It integrates several critical components of video production—screenwriting, storyboarding, character design, and video generation—into a single, cohesive interface. Unlike fragmented workflows that require switching between multiple specialized software suites, Toonflow provides a unified environment where a novel or script can be rapidly converted into a polished animation.
 

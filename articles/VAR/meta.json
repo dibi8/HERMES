@@ -1,0 +1,26 @@
+{
+  "id": 34,
+  "name": "VAR",
+  "category": "ai-tools",
+  "repo": "https://github.com/FoundationVision/VAR.git",
+  "stars": 8702,
+  "license": "MIT",
+  "maintainer": "FoundationVision",
+  "slug": "var-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2750,
+  "h2_count": 10,
+  "code_blocks": 17,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/FoundationVision/VAR/main/docs/logo.png",
+      "alt": "VAR Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/VAR/en.md"
+}

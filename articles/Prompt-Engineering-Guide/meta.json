@@ -1,0 +1,26 @@
+{
+  "id": 28,
+  "name": "Prompt-Engineering-Guide",
+  "category": "ai-agents",
+  "repo": "https://github.com/dair-ai/Prompt-Engineering-Guide.git",
+  "stars": 75864,
+  "license": "MIT",
+  "maintainer": "dair-ai",
+  "slug": "promptengineeringguide-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2927,
+  "h2_count": 10,
+  "code_blocks": 18,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/main/docs/logo.png",
+      "alt": "Prompt Engineering Guide Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Prompt-Engineering-Guide/en.md"
+}

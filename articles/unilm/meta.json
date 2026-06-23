@@ -1,0 +1,30 @@
+{
+  "id": 110,
+  "name": "unilm",
+  "category": "ai-tools",
+  "repo": "https://github.com/microsoft/unilm.git",
+  "stars": 22151,
+  "license": "MIT License",
+  "maintainer": "microsoft",
+  "slug": "unilm-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2471,
+  "h2_count": 10,
+  "code_blocks": 22,
+  "faq_count": 12,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/microsoft/unilm/main/docs/logo.png",
+      "alt": "Unilm Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/community/tutorials/images/digitalocean-logo.png",
+      "alt": "DigitalOcean Banner"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/unilm/en.md"
+}

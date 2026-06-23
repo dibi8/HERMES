@@ -1,0 +1,26 @@
+{
+  "id": 6,
+  "name": "AudioGPT",
+  "category": "speech-ai",
+  "repo": "https://github.com/AIGC-Audio/AudioGPT.git",
+  "stars": 10172,
+  "license": "Other",
+  "maintainer": "AIGC-Audio",
+  "slug": "audiogpt-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2512,
+  "h2_count": 10,
+  "code_blocks": 23,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/AIGC-Audio/AudioGPT/main/docs/logo.png",
+      "alt": "AudioGPT Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/AudioGPT/en.md"
+}

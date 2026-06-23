@@ -1,0 +1,30 @@
+{
+  "id": 82,
+  "name": "metagpt",
+  "category": "multi-agent",
+  "repo": "https://github.com/FoundationAgents/MetaGPT.git",
+  "stars": 68943,
+  "license": "Apache-2.0",
+  "maintainer": "FoundationAgents",
+  "slug": "metagpt-multi-agent-software-company",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2303,
+  "h2_count": 10,
+  "code_blocks": 16,
+  "faq_count": 7,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/MetaGPT-new-log-v2.png",
+      "alt": "MetaGPT Logo"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/software_company_cd.jpeg",
+      "alt": "Software Company Workflow"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/metagpt/en.md"
+}

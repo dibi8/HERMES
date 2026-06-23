@@ -1,0 +1,42 @@
+{
+  "id": 93,
+  "name": "ragaai-catalyst",
+  "category": "'ai-observability'",
+  "repo": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+  "stars": 16149,
+  "license": "'Apache-2.0'",
+  "maintainer": "'raga-ai-hub'",
+  "slug": "'ragaai-catalyst-llm-agent-observability-monitoring-evaluation-2026'",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3421,
+  "h2_count": 12,
+  "code_blocks": 23,
+  "faq_count": 0,
+  "image_count": 5,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/dataset.png",
+      "alt": "RagaAI Catalyst dataset management"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/autheticate.gif",
+      "alt": "RagaAI Catalyst authentication flow"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/last_main.png",
+      "alt": "RagaAI Catalyst agentic tracing visualization"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/guardrails.png",
+      "alt": "RagaAI Catalyst guardrails management"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/main/docs/img/create_project.gif",
+      "alt": "RagaAI Catalyst project management dashboard"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/ragaai-catalyst/en.md"
+}

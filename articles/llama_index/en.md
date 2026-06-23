@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Llama_Index: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: llama_index-guide
@@ -12,9 +11,12 @@ tags: ["llama-index", "rag", "open-source", "ai-tools", "dibi8"]
 image: "https://raw.githubusercontent.com/run-llama/llama_index/main/docs/logo.png"
 description: "A deep dive into LlamaIndex, the leading document agent and OCR platform for building context-aware AI applications. Learn installation, benchmarks, and production deployment strategies."
 ---
-```
 
 # Llama_Index: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![llama_index repository overview](https://opengraph.githubicons.com/run-llama/llama_index/1.0.0)
+
+![llama_index dark preview](https://opengraph.githubicons.com/dark/run-llama/llama_index/1.0.0)
 
 In an era where data is abundant but actionable insight remains scarce, connecting large language models (LLMs) to private, proprietary, or real-time information has become a critical engineering challenge. Traditional retrieval methods often fail to capture the nuance of complex documents, leading to hallucinations or irrelevant responses from AI agents. This gap has necessitated the rise of specialized frameworks designed specifically for indexing and retrieving unstructured data. Among these, LlamaIndex has emerged as a foundational pillar for developers seeking to build reliable, context-aware AI applications. This guide explores how LlamaIndex transforms raw data into structured knowledge bases, enabling powerful document agents and advanced OCR capabilities that redefine how machines understand human language.
 

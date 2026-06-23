@@ -1,0 +1,26 @@
+{
+  "id": 11,
+  "name": "CVPR2026-Papers-with-Code",
+  "category": "ai-tools",
+  "repo": "https://github.com/amusi/CVPR2026-Papers-with-Code.git",
+  "stars": 22716,
+  "license": "None",
+  "maintainer": "amusi",
+  "slug": "cvpr2026paperswithcode-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2301,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/amusi/CVPR2026-Papers-with-Code/main/docs/logo.png",
+      "alt": "CVPR 2026 Papers with Code Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/CVPR2026-Papers-with-Code/en.md"
+}

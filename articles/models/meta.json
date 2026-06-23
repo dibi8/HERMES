@@ -1,0 +1,21 @@
+{
+  "id": 83,
+  "name": "models",
+  "category": "speech-ai",
+  "repo": "https://github.com/PaddlePaddle/models.git",
+  "stars": 6935,
+  "license": "Apache-2.0",
+  "maintainer": "PaddlePaddle",
+  "slug": "models-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2721,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 14,
+  "image_count": 0,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [],
+  "file_path": "/root/HERMES/articles/models/en.md"
+}

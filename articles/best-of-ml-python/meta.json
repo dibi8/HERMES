@@ -1,0 +1,26 @@
+{
+  "id": 48,
+  "name": "best-of-ml-python",
+  "category": "ai-tools",
+  "repo": "https://github.com/lukasmasuch/best-of-ml-python",
+  "stars": 23650,
+  "license": "CC-BY-SA-4.0",
+  "maintainer": "lukasmasuch",
+  "slug": "bestofmlpython-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2430,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/lukasmasuch/best-of-ml-python/main/docs/logo.png",
+      "alt": "Best-Of-Ml-Python Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/best-of-ml-python/en.md"
+}

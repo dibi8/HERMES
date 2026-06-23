@@ -1,0 +1,26 @@
+{
+  "id": 58,
+  "name": "dream-textures",
+  "category": "ai-tools",
+  "repo": "https://github.com/carson-katri/dream-textures",
+  "stars": 8168,
+  "license": "GPL-3.0",
+  "maintainer": "carson-katri",
+  "slug": "dreamtextures-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3168,
+  "h2_count": 10,
+  "code_blocks": 8,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/carson-katri/dream-textures/main/docs/logo.png",
+      "alt": "Dream Textures Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/dream-textures/en.md"
+}

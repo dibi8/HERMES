@@ -1,0 +1,26 @@
+{
+  "id": 39,
+  "name": "airflow",
+  "category": "ai-tools",
+  "repo": "https://github.com/apache/airflow",
+  "stars": 45902,
+  "license": "Apache-2.0",
+  "maintainer": "apache",
+  "slug": "airflow-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2499,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/apache/airflow/main/docs/logo.png",
+      "alt": "Apache Airflow Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/airflow/en.md"
+}

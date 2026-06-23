@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Airflow: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: airflow-guide
@@ -13,6 +12,10 @@ tags: [airflow, apache-airflow, data-engineering, orchestration, open-source, py
 ---
 
 # Airflow: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![airflow repository overview](https://opengraph.githubicons.com/apache/airflow/1.0.0)
+
+![airflow dark preview](https://opengraph.githubicons.com/dark/apache/airflow/1.0.0)
 
 In the rapidly evolving landscape of data engineering and machine learning operations, the ability to programmatically define complex workflows is no longer a luxury—it is a necessity. As we navigate through 2026, organizations are increasingly relying on robust, transparent, and scalable orchestration platforms to manage everything from simple ETL pipelines to sophisticated AI model training loops. Among the vast array of tools available, Apache Airflow remains the dominant standard, offering unparalleled flexibility for teams that refuse to be locked into proprietary black boxes. This guide provides an in-depth technical review of Airflow, exploring its architecture, installation nuances, production-grade deployment strategies, and its critical role in modern AI workflows, helping you determine if it fits your infrastructure needs.
 
@@ -49,7 +52,6 @@ First, ensure you have Docker and Docker Compose installed on your system. Then,
 ```bash
 mkdir airflow-test
 cd airflow-test
-```
 
 Next, download the `docker-compose.yaml` file. Airflow provides a template that is easy to modify.
 

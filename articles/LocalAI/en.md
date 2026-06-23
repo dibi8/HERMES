@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Localai: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "localai-guide"
@@ -15,11 +14,16 @@ description: "A deep dive into LocalAI, the open-source engine for running LLMs,
 
 # Localai: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![LocalAI repository overview](https://opengraph.githubicons.com/mudler/LocalAI/1.0.0)
+
 In an era where data privacy concerns and API costs are skyrocketing, the ability to run powerful artificial intelligence locally has shifted from a niche hobbyist interest to a critical business imperative. LocalAI stands at the forefront of this movement, offering a versatile, open-source engine that democratizes access to large language models, computer vision, and audio processing without relying on cloud providers. This guide explores how LocalAI empowers developers and enterprises to maintain full control over their AI infrastructure while enjoying the flexibility of a drop-in replacement for popular commercial APIs. By understanding its capabilities, installation processes, and performance characteristics, you can make informed decisions about integrating self-hosted AI into your workflows. Whether you are a solo developer building a privacy-first application or an engineer scaling internal tools, LocalAI provides the robust foundation needed to deploy sophisticated AI models efficiently.
 
 ![LocalAI Logo](https://raw.githubusercontent.com/mudler/LocalAI/main/docs/logo.png)
 
 ## What Is Localai?
+
+*Reviewed and published by dibi8.com — the AI Source Code Hub.*
+
 
 LocalAI is an open-source, self-hosted API for running LLMs (Large Language Models), images, and voice generative models. It positions itself as a compatible drop-in replacement for OpenAI's API structure, meaning that applications designed to work with OpenAI can often switch to LocalAI with minimal code changes. The project is maintained by **mudler** and has garnered significant community support, evidenced by its status as a high-star repository on GitHub.
 
@@ -54,7 +58,6 @@ Docker is the recommended method for most users due to its ease of setup and iso
 ```bash
 # Pull the latest LocalAI image
 docker pull localai/localai:latest
-```
 
 Once the image is pulled, you can run the container with basic configurations.
 

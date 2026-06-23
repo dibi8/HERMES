@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Ai-Engineering-From-Scratch: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: "aiengineeringfromscratch-guide"
@@ -14,6 +13,8 @@ description: "A deep dive into Ai Engineering From Scratch (AEFS), an open-sourc
 ---
 
 # Ai-Engineering-From-Scratch: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![ai-engineering-from-scratch repository overview](https://opengraph.githubicons.com/rohitg00/ai-engineering-from-scratch/1.0.0)
 
 In the rapidly evolving landscape of artificial intelligence, the gap between theoretical knowledge and practical application often feels insurmountable for many developers. While numerous high-level frameworks abstract away the complexities of model training and inference, true mastery requires understanding the underlying mechanics that drive these systems. This is where **Ai Engineering From Scratch** emerges as a vital resource for engineers who refuse to treat AI as a black box. By focusing on foundational principles, this project empowers developers to build, understand, and ship robust AI solutions without relying solely on pre-built abstractions.
 
@@ -54,7 +55,6 @@ First, ensure you have Git installed. Then, clone the main repository:
 ```bash
 git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
 cd ai-engineering-from-scratch
-```
 
 ### Step 2: Create a Virtual Environment
 

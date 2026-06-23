@@ -14,6 +14,8 @@ description: "A deep dive into Supervision, the robust Python library for comput
 
 # Supervision: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![supervision repository overview](https://opengraph.githubicons.com/roboflow/supervision/1.0.0)
+
 In the rapidly evolving landscape of artificial intelligence, bridging the gap between raw model output and actionable insight remains a persistent challenge for engineers and data scientists alike. As we navigate through 2026, the demand for standardized, efficient, and reusable components in computer vision pipelines has never been higher. Enter Supervision, a lightweight yet powerful Python library developed by Roboflow that has become an indispensable asset for anyone working with object detection, segmentation, and classification models. This guide explores how Supervision simplifies complex visual data tasks, enabling developers to focus on innovation rather than reinventing the wheel.
 
 ![Supervision Logo](https://raw.githubusercontent.com/roboflow/supervision/main/docs/logo.png)

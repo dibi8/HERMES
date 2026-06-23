@@ -1,0 +1,26 @@
+{
+  "id": 113,
+  "name": "warpdotdev-warp",
+  "category": "terminal-ide",
+  "repo": "https://github.com/Heartcoolman/warp-cn",
+  "stars": 56,
+  "license": "Proprietary",
+  "maintainer": "warpdotdev",
+  "slug": "warp-terminal-ide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 3569,
+  "h2_count": 10,
+  "code_blocks": 22,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/warpdotdev/warp/main/docs/logo.png",
+      "alt": "Warp Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/warpdotdev-warp/en.md"
+}

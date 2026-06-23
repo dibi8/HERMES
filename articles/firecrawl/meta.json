@@ -1,0 +1,26 @@
+{
+  "id": 60,
+  "name": "firecrawl",
+  "category": "web-scraping",
+  "repo": "https://github.com/firecrawl/firecrawl",
+  "stars": 137859,
+  "license": "MIT",
+  "maintainer": "mendableai",
+  "slug": "firecrawl-web-scraping-ai-agents",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2481,
+  "h2_count": 10,
+  "code_blocks": 11,
+  "faq_count": 10,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/mendableai/firecrawl/main/frontend/public/logo.svg",
+      "alt": "Firecrawl Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/firecrawl/en.md"
+}

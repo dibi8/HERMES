@@ -1,0 +1,26 @@
+{
+  "id": 67,
+  "name": "hiyouga-llamafactory",
+  "category": "fine-tuning",
+  "repo": "https://github.com/hiyouga/LLaMA-Factory.git",
+  "stars": 72378,
+  "license": "MIT",
+  "maintainer": "hiyouga",
+  "slug": "llamafactory-fine-tuning-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2492,
+  "h2_count": 11,
+  "code_blocks": 19,
+  "faq_count": 5,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/hiyouga/LlamaFactory/main/assets/logo.png",
+      "alt": "LlamaFactory Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/hiyouga-llamafactory/en.md"
+}

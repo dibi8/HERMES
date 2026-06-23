@@ -1,0 +1,26 @@
+{
+  "id": 8,
+  "name": "Awesome-Chinese-LLM",
+  "category": "ai-tools",
+  "repo": "https://github.com/AiHubCN/Awesome-Chinese-LLM",
+  "stars": 22635,
+  "license": "None",
+  "maintainer": "AiHubCN",
+  "slug": "awesomechinesellm-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2220,
+  "h2_count": 10,
+  "code_blocks": 14,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/AiHubCN/Awesome-Chinese-LLM/main/docs/logo.png",
+      "alt": "Awesome Chinese LLM Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/Awesome-Chinese-LLM/en.md"
+}

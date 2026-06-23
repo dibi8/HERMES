@@ -1,0 +1,26 @@
+{
+  "id": 5,
+  "name": "AntonOsika-gpt-engineer",
+  "category": "code-generation",
+  "repo": "https://github.com/AntonOsika/gpt-engineer.git",
+  "stars": 55200,
+  "license": "MIT",
+  "maintainer": "AntonOsika",
+  "slug": "gpt-engineer-cli-codegen",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2737,
+  "h2_count": 12,
+  "code_blocks": 20,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/AntonOsika/gpt-engineer/main/assets/logo.png",
+      "alt": "gpt-engineer Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/AntonOsika-gpt-engineer/en.md"
+}

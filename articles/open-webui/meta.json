@@ -1,0 +1,26 @@
+{
+  "id": 87,
+  "name": "open-webui",
+  "category": "llm-webui",
+  "repo": "https://github.com/open-webui/open-webui.git",
+  "stars": 142621,
+  "license": "BSD-3-Clause",
+  "maintainer": "open-webui",
+  "slug": "open-webui-self-hosted-llm-interface",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2454,
+  "h2_count": 11,
+  "code_blocks": 27,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/frontend/src/assets/og-image.png",
+      "alt": "Open WebUI Interface"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/open-webui/en.md"
+}

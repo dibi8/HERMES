@@ -1,0 +1,26 @@
+{
+  "id": 89,
+  "name": "openinterpreter",
+  "category": "coding-agent",
+  "repo": "https://github.com/openinterpreter/openinterpreter.git",
+  "stars": 64089,
+  "license": "MIT",
+  "maintainer": "openinterpreter",
+  "slug": "open-interpreter-coding-agent",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2835,
+  "h2_count": 10,
+  "code_blocks": 19,
+  "faq_count": 5,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/openinterpreter/openinterpreter/main/docs/favicon.ico",
+      "alt": "Open Interpreter Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/openinterpreter/en.md"
+}

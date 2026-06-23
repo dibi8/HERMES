@@ -14,6 +14,8 @@ description: "A deep dive into Guizang Ppt Skill, an open-source AI agent that g
 
 # Guizang-Ppt-Skill: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![guizang-ppt-skill repository overview](https://opengraph.githubicons.com/op7418/guizang-ppt-skill/1.0.0)
+
 In an era where visual communication dictates professional success, the ability to rapidly generate high-quality presentations is no longer a luxury but a necessity. Traditional presentation software often demands hours of manual formatting, detracting from the core message delivery. Enter **Guizang Ppt Skill**, an open-source AI agent designed to bridge this gap by converting raw ideas into polished, responsive HTML slide decks with minimal human intervention. This tool has garnered significant attention in the developer community, boasting over 18,000 stars, signaling its robust utility and reliability for modern tech stacks. By leveraging advanced language models and structured output generation, Guizang Ppt Skill allows users to focus on content strategy rather than layout aesthetics. In this comprehensive guide, we will explore how this tool functions, its technical requirements, and how it compares to other solutions in the market.
 
 ![Guizang Ppt Skill Logo](https://raw.githubusercontent.com/op7418/guizang-ppt-skill/main/docs/logo.png)

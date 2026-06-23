@@ -20,6 +20,8 @@ description: "A deep dive into WhisperX, the open-source ASR tool offering word-
 
 # Whisperx: Comprehensive Guide in 2026 — Open Source AI Tool Review
 
+![whisperx repository overview](https://opengraph.githubicons.com/m-bain/whisperx/1.0.0)
+
 The landscape of automatic speech recognition (ASR) has evolved significantly, moving from simple text-to-speech conversions to nuanced understanding of human dialogue. In 2026, precision and speed remain paramount for developers building voice-enabled applications. **WhisperX** stands out as a critical tool in this ecosystem, bridging the gap between raw audio input and structured, searchable transcripts. This guide explores its architecture, implementation, and practical applications for technical teams.
 
 ## What Is Whisperx?

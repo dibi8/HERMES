@@ -731,6 +731,101 @@ ultrarag run examples/demos/RAG.yaml --eval
 - [相关：[RAG 架构实现指南]](rag-architecture-implementation-guide)
 - [相关：[Context7 MCP 服务器生产部署指南]](context7-mcp-server-production-setup-guide)
 
+
+## FAQ
+
+### How to install UltraRAG on a CPU-only machine?
+
+Use the CPU Docker image or install with minimal extras:
+
+```shell
+git clone https://github.com/OpenBMB/UltraRAG.git --depth 1
+cd UltraRAG
+uv sync --extra retriever
+# Use OpenAI-compatible API for generation instead of vLLM
+```
+
+The `retriever` extra includes FAISS for local vector search without GPU requirements.
+
+### What Python versions does UltraRAG support?
+
+UltraRAG requires Python 3.11 or 3.12. It does not support Python 3.10 or earlier due to dependency requirements from `fastmcp` and `vllm`. Use `uv` to manage the virtual environment automatically:
+
+```shell
+uv python install 3.12
+uv sync
+```
+
+### Can UltraRAG work with non-Milvus vector databases?
+
+Yes. The retriever server supports multiple backends configured through `parameter.yaml`. FAISS is available via the `retriever` extra, and you can add custom index backends by extending the `index_backends` module:
+
+```yaml
+backend_configs:
+  faiss:
+    index_type: IVF_FLAT
+    nlist: 128
+```
+
+### How does UltraRAG compare to Haystack for production RAG?
+
+Haystack excels at broad connector coverage and has been battle-tested in production for years. UltraRAG's advantage lies in its YAML-based orchestration with native support for loops and conditional branches — patterns that are cumbersome to express in Haystack's component pipeline. For simple linear RAG pipelines, Haystack may be simpler. For complex iterative or multi-path workflows, UltraRAG's declarative approach reduces boilerplate significantly. See our [Haystack production guide](haystack-ai-production-rag-framework-llm-applications-2026) for a deeper comparison.
+
+### Is UltraRAG suitable for production deployment?
+
+UltraRAG 3.0 was designed with production in mind. The MCP server architecture enables independent scaling of retrieval, generation, and routing components. Docker support simplifies containerized deployment. However, because the framework is younger than some alternatives, you should plan additional testing around reliability, monitoring, and rollback procedures before deploying to critical workloads.
+
+### How do I add a custom LLM provider to UltraRAG?
+
+Create a new generation server that wraps your LLM provider. The existing OpenAI-compatible server in `servers/generation/` demonstrates the pattern:
+
+```python
+from ultrarag.server import UltraRAG_MCP_Server
+
+app = UltraRAG_MCP_Server("custom_llm")
+
+class CustomLLM:
+    def __init__(self, mcp_inst: UltraRAG_MCP_Server):
+        mcp_inst.tool(self.custom_generate)
+
+    async def custom_generate(self, prompt_ls: List[str]) -> List[str]:
+        responses = []
+        for prompt in prompt_ls:
+            resp = await my_llm_client.generate(prompt)
+            responses.append(resp.text)
+        return responses
+```
+
+### What is the difference between UltraRAG v2 and v3?
+
+UltraRAG v2 introduced the MCP server decomposition and YAML pipeline orchestration. UltraRAG v3 (released January 2026) added the visual UI with bidirectional canvas-code synchronization, improved stateful variable passing across loop iterations, enhanced debugging tools, and made the reasoning logic fully transparent — eliminating the "black box" problem where intermediate pipeline states were difficult to inspect.
+
+### Can I use UltraRAG with local open-source models?
+
+Yes. UltraRAG supports any model accessible through OpenAI-compatible APIs or local inference engines like vLLM and Ollama. For local models, configure the generation server:
+
+```yaml
+generation:
+  backend: openai
+  backend_configs:
+    model_name_or_path: ollama/qwen2.5:7b
+    api_base: http://localhost:11434/v1
+```
+
+### How do I evaluate my UltraRAG pipeline?
+
+Use the built-in benchmark server with evaluation datasets:
+
+```shell
+# Download benchmark datasets
+ultrarag download-data --dataset hotpotqa
+
+# Run evaluation
+ultrarag run examples/demos/RAG.yaml --eval
+```
+
+The evaluation server computes standard metrics and generates comparison reports across different pipeline configurations.
+
 ## 结论：今天就开始部署你的第一个 UltraRAG 流水线
 
 UltraRAG 填补了 RAG 生态中的一个真实空白：**复杂检索工作流的声明式编排**。如果你厌倦了在 RAG 流水线中编写命令式 Python 代码来处理条件分支、迭代深化和多跳推理，UltraRAG 的 YAML 优先 MCP 架构提供了一种更清晰的替代方案。

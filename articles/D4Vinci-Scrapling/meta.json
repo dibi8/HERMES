@@ -1,0 +1,26 @@
+{
+  "id": 14,
+  "name": "D4Vinci-Scrapling",
+  "category": "web-scraping",
+  "repo": "https://github.com/D4Vinci/Scrapling",
+  "stars": 65567,
+  "license": "MIT",
+  "maintainer": "D4Vinci",
+  "slug": "scrapling-adaptive-scraping",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2442,
+  "h2_count": 10,
+  "code_blocks": 12,
+  "faq_count": 12,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/logo.png",
+      "alt": "Scrapling Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/D4Vinci-Scrapling/en.md"
+}

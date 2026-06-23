@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Rails: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: rails-guide
@@ -18,6 +17,10 @@ image: https://raw.githubusercontent.com/rails/rails/main/docs/logo.png
 ---
 
 # Rails: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![ohmyzsh repository overview](https://opengraph.githubicons.com/ohmyzsh/ohmyzsh/1.0.0)
+
+![ohmyzsh dark preview](https://opengraph.githubicons.com/dark/ohmyzsh/ohmyzsh/1.0.0)
 
 In the rapidly evolving landscape of software development, few frameworks have maintained their relevance and dominance as consistently as Ruby on Rails. Even in 2026, amidst the rise of specialized microservices and heavy JavaScript bundlers, Rails remains a powerhouse for building scalable, secure, and maintainable web applications. This guide explores why this open-source gem continues to be a top choice for developers worldwide, offering a deep dive into its architecture, performance, and ecosystem.
 
@@ -41,7 +44,6 @@ Rails.application.routes.draw do
   resources :articles
   root 'pages#home'
 end
-```
 
 ```ruby
 # Example of an Active Record Model

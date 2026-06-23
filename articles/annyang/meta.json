@@ -1,0 +1,30 @@
+{
+  "id": 40,
+  "name": "annyang",
+  "category": "speech-ai",
+  "repo": "",
+  "stars": 6813,
+  "license": "MIT",
+  "maintainer": "TalAter",
+  "slug": "annyang-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2927,
+  "h2_count": 10,
+  "code_blocks": 15,
+  "faq_count": 12,
+  "image_count": 2,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/TalAter/annyang/main/docs/logo.png",
+      "alt": "Annyang Logo"
+    },
+    {
+      "url": "https://www.digitalocean.com/assets/images/brand/DigitalOcean_logo.svg",
+      "alt": "DigitalOcean Affiliate"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/annyang/en.md"
+}

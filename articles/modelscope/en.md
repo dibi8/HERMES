@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Modelscope: Comprehensive Guide in 2026 — Open Source AI Tool Review"
 slug: modelscope-guide
@@ -11,6 +10,10 @@ description: "A deep dive into ModelScope, the Model-as-a-Service platform from 
 ---
 
 # Modelscope: Comprehensive Guide in 2026 — Open Source AI Tool Review
+
+![modelscope repository overview](https://opengraph.githubicons.com/modelscope/modelscope/1.0.0)
+
+![modelscope dark preview](https://opengraph.githubicons.com/dark/modelscope/modelscope/1.0.0)
 
 Artificial intelligence has evolved from experimental research labs into the backbone of modern digital infrastructure. In 2026, the barrier to entry for deploying sophisticated machine learning models is lower than ever, thanks to platforms that prioritize accessibility and community collaboration. Among these platforms, one stands out for its comprehensive ecosystem and robust support for diverse modalities: ModelScope. This guide explores how ModelScope brings the notion of Model-as-a-Service to life, offering developers a streamlined path from experimentation to production. Whether you are building speech recognition systems, computer vision applications, or large language models, understanding the mechanics of this open-source hub is essential for modern AI engineering.
 
@@ -37,7 +40,6 @@ First, ensure you have Python 3.8 or higher installed. Then, create a virtual en
 ```bash
 python -m venv modelscope_env
 source modelscope_env/bin/activate  # On Windows, use: modelscope_env\Scripts\activate
-```
 
 Next, install the ModelScope package along with common dependencies for deep learning tasks:
 

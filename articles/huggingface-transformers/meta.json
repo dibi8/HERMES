@@ -1,0 +1,26 @@
+{
+  "id": 68,
+  "name": "huggingface-transformers",
+  "category": "ml-framework",
+  "repo": "https://github.com/huggingface/transformers.git",
+  "stars": 161804,
+  "license": "Apache-2.0",
+  "maintainer": "huggingface",
+  "slug": "huggingface-transformers-complete-guide",
+  "date": "2026-06-22",
+  "language": "en",
+  "word_count": 2727,
+  "h2_count": 11,
+  "code_blocks": 37,
+  "faq_count": 7,
+  "image_count": 1,
+  "comparison_table": true,
+  "affiliate_links": [],
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/main/docs/logo.png",
+      "alt": "Hugging Face Transformers Logo"
+    }
+  ],
+  "file_path": "/root/HERMES/articles/huggingface-transformers/en.md"
+}
