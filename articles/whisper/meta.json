@@ -1,0 +1,17 @@
+{
+  "repo": "openai/whisper",
+  "name": "whisper",
+  "category": "speech-ai",
+  "stars": 103470,
+  "license": "MIT",
+  "maintainer": "openai",
+  "url": "https://github.com/openai/whisper",
+  "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "words": 2616,
+  "h2_count": 22,
+  "code_blocks": 15,
+  "faq_count": 6,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

@@ -1,0 +1,17 @@
+{
+  "repo": "apache/superset",
+  "name": "superset",
+  "category": "data-science",
+  "stars": 73455,
+  "license": "Apache-2.0",
+  "maintainer": "apache",
+  "url": "https://github.com/apache/superset",
+  "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+  "words": 2623,
+  "h2_count": 12,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 3,
+  "quality_score": "pass",
+  "published": true
+}

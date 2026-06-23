@@ -2,7 +2,7 @@
   "site": "dibi8.com",
   "generated": "2026-06-20",
   "batch": "2026-06-20-ai-tools-round-1",
-  "total_articles": 5,
+  "total_articles": 20,
   "total_words": 19037,
   "total_code_blocks": 152,
   "total_faqs": 36,
@@ -26,7 +26,9 @@
       "faq_count": 7,
       "image_count": 2,
       "comparison_table": true,
-      "affiliate_links": ["DigitalOcean"],
+      "affiliate_links": [
+        "DigitalOcean"
+      ],
       "file_path": "/root/tron-dapp/articles/context7/en.md"
     },
     {
@@ -46,7 +48,11 @@
       "faq_count": 7,
       "image_count": 2,
       "comparison_table": true,
-      "affiliate_links": ["DigitalOcean", "WebShare", "ProxyShard"],
+      "affiliate_links": [
+        "DigitalOcean",
+        "WebShare",
+        "ProxyShard"
+      ],
       "file_path": "/root/tron-dapp/articles/headroom/en.md"
     },
     {
@@ -66,7 +72,9 @@
       "faq_count": 7,
       "image_count": 2,
       "comparison_table": true,
-      "affiliate_links": ["DigitalOcean"],
+      "affiliate_links": [
+        "DigitalOcean"
+      ],
       "file_path": "/root/tron-dapp/articles/deerflow/en.md"
     },
     {
@@ -106,8 +114,38 @@
       "faq_count": 7,
       "image_count": 2,
       "comparison_table": true,
-      "affiliate_links": ["Binance", "OKX", "Minara", "DigitalOcean"],
+      "affiliate_links": [
+        "Binance",
+        "OKX",
+        "Minara",
+        "DigitalOcean"
+      ],
       "file_path": "/root/tron-dapp/articles/freqtrade/en.md"
     }
-  ]
+  ],
+  "published_repos": [
+    "open-mmlab/mmdetection",
+    "ollama/ollama",
+    "QwenLM/Qwen",
+    "ray-project/ray",
+    "google/flax",
+    "microsoft/onnxruntime",
+    "tensorflow/tensorflow",
+    "facebookresearch/detectron2",
+    "AUTOMATIC1111/stable-diffusion-webui",
+    "vllm-project/vllm",
+    "facebookresearch/llama",
+    "openai/whisper",
+    "apache/spark",
+    "pytorch/pytorch",
+    "NVIDIA/Megatron-LM",
+    "EleutherAI/gpt-neox",
+    "keras-team/keras",
+    "comfyanonymous/ComfyUI",
+    "huggingface/transformers",
+    "apache/superset"
+  ],
+  "last_batch": "batch-25",
+  "batch_date": "2026-06-24",
+  "batch_count": 20
 }

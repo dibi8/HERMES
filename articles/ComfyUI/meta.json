@@ -1,0 +1,17 @@
+{
+  "repo": "comfyanonymous/ComfyUI",
+  "name": "ComfyUI",
+  "category": "ai-tools",
+  "stars": 118093,
+  "license": "GPL-3.0",
+  "maintainer": "comfyanonymous",
+  "url": "https://github.com/comfyanonymous/ComfyUI",
+  "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+  "words": 2319,
+  "h2_count": 11,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

@@ -1,0 +1,17 @@
+{
+  "repo": "pytorch/pytorch",
+  "name": "pytorch",
+  "category": "data-science",
+  "stars": 100989,
+  "license": "NOASSERTION",
+  "maintainer": "pytorch",
+  "url": "https://github.com/pytorch/pytorch",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "words": 2228,
+  "h2_count": 19,
+  "code_blocks": 16,
+  "faq_count": 5,
+  "images": 3,
+  "quality_score": "pass",
+  "published": true
+}

@@ -1,34 +1,17 @@
 {
-  "id": 112,
+  "repo": "vllm-project/vllm",
   "name": "vllm",
-  "category": "llm-serving",
-  "repo": "https://github.com/vllm-project/vllm.git",
-  "stars": 83496,
+  "category": "model-serving",
+  "stars": 83654,
   "license": "Apache-2.0",
   "maintainer": "vllm-project",
-  "slug": "vllm-complete-guide",
-  "date": "2026-06-22",
-  "language": "en",
-  "word_count": 2461,
-  "h2_count": 9,
+  "url": "https://github.com/vllm-project/vllm",
+  "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "words": 2559,
+  "h2_count": 26,
   "code_blocks": 16,
-  "faq_count": 7,
-  "image_count": 3,
-  "comparison_table": true,
-  "affiliate_links": [],
-  "images": [
-    {
-      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-dark.png",
-      "alt": "vLLM Logo"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/design/hierarchy.png",
-      "alt": "vLLM Hierarchy"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/deployment/anything-llm-chat-with-doc.png",
-      "alt": "AnythingLLM Chat with Docs"
-    }
-  ],
-  "file_path": "/root/HERMES/articles/vllm/en.md"
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
 }

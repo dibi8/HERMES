@@ -1,0 +1,17 @@
+{
+  "repo": "QwenLM/Qwen",
+  "name": "Qwen",
+  "category": "llm-frameworks",
+  "stars": 21321,
+  "license": "Apache-2.0",
+  "maintainer": "QwenLM",
+  "url": "https://github.com/QwenLM/Qwen",
+  "description": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+  "words": 2648,
+  "h2_count": 12,
+  "code_blocks": 21,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

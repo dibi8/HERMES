@@ -1,0 +1,17 @@
+{
+  "repo": "ollama/ollama",
+  "name": "ollama",
+  "category": "model-serving",
+  "stars": 174803,
+  "license": "MIT",
+  "maintainer": "ollama",
+  "url": "https://github.com/ollama/ollama",
+  "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models",
+  "words": 2448,
+  "h2_count": 19,
+  "code_blocks": 16,
+  "faq_count": 6,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

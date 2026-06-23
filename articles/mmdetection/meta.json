@@ -1,0 +1,17 @@
+{
+  "repo": "open-mmlab/mmdetection",
+  "name": "mmdetection",
+  "category": "ai-tools",
+  "stars": 32765,
+  "license": "Apache-2.0",
+  "maintainer": "open-mmlab",
+  "url": "https://github.com/open-mmlab/mmdetection",
+  "description": "OpenMMLab Detection Toolbox and Benchmark",
+  "words": 2134,
+  "h2_count": 11,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 3,
+  "quality_score": "pass",
+  "published": true
+}

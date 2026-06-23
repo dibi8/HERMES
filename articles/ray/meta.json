@@ -1,0 +1,17 @@
+{
+  "repo": "ray-project/ray",
+  "name": "ray",
+  "category": "data-science",
+  "stars": 42996,
+  "license": "Apache-2.0",
+  "maintainer": "ray-project",
+  "url": "https://github.com/ray-project/ray",
+  "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries fo",
+  "words": 2531,
+  "h2_count": 12,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 3,
+  "quality_score": "pass",
+  "published": true
+}

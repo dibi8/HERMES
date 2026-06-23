@@ -1,0 +1,17 @@
+{
+  "repo": "facebookresearch/detectron2",
+  "name": "detectron2",
+  "category": "ai-tools",
+  "stars": 34570,
+  "license": "Apache-2.0",
+  "maintainer": "facebookresearch",
+  "url": "https://github.com/facebookresearch/detectron2",
+  "description": "Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.",
+  "words": 2188,
+  "h2_count": 11,
+  "code_blocks": 21,
+  "faq_count": 6,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

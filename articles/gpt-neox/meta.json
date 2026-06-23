@@ -1,0 +1,17 @@
+{
+  "repo": "EleutherAI/gpt-neox",
+  "name": "gpt-neox",
+  "category": "model-serving",
+  "stars": 7443,
+  "license": "Apache-2.0",
+  "maintainer": "EleutherAI",
+  "url": "https://github.com/EleutherAI/gpt-neox",
+  "description": "An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and D",
+  "words": 3076,
+  "h2_count": 12,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

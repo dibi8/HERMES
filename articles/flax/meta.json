@@ -1,0 +1,17 @@
+{
+  "repo": "google/flax",
+  "name": "flax",
+  "category": "data-science",
+  "stars": 7246,
+  "license": "Apache-2.0",
+  "maintainer": "google",
+  "url": "https://github.com/google/flax",
+  "description": "Flax is a neural network library for JAX that is designed for flexibility.",
+  "words": 2776,
+  "h2_count": 12,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

@@ -1,0 +1,17 @@
+{
+  "repo": "huggingface/transformers",
+  "name": "transformers",
+  "category": "llm-frameworks",
+  "stars": 161845,
+  "license": "Apache-2.0",
+  "maintainer": "huggingface",
+  "url": "https://github.com/huggingface/transformers",
+  "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text,",
+  "words": 2209,
+  "h2_count": 11,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

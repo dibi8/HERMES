@@ -1,0 +1,17 @@
+{
+  "repo": "microsoft/onnxruntime",
+  "name": "onnxruntime",
+  "category": "model-serving",
+  "stars": 20897,
+  "license": "MIT",
+  "maintainer": "microsoft",
+  "url": "https://github.com/microsoft/onnxruntime",
+  "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+  "words": 2771,
+  "h2_count": 11,
+  "code_blocks": 17,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

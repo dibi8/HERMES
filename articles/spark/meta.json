@@ -1,0 +1,17 @@
+{
+  "repo": "apache/spark",
+  "name": "spark",
+  "category": "data-science",
+  "stars": 43495,
+  "license": "Apache-2.0",
+  "maintainer": "apache",
+  "url": "https://github.com/apache/spark",
+  "description": "Apache Spark - A unified analytics engine for large-scale data processing",
+  "words": 2378,
+  "h2_count": 11,
+  "code_blocks": 19,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

@@ -1,0 +1,17 @@
+{
+  "repo": "AUTOMATIC1111/stable-diffusion-webui",
+  "name": "stable-diffusion-webui",
+  "category": "ai-tools",
+  "stars": 163857,
+  "license": "AGPL-3.0",
+  "maintainer": "AUTOMATIC1111",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "description": "Stable Diffusion web UI",
+  "words": 2404,
+  "h2_count": 12,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

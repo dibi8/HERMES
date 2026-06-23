@@ -1,0 +1,17 @@
+{
+  "repo": "keras-team/keras",
+  "name": "keras",
+  "category": "data-science",
+  "stars": 64106,
+  "license": "Apache-2.0",
+  "maintainer": "keras-team",
+  "url": "https://github.com/keras-team/keras",
+  "description": "Deep Learning for humans",
+  "words": 2319,
+  "h2_count": 12,
+  "code_blocks": 16,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

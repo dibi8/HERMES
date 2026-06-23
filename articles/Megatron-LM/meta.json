@@ -1,0 +1,17 @@
+{
+  "repo": "NVIDIA/Megatron-LM",
+  "name": "Megatron-LM",
+  "category": "model-serving",
+  "stars": 16808,
+  "license": "NOASSERTION",
+  "maintainer": "NVIDIA",
+  "url": "https://github.com/NVIDIA/Megatron-LM",
+  "description": "Ongoing research training transformer models at scale",
+  "words": 2032,
+  "h2_count": 11,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

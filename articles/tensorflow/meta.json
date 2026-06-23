@@ -1,0 +1,17 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "name": "tensorflow",
+  "category": "data-science",
+  "stars": 195862,
+  "license": "Apache-2.0",
+  "maintainer": "tensorflow",
+  "url": "https://github.com/tensorflow/tensorflow",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "words": 2400,
+  "h2_count": 11,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 2,
+  "quality_score": "pass",
+  "published": true
+}

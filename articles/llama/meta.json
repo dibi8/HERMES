@@ -1,0 +1,17 @@
+{
+  "repo": "facebookresearch/llama",
+  "name": "llama",
+  "category": "speech-ai",
+  "stars": 59463,
+  "license": "NOASSERTION",
+  "maintainer": "facebookresearch",
+  "url": "https://github.com/facebookresearch/llama",
+  "description": "Inference code for Llama models",
+  "words": 2417,
+  "h2_count": 12,
+  "code_blocks": 15,
+  "faq_count": 5,
+  "images": 3,
+  "quality_score": "pass",
+  "published": true
+}
