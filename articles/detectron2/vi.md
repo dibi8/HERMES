@@ -15,36 +15,36 @@ lang: "en"
 
 ![Detectron2 Logo](https://raw.githubusercontent.com/facebookresearch/detectron2/master/assets/detectron2_logo.png)
 
-Trong bối cảnh thị giác máy tính phát triển nhanh chóng, độ chính xác và tốc độ không còn là tùy chọn—chúng là điều kiện tiên quyết. Đối với các nhà phát triển xây dựng xe tự hành, hệ thống kiểm tra chất lượng công nghiệp hoặc chẩn đoán hình ảnh y tế, biên độ sai số là rất nhỏ. Các khung phát hiện đối tượng truyền thống thường yêu cầu tùy chỉnh đáng kể, dẫn đến các cơ sở mã phân mảnh khó bảo trì. Sự phân mảnh này tạo ra nút cổ chai: các nhóm dành nhiều thời gian hơn để vật lộn với cơ sở hạ tầng thay vì giải quyết các vấn đề thực tế của lĩnh vực.
+Trong bối cảnh thị giác máy tính phát triển nhanh chóng, độ chính xác và tốc độ không còn là tùy chọn—chúng là điều kiện tiên quyết. Đối với các nhà phát triển xây dựng xe tự hành, hệ thống kiểm soát chất lượng công nghiệp hoặc chẩn đoán hình ảnh y tế, biên độ sai sót rất nhỏ. Các khung phát hiện đối tượng truyền thống thường yêu cầu tùy chỉnh đáng kể, dẫn đến các cơ sở mã phân mảnh khó bảo trì. Sự phân mảnh này tạo ra nút cổ chai: các nhóm dành nhiều thời gian hơn để vật lộn với cơ sở hạ tầng thay vì giải quyết các vấn đề thực tế của lĩnh vực.
 
-Đây là lúc **Detectron2** xuất hiện. Được phát triển bởi Meta AI (trước đây là Facebook Research), nó đã trở thành trụ cột cho các tác vụ nhận dạng hình ảnh hiện đại. Tại **dibi8.com**, chúng tôi phân tích các công cụ cầu nối khoảng cách giữa nghiên cứu học thuật và sản xuất công nghiệp. Trong bài viết này, chúng tôi sẽ phân tích Detectron2, khám phá kiến trúc, quy trình thiết lập, khả năng tích hợp và cách nó cạnh tranh với các đối thủ như MMDetection và YOLO. Dù bạn là một kỹ sư ML kỳ cựu hay một nhà nghiên cứu muốn triển khai các mô hình mạnh mẽ, hướng dẫn này cung cấp chiều sâu kỹ thuật mà bạn cần.
+Đây là lúc **Detectron2** xuất hiện. Được phát triển bởi Meta AI (trước đây là Facebook Research), nó đã trở thành trụ cột cho các tác vụ nhận dạng hình ảnh hiện đại. Tại **dibi8.com**, chúng tôi phân tích các công cụ cầu nối khoảng cách giữa nghiên cứu học thuật và sản xuất công nghiệp. Trong bài viết này, chúng tôi sẽ đi sâu vào Detectron2, khám phá kiến trúc, quy trình thiết lập, khả năng tích hợp và cách nó cạnh tranh với các đối thủ như MMDetection và YOLO. Dù bạn là một kỹ sư ML giàu kinh nghiệm hay một nhà nghiên cứu muốn triển khai các mô hình mạnh mẽ, hướng dẫn này cung cấp chiều sâu kỹ thuật mà bạn cần.
 
 ![detectron2 overview](https://github.com/facebookresearch/detectron2/raw/main/docs/static/detectron2_cover.png)
 
 ## Detectron2 là gì?
 
-Detectron2 là một hệ thống phần mềm mô-đun, hiệu suất cao được xây dựng trên PyTorch cho các tác vụ phát hiện đối tượng, phân đoạn và các tác vụ nhận dạng hình ảnh khác. Không giống như người tiền nhiệm Detectron (được xây dựng trên Caffe2), Detectron2 được thiết kế từ đầu để linh hoạt và có thể mở rộng. Nó hỗ trợ một loạt các thuật toán, bao gồm Faster R-CNN, Mask R-CNN, RetinaNet, YOLOX và nhiều thuật toán khác.
+Detectron2 là một hệ thống phần mềm mô-đun, hiệu suất cao được xây dựng trên PyTorch cho các tác vụ phát hiện đối tượng, phân đoạn và các tác vụ nhận dạng hình ảnh khác. Khác với người tiền nhiệm Detectron (được xây dựng trên Caffe2), Detectron2 được thiết kế từ đầu để linh hoạt và có thể mở rộng. Nó hỗ trợ một loạt các thuật toán, bao gồm Faster R-CNN, Mask R-CNN, RetinaNet, YOLOX và nhiều thuật toán khác.
 
-Triết lý cốt lõi đằng sau Detectron2 là tính mô-đun. Thay vì các tập lệnh đơn khối, khung làm việc chia nhỏ các thành phần thành các mô-đun độc lập như backbones (phần trích xuất đặc trưng), heads (phần đầu ra) và hàm mất mát. Điều này cho phép các nhà nghiên cứu và kỹ sư dễ dàng kết hợp các thành phần, tạo điều kiện thuận lợi cho việc thử nghiệm nhanh chóng mà không cần viết lại toàn bộ quy trình làm việc.
+Triết lý cốt lõi đằng sau Detectron2 là tính mô-đun. Thay vì các tập lệnh đơn khối, khung làm việc chia nhỏ các thành phần thành các mô-đun độc lập như backbones (phần trích xuất đặc trưng), heads (phần đầu ra) và hàm mất mát. Điều này cho phép các nhà nghiên cứu và kỹ sư dễ dàng kết hợp các thành phần, tạo điều kiện thuận lợi cho việc thử nghiệm nhanh chóng mà không cần viết lại toàn bộ quy trình.
 
 ### Các tính năng chính
 - **Thiết kế Mô-đun:** Dễ dàng mở rộng với các backbone, head hoặc hàm mất mát tùy chỉnh.
 - **Gốc PyTorch:** Tích hợp đầy đủ với hệ sinh thái PyTorch, đảm bảo tương thích với các thư viện phổ biến.
 - **Huấn luyện Đa GPU:** Hỗ trợ huấn luyện phân tán ngay từ đầu, tối ưu hóa việc sử dụng tài nguyên.
-- **Hỗ trợ Dữ liệu Phong phú:** Hỗ trợ sẵn có cho COCO, Pascal VOC, Cityscapes và các tập dữ liệu tùy chỉnh.
+- **Hỗ trợ Dữ liệu Phong phú:** Hỗ trợ sẵn có cho COCO, Pascal VOC, Cityscapes và các bộ dữ liệu tùy chỉnh.
 - **API Suy luận:** Một API Python sạch sẽ để tích hợp dễ dàng vào các ứng dụng web và vi dịch vụ.
 
 Đối với những người quan tâm đến việc khám phá thêm các trung tâm mã nguồn AI và phân tích chi tiết, hãy xem danh sách được tuyển chọn của chúng tôi tại **[dibi8.com](https://dibi8.com)**.
 
-## Detectron2 hoạt động như thế nào
+## Cách Detectron2 Hoạt động
 
-Hiểu rõ cơ chế nội bộ của Detectron2 là rất quan trọng để sử dụng hiệu quả. Khung làm việc vận hành dựa trên khái niệm đường ống (pipeline), nơi dữ liệu chảy qua nhiều giai đoạn:
+Hiểu rõ cơ chế nội bộ của Detectron2 là rất quan trọng để sử dụng hiệu quả. Khung làm việc vận hành dựa trên khái niệm quy trình, nơi dữ liệu chảy qua nhiều giai đoạn:
 
-1.  **Tải Dữ liệu:** Hình ảnh và chú thích được tải và tiền xử lý. Detectron2 sử dụng giao diện tập dữ liệu thống nhất, cho phép người dùng đăng ký các tập dữ liệu tùy chỉnh thông qua các tệp JSON đơn giản.
+1.  **Tải Dữ liệu:** Hình ảnh và chú thích được tải và xử lý trước. Detectron2 sử dụng giao diện dữ liệu thống nhất, cho phép người dùng đăng ký các bộ dữ liệu tùy chỉnh thông qua các tệp JSON đơn giản.
 2.  **Xây dựng Mô hình:** Mô hình được khởi tạo dựa trên các tham số cấu hình. Điều này bao gồm việc chọn backbone (ví dụ: ResNet, Swin Transformer), neck (ví dụ: FPN) và head (ví dụ: Box Head, Mask Head).
-3.  **Vòng lặp Huấn luyện:** Trong quá trình huấn luyện, khung làm việc xử lý tính toán gradient, cập nhật bộ tối ưu hóa và ghi nhật ký. Nó hỗ trợ nhiều bộ lên lịch tốc độ học và cài đặt động lượng.
-4.  **Đánh giá:** Sau khi huấn luyện, mô hình được đánh giá trên các tập kiểm định bằng các chỉ số tiêu chuẩn như mAP (Độ chính xác trung bình theo nghĩa đen) cho phát hiện và mIoU (Giao điểm trung bình trên hợp nhất) cho phân đoạn.
-5.  **Suy luận:** Mô hình đã huấn luyện được sử dụng để dự đoán các hộp giới hạn và mặt nạ trên các hình ảnh mới, chưa từng thấy.
+3.  **Vòng lặp Huấn luyện:** Trong quá trình huấn luyện, khung làm việc xử lý tính toán gradient, cập nhật bộ tối ưu hóa và ghi nhật ký. Nó hỗ trợ nhiều bộ lên lịch tốc độ học và cài đặt momentum.
+4.  **Đánh giá:** Sau khi huấn luyện, mô hình được đánh giá trên các tập kiểm tra bằng các chỉ số tiêu chuẩn như mAP (Độ chính xác trung bình) cho phát hiện và mIoU (Giao nhau trung bình trên hợp nhất) cho phân đoạn.
+5.  **Suy luận:** Mô hình đã huấn luyện được sử dụng để dự đoán các hộp giới hạn và mặt nạ trên các hình ảnh mới chưa từng thấy.
 
 Sự linh hoạt của Detectron2 nằm ở hệ thống cấu hình của nó. Người dùng có thể sửa đổi hầu hết mọi khía cạnh của quá trình huấn luyện thông qua các tệp YAML, sau đó được phân tích cú pháp và chuyển đổi thành các đối tượng Python một cách động.
 
@@ -59,9 +59,9 @@ Chạy Detectron2 cục bộ đòi hỏi một vài bước. Dưới đây là q
 - GCC 4.9+ (Linux) hoặc Clang (macOS)
 - OpenCV
 
-### Bước 1: Cài đặt Các phụ thuộc
+### Bước 1: Cài đặt các phụ thuộc
 
-Trước tiên, đảm bảo bạn đã cài đặt Miniconda, sau đó tạo một môi trường mới:
+Đầu tiên, đảm bảo bạn đã cài đặt Miniconda, sau đó tạo một môi trường mới:
 
 ```bash
 conda create -n detectron2_env python=3.8 -y
@@ -74,7 +74,7 @@ Cài đặt PyTorch. Thay thế `cu113` bằng phiên bản CUDA cụ thể củ
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu113
 ```
 
-### Bước 2: Sao chép và Cài đặt Detectron2
+### Bước 2: Clone và Cài đặt Detectron2
 
 Sao chép kho lưu trữ từ GitHub:
 
@@ -106,7 +106,7 @@ from detectron2.engine import DefaultTrainer
 print("Import successful!")
 ```
 
-Nếu đầu ra hiển thị số phiên bản và "Import successful!", môi trường của bạn đã sẵn sàng. Bạn cũng có thể tải xuống các mô hình đã được huấn luyện trước bằng tập lệnh được cung cấp:
+Nếu đầu ra hiển thị số phiên bản và "Import successful!", môi trường của bạn đã sẵn sàng. Bạn cũng có thể tải xuống các mô hình đã huấn luyện trước bằng tập lệnh được cung cấp:
 
 ```bash
 python tools/deploy/download_model.py --config-name="COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml" --output-dir=./models
@@ -118,7 +118,7 @@ Detectron2 không tồn tại trong chân không. Nó tích hợp liền mạch 
 
 ### 1. TensorBoard cho Trực quan hóa
 
-Theo dõi các chỉ số huấn luyện là rất quan trọng. Detectron2 hỗ trợ TensorBoard ngay từ đầu.
+Theo dõi các chỉ số huấn luyện là điều cần thiết. Detectron2 hỗ trợ TensorBoard ngay từ đầu.
 
 ```yaml
 # Đoạn trích config.yaml
@@ -134,7 +134,7 @@ tensorboard --logdir ./tensorboard_logs
 
 ### 2. Docker cho Khả năng Tái lập
 
-Để đảm bảo các môi trường nhất quán giữa phát triển và sản xuất, hãy sử dụng Docker.
+Để đảm bảo môi trường nhất quán giữa phát triển và sản xuất, hãy sử dụng Docker.
 
 ```dockerfile
 FROM nvidia/cuda:11.3-base-ubuntu20.04
@@ -174,7 +174,7 @@ label-studio start my_project
 
 Xuất chú thích ở định dạng COCO JSON, mà Detectron2 có thể đọc trực tiếp.
 
-### 4. FastAPI cho Dịch vụ
+### 4. FastAPI cho Triển khai
 
 Triển khai mô hình đã huấn luyện của bạn dưới dạng REST API bằng FastAPI.
 
@@ -213,14 +213,14 @@ import wandb
 wandb.init(project="detectron2-experiment")
 ```
 
-## Hiệu năng / Trường hợp Sử dụng Thực tế
+## Bảng điểm / Trường hợp Sử dụng Thực tế
 
-Để hiểu hiệu suất của Detectron2, chúng tôi so sánh nó với các tiêu chuẩn benchmark. Bảng dưới đây nêu bật các kết quả điển hình trên tập dữ liệu COCO sử dụng backbone ResNet-50.
+Để hiểu hiệu suất của Detectron2, chúng tôi so sánh nó với các bảng điểm tiêu chuẩn. Bảng dưới đây nêu bật các kết quả điển hình trên bộ dữ liệu COCO sử dụng backbone ResNet-50.
 
 | Mô hình | Backbone | mAP (Hộp) | mAP (Mặt nạ) | FPS (GPU T4) | Trường hợp sử dụng |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Faster R-CNN | ResNet-50-FPN | 37.0 | - | ~15 | Phát hiện Đối tượng Chung |
-| Mask R-CNN | ResNet-50-FPN | 38.2 | 34.8 | ~12 | Phân đoạn Cá thể |
+| Mask R-CNN | ResNet-50-FPN | 38.2 | 34.8 | ~12 | Phân đoạn Thể hiện |
 | RetinaNet | ResNet-101-FPN | 39.4 | - | ~20 | Phát hiện Đối tượng Dày đặc |
 | YOLOX-Large | CSPDarknet-L | 45.0 | - | ~30 | Phát hiện Thời gian thực |
 | DINO-Swin-T | Swin-Tiny | 47.1 | 41.2 | ~8 | Nghiên cứu Độ chính xác Cao |
@@ -229,7 +229,7 @@ wandb.init(project="detectron2-experiment")
 
 ### Ứng dụng Thực tế: Phát hiện Lỗi Công nghiệp
 
-Trong môi trường sản xuất, việc phát hiện các lỗi vi mô trên bảng mạch in (PCB) là thách thức do ánh sáng thay đổi và kích thước đối tượng nhỏ. Hỗ trợ của Detectron2 cho các bộ phát hiện đối tượng nhỏ (như RetinaNet với tỷ lệ neo phù hợp) cho phép các kỹ tinh chỉnh mô hình trên các tập dữ liệu tùy chỉnh. Bằng cách tích hợp với OpenCV để tiền xử lý và FastAPI để cung cấp dịch vụ, các nhà máy có thể đạt được kiểm soát chất lượng thời gian thực với độ chính xác >95%.
+Trong môi trường sản xuất, việc phát hiện các lỗi vi mô trên bảng mạch in (PCB) là thách thức do ánh sáng thay đổi và kích thước đối tượng nhỏ. Hỗ trợ của Detectron2 cho các bộ phát hiện đối tượng nhỏ (như RetinaNet với tỷ lệ neo phù hợp) cho phép các kỹ sư tinh chỉnh mô hình trên các bộ dữ liệu tùy chỉnh. Bằng cách tích hợp với OpenCV để xử lý trước và FastAPI để triển khai, các nhà máy có thể đạt được kiểm soát chất lượng thời gian thực với độ chính xác >95%.
 
 Để biết thêm các nghiên cứu tình huống, hãy truy cập **[dibi8.com](https://dibi8.com)**.
 
@@ -278,9 +278,9 @@ DATASET:
   TRAIN_AUG: get_custom_augmentation()
 ```
 
-### Xử lý Tập dữ liệu Mất cân bằng
+### Xử lý Dữ liệu Mất Cân bằng
 
-Đối với các tập dữ liệu có sự mất cân bằng lớp, hãy sử dụng hàm mất mát focal hoặc điều chỉnh tỷ lệ lấy mẫu.
+Đối với các bộ dữ liệu có sự mất cân bằng lớp, hãy sử dụng hàm mất mát focal hoặc điều chỉnh tỷ lệ lấy mẫu.
 
 ```yaml
 MODEL:
@@ -291,7 +291,7 @@ MODEL:
     POSITIVE_FRACTION: 0.25
 ```
 
-## So sánh với Các Lựa chọn Thay thế
+## So sánh với Các Giải pháp Thay thế
 
 Mặc dù Detectron2 rất mạnh mẽ, nhưng nó cạnh tranh với các khung làm việc khác. Dưới đây là cách nó so sánh với MMDetection và Detectron (v1).
 
@@ -302,48 +302,48 @@ Mặc dù Detectron2 rất mạnh mẽ, nhưng nó cạnh tranh với các khung
 | **Cộng đồng** | Lớn (Hậu thuẫn bởi Meta) | Lớn (OpenMMLab) | Đang giảm |
 | **Tài liệu** | Xuất sắc | Tốt | Đã lỗi thời |
 | **Tùy chỉnh** | Dễ dàng qua Cấu hình | Dễ dàng qua Cấu hình | Khó (Thay đổi Mã) |
-| **Hiệu năng** | Tương đương | Tương đương | Không áp dụng |
+| **Hiệu suất** | Tương đương | Tương đương | Không áp dụng |
 
 ### Tại sao Chọn Detectron2?
 
 -   **Hệ sinh thái PyTorch:** Tích hợp trực tiếp với các công cụ PyTorch như TorchScript và Dynamo.
--   **Bảo trì Tích cực:** Các bản cập nhật thường xuyên từ Meta AI đảm bảo tương thích với các phiên bản PyTorch mới nhất.
--   **Thuật toán Toàn diện:** Hỗ trợ đa dạng các thuật toán hơn ngay từ đầu so với các khung làm việc cũ hơn.
+-   **Bảo trì Chủ động:** Các bản cập nhật thường xuyên từ Meta AI đảm bảo tương thích với các phiên bản PyTorch mới nhất.
+-   **Thuật toán Toàn diện:** Hỗ trợ đa dạng các thuật toán ngay từ đầu so với các khung làm việc cũ hơn.
 
 ## Hạn chế / Đánh giá Trung thực
 
-Không có công cụ nào hoàn hảo. Detectron2 có một số hạn chế cần xem xét:
+Không có công cụ nào là hoàn hảo. Detectron2 có một số hạn chế cần xem xét:
 
 1.  **Đường cong học tập dốc:** Thiết kế mô-đun đòi hỏi hiểu biết về PyTorch và các nội bộ của khung làm việc. Người mới bắt đầu có thể thấy nó quá sức.
-2.  **Tiêu tốn Tài nguyên:** Huấn luyện các mô hình lớn như Swin Transformer đòi hỏi bộ nhớ GPU đáng kể.
-3.  **Khoảng trống Tài liệu:** Mặc dù nói chung là tốt, nhưng một số tính năng nâng cao thiếu các ví dụ chi tiết, đòi hỏi người dùng phải đào sâu vào mã nguồn.
-4.  **Phức tạp Triển khai:** Chuyển đổi sang ONNX/TensorRT đòi hỏi các bước bổ sung và chuyên môn.
+2.  **Tốn kém Tài nguyên:** Huấn luyện các mô hình lớn như Swin Transformer đòi hỏi bộ nhớ GPU đáng kể.
+3.  **Khoảng trống Tài liệu:** Mặc dù nhìn chung tốt, nhưng một số tính năng nâng cao thiếu các ví dụ chi tiết, đòi hỏi người dùng phải đào sâu vào mã nguồn.
+4.  **Phức tạp trong Triển khai:** Chuyển đổi sang ONNX/TensorRT đòi hỏi các bước bổ sung và chuyên môn.
 
-Mặc dù có những thách thức này, nhưng sự linh hoạt và hiệu suất khiến Detectron2 trở thành một lựa chọn mạnh mẽ cho các dự án thị giác máy tính nghiêm túc.
+Mặc dù có những thách thức này, sự linh hoạt và hiệu suất khiến Detectron2 trở thành lựa chọn mạnh mẽ cho các dự án thị giác máy tính nghiêm túc.
 
 ## Câu hỏi Thường gặp (FAQ)
 
-### Q1: Tôi có thể sử dụng Detectron2 với các mô hình đã huấn luyện trước từ các tập dữ liệu khác không?
-Có, Detectron2 cho phép tải các trọng số đã huấn luyện trước từ nhiều nguồn khác nhau. Bạn có thể chỉ định đường dẫn trọng số trong tệp cấu hình dưới `MODEL.WEIGHTS`. Điều này cho phép học chuyển giao, nơi bạn tinh chỉnh một mô hình đã được huấn luyện trên COCO cho một lĩnh vực cụ thể.
+### Q1: Tôi có thể sử dụng Detectron2 với các mô hình đã huấn luyện trước từ các bộ dữ liệu khác không?
+Có, Detectron2 cho phép tải trọng lượng đã huấn luyện trước từ nhiều nguồn khác nhau. Bạn có thể chỉ định đường dẫn trọng lượng trong tệp cấu hình dưới `MODEL.WEIGHTS`. Điều này cho phép học chuyển giao, nơi bạn tinh chỉnh một mô hình đã được huấn luyện trên COCO cho một lĩnh vực cụ thể.
 
-### Q2: Tôi xử lý các tập dữ liệu tùy chỉnh trong Detectron2 như thế nào?
-Bạn cần đăng ký tập dữ liệu của mình bằng cách sử dụng `register_coco_instances`. Tạo một tệp JSON ở định dạng COCO chứa các chú thích, sau đó đăng ký nó:
+### Q2: Tôi xử lý các bộ dữ liệu tùy chỉnh trong Detectron2 như thế nào?
+Bạn cần đăng ký bộ dữ liệu của mình bằng cách sử dụng `register_coco_instances`. Tạo một tệp JSON ở định dạng COCO chứa các chú thích, sau đó đăng ký nó:
 
 ```python
 from detectron2.data.datasets import register_coco_instances
 register_coco_instances("my_dataset", {}, "annotations.json", "image_dir")
 ```
 
-Sau đó, cập nhật cấu hình của bạn để sử dụng `my_dataset` làm tập dữ liệu huấn luyện.
+Sau đó, cập nhật cấu hình của bạn để sử dụng `my_dataset` làm bộ dữ liệu huấn luyện.
 
 ### Q3: Detectron2 có phù hợp cho các ứng dụng thời gian thực không?
-Detectron2 bản thân nó không được tối ưu hóa cho các kịch bản độ trễ cực thấp như các thiết bị nhúng. Tuy nhiên, bạn có thể xuất các mô hình sang ONNX và sử dụng TensorRT để tăng tốc. Đối với nhu cầu thời gian thực, hãy xem xét các kiến trúc nhẹ hơn như YOLO hoặc SSD, cũng được hỗ trợ trong Detectron2.
+Detectron2 bản thân nó không được tối ưu hóa cho các kịch bản độ trễ cực thấp như các thiết bị nhúng. Tuy nhiên, bạn có thể xuất mô hình sang ONNX và sử dụng TensorRT để tăng tốc. Đối với nhu cầu thời gian thực, hãy xem xét các kiến trúc nhẹ hơn như YOLO hoặc SSD, cũng được hỗ trợ trong Detectron2.
 
 ### Q4: Detectron2 so sánh với YOLO như thế nào?
-YOLO (You Only Look Once) thường nhanh hơn và đơn giản hơn cho việc phát hiện thời gian thực. Detectron2 cung cấp nhiều linh hoạt hơn và độ chính xác cao hơn cho các tác vụ phức tạp như phân đoạn cá thể. Nếu tốc độ là yếu tố quan trọng nhất, YOLO có thể tốt hơn. Nếu độ chính xác và tính mô-đun là chìa khóa, Detectron2 vượt trội hơn.
+YOLO (You Only Look Once) thường nhanh hơn và đơn giản hơn cho phát hiện thời gian thực. Detectron2 mang lại nhiều linh hoạt hơn và độ chính xác cao hơn cho các tác vụ phức tạp như phân đoạn thể hiện. Nếu tốc độ là ưu tiên hàng đầu, YOLO có thể tốt hơn. Nếu độ chính xác và tính mô-đun là chìa khóa, Detectron2 vượt trội hơn.
 
 ### Q5: Tôi có thể huấn luyện Detectron2 trên nhiều GPU không?
-Có, Detectron2 hỗ trợ huấn luyện phân tán. Hãy sử dụng lệnh `torch.distributed.launch`:
+Có, Detectron2 hỗ trợ huấn luyện phân tán. Sử dụng lệnh `torch.distributed.launch`:
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node=4 train_net.py --config-file config.yaml
@@ -352,21 +352,21 @@ python -m torch.distributed.launch --nproc_per_node=4 train_net.py --config-file
 Điều này cho phép mở rộng huấn luyện trên nhiều GPU để hội tụ nhanh hơn.
 
 ### Q6: Phần cứng được khuyến nghị cho việc huấn luyện các mô hình lớn là gì?
-Để huấn luyện các mô hình có backbone lớn (ví dụ: Swin Transformer, ConvNeXt), chúng tôi khuyến nghị ít nhất 8x GPU A100 hoặc V100 với 40GB+ VRAM mỗi chiếc. Các mô hình nhỏ hơn như ResNet-50 có thể được huấn luyện trên các GPU RTX 3090/4090 đơn lẻ.
+Để huấn luyện các mô hình có backbone lớn (ví dụ: Swin Transformer, ConvNeXt), chúng tôi khuyến nghị ít nhất 8x GPU A100 hoặc V100 với 40GB+ VRAM mỗi card. Các mô hình nhỏ hơn như ResNet-50 có thể được huấn luyện trên các GPU RTX 3090/4090 đơn lẻ.
 
 ## Nguồn & Đọc Thêm
 
 -   [Tài liệu Chính thức Detectron2](https://detectron2.readthedocs.io/)
 -   [GitHub Facebook Research](https://github.com/facebookresearch/detectron2)
--   [Bài báo Tập dữ liệu COCO](https://arxiv.org/abs/1405.0312)
+-   [Bài báo Bộ dữ liệu COCO](https://arxiv.org/abs/1405.0312)
 -   [Hướng dẫn Huấn luyện Phân tán PyTorch](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
 -   [Tài liệu ONNX Runtime](https://onnxruntime.ai/)
 
 ## Kết luận
 
-Detectron2 đứng vững như một nền tảng mạnh mẽ, linh hoạt và quyền lực cho các tác vụ thị giác máy tính. Thiết kế mô-đun của nó, hỗ trợ thuật toán rộng rãi và cộng đồng tích cực khiến nó trở thành một lựa chọn tuyệt vời cho cả môi trường nghiên cứu và sản xuất. Mặc dù nó có đường cong học tập, nhưng khoản đầu tư sẽ được đền đáp bằng hiệu suất và khả năng thích ứng.
+Detectron2 đứng vững như một nền tảng mạnh mẽ, linh hoạt và quyền lực cho các tác vụ thị giác máy tính. Thiết kế mô-đun của nó, hỗ trợ thuật toán rộng rãi và cộng đồng hoạt động tích cực khiến nó trở thành lựa chọn tuyệt vời cho cả môi trường nghiên cứu và sản xuất. Mặc dù nó có đường cong học tập, nhưng khoản đầu tư sẽ được đền đáp bằng hiệu suất và khả năng thích ứng.
 
-Tại **dibi8.com**, chúng tôi tin vào việc trao quyền cho các nhà phát triển với các công cụ phù hợp. Detectron2 là một thành phần quan trọng trong bộ công cụ đó. Dù bạn đang xây dựng hệ thống phát hiện lỗi, giải pháp lái xe tự hành hay các công cụ hình ảnh y tế, Detectron2 cung cấp nền tảng mà bạn cần.
+Tại **dibi8.com**, chúng tôi tin vào việc trao quyền cho các nhà phát triển với các công cụ phù hợp. Detectron2 là một thành phần quan trọng trong bộ công cụ đó. Dù bạn đang xây dựng hệ thống phát hiện lỗi, giải pháp lái xe tự hành hay công cụ hình ảnh y tế, Detectron2 cung cấp nền tảng mà bạn cần.
 
 Sẵn sàng đi sâu hơn? Tham gia cộng đồng của chúng tôi trên Telegram để thảo luận, mẹo và tài nguyên độc quyền.
 
@@ -376,4 +376,4 @@ Cập nhật các công cụ AI và đánh giá mã nguồn mới nhất tại *
 
 ---
 
-**Tiết lộ Liên kết Chiết khấu:** Một số liên kết trong bài viết này có thể là liên kết chi tiết. Nếu bạn mua hàng thông qua các liên kết này, chúng tôi có thể kiếm được hoa hồng mà không tốn thêm chi phí nào cho bạn. Điều này giúp hỗ trợ trang web và cho phép chúng tôi tiếp tục cung cấp nội dung chất lượng cao. Cảm ơn bạn đã ủng hộ!
+**Tiết lộ Liên kết Chiết khấu:** Một số liên kết trong bài viết này có thể là liên kết chiết khấu. Nếu bạn mua hàng thông qua các liên kết này, chúng tôi có thể kiếm được hoa hồng mà không tốn thêm chi phí nào cho bạn. Điều này giúp hỗ trợ trang web và cho phép chúng tôi tiếp tục cung cấp nội dung chất lượng cao. Cảm ơn bạn đã ủng hộ!

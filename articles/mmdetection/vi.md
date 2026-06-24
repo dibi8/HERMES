@@ -15,23 +15,23 @@ lang: "en"
 
 ![Logo OpenMMLab](https://raw.githubusercontent.com/open-mmlab/mmdetection/master/resources/mmdet_logo.png)
 
-Trong bối cảnh thị giác máy tính (computer vision) đang phát triển nhanh chóng, phát hiện đối tượng vẫn là một công nghệ nền tảng. Từ các phương tiện tự hành điều hướng trong môi trường đô thị phức tạp đến hệ thống kiểm tra chất lượng trong sản xuất xác định lỗi trên dây chuyền lắp ráp, khả năng định vị và phân loại chính xác các đối tượng trong hình ảnh là cực kỳ quan trọng. Tuy nhiên, xây dựng các hệ thống này từ đầu là một nhiệm vụ đáng sợ đòi hỏi chuyên môn sâu về kiến trúc học sâu, kỹ thuật tối ưu hóa và xử lý dữ liệu quy mô lớn. Đây chính là lúc **mmdetection** bước vào cuộc chơi, cung cấp một khung làm việc mạnh mẽ, mô-đun và có khả năng mở rộng cao dành cho cả nhà nghiên cứu và kỹ sư.
+Trong bối cảnh thị giác máy tính (computer vision) đang phát triển nhanh chóng, phát hiện đối tượng vẫn là một công nghệ nền tảng. Từ các phương tiện tự hành điều hướng trong môi trường đô thị phức tạp đến các hệ thống kiểm tra chất lượng trong sản xuất nhằm xác định lỗi trên dây chuyền lắp ráp, khả năng định vị chính xác và phân loại các đối tượng trong hình ảnh là cực kỳ quan trọng. Tuy nhiên, việc xây dựng các hệ thống này từ đầu là một nhiệm vụ đáng sợ, đòi hỏi chuyên môn sâu về kiến trúc học sâu, kỹ thuật tối ưu hóa và xử lý dữ liệu quy mô lớn. Đây là lúc **mmdetection** bước vào cuộc chơi, cung cấp một khung làm việc mạnh mẽ, có mô-đun và rất dễ mở rộng cho cả nhà nghiên cứu và kỹ sư.
 
-Tại **dibi8.com**, chúng tôi hiểu rằng các nhà phát triển cần những công cụ đáng tin cậy để tăng tốc dự án AI của họ mà không cần phải phát minh lại bánh xe. Đó là lý do tại sao chúng tôi đã biên soạn hướng dẫn toàn diện này về mmdetection, hộp công cụ phát hiện đối tượng mã nguồn mở được phát triển bởi OpenMMLab. Với hơn 32.000 sao trên GitHub và cộng đồng sôi động, mmdetection đã trở thành tiêu chuẩn trong ngành nhờ tính linh hoạt và hiệu suất của nó. Trong bài viết này, chúng ta sẽ đi sâu vào những yếu tố tạo nên sự thành công của nó, cách thiết lập, tích hợp với các công cụ khác và đánh giá tính ứng dụng thực tế. Dù bạn là một kỹ sư ML giàu kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ trang bị cho bạn kiến thức để khai thác sức mạnh của mmdetection một cách hiệu quả.
+Tại **dibi8.com**, chúng tôi hiểu rằng các nhà phát triển cần những công cụ đáng tin cậy để tăng tốc dự án AI của họ mà không cần phải phát minh lại bánh xe. Đó là lý do tại sao chúng tôi đã tổng hợp hướng dẫn toàn diện này về mmdetection, công cụ phát hiện đối tượng mã nguồn mở được phát triển bởi OpenMMLab. Với hơn 32.000 sao trên GitHub và một cộng đồng sôi động, mmdetection đã trở thành tiêu chuẩn trong ngành nhờ tính linh hoạt và hiệu suất của nó. Trong bài viết này, chúng ta sẽ đi sâu vào những yếu tố tạo nên sự thành công của nó, cách thiết lập, tích hợp với các công cụ khác và đánh giá tính ứng dụng thực tế của nó. Dù bạn là một kỹ sư ML giàu kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ trang bị cho bạn kiến thức để khai thác sức mạnh của mmdetection một cách hiệu quả.
 
 ## mmdetection là gì?
 
-mmdetection là một hộp công cụ phát hiện đối tượng mã nguồn mở được xây dựng dựa trên PyTorch. Được phát triển bởi dự án OpenMMLab, nó cung cấp một loạt các thuật toán tiên tiến cho phát hiện đối tượng, phân đoạn thể hiện (instance segmentation), phân đoạn toàn cảnh (panoptic segmentation) và phát hiện điểm mốc (keypoint detection). Hộp công cụ này được thiết kế với tư duy mô-đun, cho phép người dùng dễ dàng kết hợp các thành phần như backbone (phần trích xuất đặc trưng), neck (phần kết nối), head (phần đầu ra) và hàm mất mát để tạo ra các đường ống phát hiện tùy chỉnh.
+mmdetection là một công cụ phát hiện đối tượng mã nguồn mở được xây dựng trên nền tảng PyTorch. Được phát triển bởi dự án OpenMMLab, nó cung cấp một loạt các thuật toán tiên tiến cho phát hiện đối tượng, phân đoạn thể hiện (instance segmentation), phân đoạn toàn cảnh (panoptic segmentation) và phát hiện điểm mốc (keypoint detection). Công cụ này được thiết kế với tư duy mô-đun, cho phép người dùng dễ dàng kết hợp các thành phần như backbone, neck, head và hàm mất mát để tạo ra các đường ống phát hiện tùy chỉnh.
 
-Một trong những điểm nổi bật của mmdetection là hỗ trợ nhiều kiến trúc phổ biến, bao gồm Faster R-CNN, Mask R-CNN, chuỗi YOLO, RetinaNet và Cascade R-CNN, cùng nhiều mô hình khác. Sự đa dạng này khiến nó phù hợp cho nhiều ứng dụng, từ nguyên mẫu nghiên cứu đến triển khai sản xuất. Ngoài ra, mmdetection được tài liệu hóa tốt và bảo trì tích cực, đảm bảo người dùng có quyền truy cập vào những tiến bộ mới nhất trong lĩnh vực.
+Một trong những tính năng nổi bật của mmdetection là hỗ trợ nhiều kiến trúc phổ biến, bao gồm Faster R-CNN, Mask R-CNN, chuỗi YOLO, RetinaNet và Cascade R-CNN, cùng nhiều kiến trúc khác. Tính linh hoạt này khiến nó phù hợp cho nhiều ứng dụng, từ lập mẫu nghiên cứu đến triển khai sản xuất. Ngoài ra, mmdetection được tài liệu hóa tốt và duy trì tích cực, đảm bảo rằng người dùng có quyền truy cập vào những tiến bộ mới nhất trong lĩnh vực này.
 
 ![Kiến trúc mmdetection](https://raw.githubusercontent.com/open-mmlab/mmdetection/master/resources/architecture.png)
 
-Khung làm việc cũng nhấn mạnh khả năng tái lập, cung cấp các mô hình đã huấn luyện trước và các tệp cấu hình chi tiết cho phép người dùng sao chép kết quả đã công bố với nỗ lực tối thiểu. Mức độ minh bạch này rất quan trọng cho cả nghiên cứu học thuật và ứng dụng công nghiệp, nơi tính nhất quán và độ tin cậy là ưu tiên hàng đầu. Bằng cách tận dụng mmdetection, các nhà phát triển có thể tập trung vào việc giải quyết các thách thức cụ thể của miền dữ liệu thay vì bị sa lầy vào các chi tiết phức tạp của việc triển khai thuật toán.
+Khung làm việc cũng nhấn mạnh khả năng tái lập, cung cấp các mô hình đã huấn luyện trước và các tệp cấu hình chi tiết cho phép người dùng sao chép các kết quả đã công bố với nỗ lực tối thiểu. Mức độ minh bạch này rất quan trọng cho cả nghiên cứu học thuật và các ứng dụng công nghiệp, nơi mà tính nhất quán và độ tin cậy là ưu tiên hàng đầu. Bằng cách tận dụng mmdetection, các nhà phát triển có thể tập trung vào việc giải quyết các thách thức cụ thể của miền ứng dụng thay vì bị vướng vào những phức tạp trong việc triển khai thuật toán.
 
-## mmdetection hoạt động như thế nào
+## Cách mmdetection hoạt động
 
-Về cốt lõi, mmdetection hoạt động thông qua một chuỗi các mô-đun liên kết với nhau để xử lý hình ảnh đầu vào nhằm phát hiện các đối tượng. Đường ống thường bao gồm nhiều giai đoạn: trích xuất đặc trưng, đề xuất vùng, phân loại và hồi quy hộp giới hạn (bounding box regression). Mỗi giai đoạn có thể được tùy chỉnh bằng cách sử dụng các thành phần khác nhau do hộp công cụ cung cấp.
+Về cốt lõi, mmdetection hoạt động thông qua một loạt các mô-đun liên kết với nhau để xử lý hình ảnh đầu vào nhằm phát hiện các đối tượng. Đường ống thường bao gồm nhiều giai đoạn: trích xuất đặc trưng, đề xuất vùng, phân loại và hồi quy hộp giới hạn (bounding box regression). Mỗi giai đoạn có thể được tùy chỉnh bằng cách sử dụng các thành phần khác nhau do công cụ cung cấp.
 
 ### Trích xuất đặc trưng
 
@@ -97,7 +97,7 @@ model = dict(
 
 ### Mạng Đề xuất Vùng (RPN)
 
-Sau khi đặc trưng được trích xuất, bước tiếp theo là tạo ra các vùng ứng viên nơi đối tượng có thể tồn tại. mmdetection triển khai Mạng Đề xuất Vùng (RPN) cho các bộ phát hiện hai giai đoạn như Faster R-CNN, đề xuất các vùng dựa trên các hộp neo (anchor boxes) đã học. Đối với các bộ phát hiện một giai đoạn như YOLO, mạng trực tiếp dự đoán các hộp giới hạn và xác suất lớp.
+Sau khi trích xuất đặc trưng, bước tiếp theo là tạo ra các vùng ứng viên nơi đối tượng có thể tồn tại. mmdetection triển khai Mạng Đề xuất Vùng (RPN) cho các bộ phát hiện hai giai đoạn như Faster R-CNN, đề xuất các vùng dựa trên các hộp neo (anchor boxes) đã học. Đối với các bộ phát hiện một giai đoạn như YOLO, mạng trực tiếp dự đoán các tọa độ hộp giới hạn và xác suất lớp.
 
 ### Phân loại và Hồi quy Hộp giới hạn
 
@@ -109,7 +109,7 @@ Tính mô-đun của mmdetection cho phép người dùng thay thế bất kỳ 
 
 ## Cài đặt & Thiết lập (<= 5 phút)
 
-Bắt đầu với mmdetection rất đơn giản nhờ tài liệu toàn diện và hướng dẫn cài đặt dễ hiểu. Dưới đây, chúng tôi phác thảo các bước để cài đặt mmdetection trên máy cục bộ hoặc môi trường đám mây.
+Bắt đầu với mmdetection khá đơn giản nhờ tài liệu toàn diện và hướng dẫn cài đặt dễ hiểu của nó. Dưới đây, chúng tôi phác thảo các bước để cài đặt mmdetection trên máy cục bộ hoặc môi trường đám mây.
 
 ### Yêu cầu tiên quyết
 
@@ -122,7 +122,7 @@ Trước khi cài đặt mmdetection, hãy đảm bảo bạn có các yêu cầ
 
 ### Hướng dẫn cài đặt từng bước
 
-1. **Sao chép kho lưu trữ (Clone Repository)**:
+1. **Sao chép kho lưu trữ**:
 
 ```bash
 git clone https://github.com/open-mmlab/mmdetection.git
@@ -149,7 +149,7 @@ pip install -v -e .
 python -c "import mmdet; print(mmdet.__version__)"
 ```
 
-Nếu cài đặt thành công, bạn sẽ thấy số phiên bản được in ra bảng điều khiển. Bây giờ bạn có thể tiến hành huấn luyện mô hình hoặc chạy suy luận (inference) bằng các kịch bản đã được cấu hình sẵn.
+Nếu cài đặt thành công, bạn sẽ thấy số phiên bản được in ra màn hình console. Bây giờ bạn có thể tiến hành huấn luyện mô hình hoặc chạy suy luận (inference) bằng các tập lệnh được cấu hình sẵn.
 
 ## Tích hợp với 3-5 Công cụ
 
@@ -157,7 +157,7 @@ mmdetection tích hợp liền mạch với nhiều công cụ và khung làm vi
 
 ### TensorBoard cho Trực quan hóa
 
-TensorBoard được sử dụng rộng rãi để trực quan hóa các chỉ số huấn luyện. mmdetection hỗ trợ TensorBoard ngay từ đầu, cho phép bạn theo dõi các đường cong mất mát, tốc độ học và các chỉ số quan trọng khác trong quá trình huấn luyện.
+TensorBoard được sử dụng rộng rãi để trực quan hóa các chỉ số huấn luyện. mmdetection hỗ trợ TensorBoard ngay từ đầu, cho phép bạn theo dõi các đường cong mất mát (loss curves), tốc độ học và các chỉ số quan trọng khác trong quá trình huấn luyện.
 
 ```bash
 # Chạy huấn luyện với ghi nhật ký TensorBoard
@@ -166,7 +166,7 @@ python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.py --work-
 
 ### MMCV cho Tăng cường Dữ liệu
 
-MMCV, một dự án khác của OpenMMLab, cung cấp các tiện ích cho việc tăng cường và xử lý trước dữ liệu. Nó bổ sung cho mmdetection bằng cách cung cấp một bộ phong phú các phép biến đổi có thể áp dụng cho các tập dữ liệu.
+MMCV, một dự án khác của OpenMMLab, cung cấp các tiện ích cho tăng cường dữ liệu và xử lý trước. Nó bổ sung cho mmdetection bằng cách cung cấp một bộ chuyển đổi (transforms) phong phú có thể được áp dụng cho các tập dữ liệu.
 
 ```python
 # Ví dụ: Áp dụng tăng cường dữ liệu với MMCV
@@ -216,21 +216,21 @@ docker run -it --gpus all -v $(pwd):/workspace openmmlab/mmdetection:v2.24.0 bas
 
 *Bảng 1: Kết quả Benchmark trên Tập dữ liệu COCO*
 
-Những kết quả này chứng minh rằng mmdetection hỗ trợ một loạt rộng các mô hình, mỗi mô hình được tối ưu hóa cho các sự đánh đổi khác nhau giữa độ chính xác và tốc độ. Ví dụ, YOLOv5 cung cấp thời gian suy luận nhanh hơn, phù hợp cho các ứng dụng thời gian thực, trong khi Faster R-CNN cung cấp độ chính xác cao hơn cho phân tích ngoại tuyến.
+Những kết quả này chứng minh rằng mmdetection hỗ trợ một loạt các mô hình, mỗi mô hình được tối ưu hóa cho các sự đánh đổi khác nhau giữa độ chính xác và tốc độ. Ví dụ, YOLOv5 cung cấp thời gian suy luận nhanh hơn, phù hợp cho các ứng dụng thời gian thực, trong khi Faster R-CNN cung cấp độ chính xác cao hơn cho phân tích ngoại tuyến.
 
-Trong các tình huống thực tế, mmdetection đã được sử dụng trong nhiều ngành công nghiệp:
+Trong các kịch bản thực tế, mmdetection đã được sử dụng trong nhiều ngành công nghiệp:
 
 - **Y tế**: Phát hiện khối u trong các quét hình ảnh y tế.
-- **Bán lẻ**: Tự động hóa quản lý hàng tồn kho bằng cách nhận diện sản phẩm trên kệ.
+- **Bán lẻ**: Tự động hóa quản lý hàng tồn kho bằng cách nhận dạng sản phẩm trên kệ.
 - **An ninh**: Xác định các hoạt động đáng ngờ trong video giám sát.
 
 ## Sử dụng Nâng cao / Sản xuất
 
-Đối với các triển khai sản xuất, việc tối ưu hóa các mô hình mmdetection là rất quan trọng. Các kỹ thuật như lượng tử hóa (quantization), tỉa thưa (pruning) và tri thức triễn dịch (knowledge distillation) có thể giảm đáng kể kích thước mô hình và cải thiện tốc độ suy luận mà không làm giảm độ chính xác.
+Đối với các triển khai sản xuất, việc tối ưu hóa các mô hình mmdetection là rất quan trọng. Các kỹ thuật như lượng tử hóa (quantization), tỉa thưa (pruning) và triễn thức tri thức (knowledge distillation) có thể giảm đáng kể kích thước mô hình và cải thiện tốc độ suy luận mà không làm giảm độ chính xác.
 
 ### Lượng tử hóa (Quantization)
 
-Lượng tử hóa giảm độ chính xác của các trọng số mô hình từ float32 xuống int8, dẫn đến các mô hình nhỏ hơn và suy luận nhanh hơn.
+Lượng tử hóa giảm độ chính xác của trọng số mô hình từ float32 xuống int8, dẫn đến các mô hình nhỏ hơn và tốc độ suy luận nhanh hơn.
 
 ```bash
 # Áp dụng lượng tử hóa
@@ -242,7 +242,7 @@ python tools/analysis_tools/quantize.py \
 
 ### Tỉa thưa (Pruning)
 
-Tỉa thưa loại bỏ các nơ-ron dư thừa khỏi mạng,进一步减少计算需求。
+Tỉa thưa loại bỏ các nơ-ron dư thừa khỏi mạng,进一步 giảm yêu cầu tính toán.
 
 ```bash
 # Áp dụng tỉa thưa
@@ -252,12 +252,12 @@ python tools/analysis_tools/prune.py \
     --prune
 ```
 
-### Tri thức Triễn dịch (Knowledge Distillation)
+### Triễn thức Tri thức (Knowledge Distillation)
 
-Tri thức triễn dịch chuyển giao kiến thức từ một mô hình giáo viên lớn hơn sang một mô hình học sinh nhỏ hơn, cải thiện hiệu quả.
+Triễn thức tri thức chuyển giao kiến thức từ một mô hình giáo viên (teacher model) lớn hơn sang một mô hình học sinh (student model) nhỏ hơn, cải thiện hiệu quả.
 
 ```bash
-# Thực hiện tri thức triễn dịch
+# Thực hiện triễn thức tri thức
 python tools/train_distill.py \
     configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.py \
     checkpoints/teacher_model.pth \
@@ -266,53 +266,53 @@ python tools/train_distill.py \
 
 ## So sánh với Các Giải pháp Thay thế (BẢNG, >=3 đối thủ cạnh tranh)
 
-Mặc dù mmdetection là một công cụ mạnh mẽ, nhưng điều quan trọng là phải xem xét các lựa chọn thay thế khi chọn một khung làm việc cho dự án của bạn.
+Mặc dù mmdetection là một công cụ mạnh mẽ, nhưng điều quan trọng là phải xem xét các giải pháp thay thế khi chọn khung làm việc cho dự án của bạn.
 
 | Khung làm việc | Điểm mạnh | Điểm yếu |
 |-----------|-----------|------------|
-| mmdetection | Mô-đun, tài liệu phong phú, hỗ trợ cộng đồng mạnh mẽ | Đường cong học tập dốc hơn đối với người mới bắt đầu |
-| Detectron2 | Được hỗ trợ bởi Facebook, xuất sắc cho nghiên cứu | Ít linh hoạt hơn cho các thiết lập tùy chỉnh |
+| mmdetection | Mô-đun, tài liệu mở rộng, hỗ trợ cộng đồng mạnh mẽ | Đường cong học tập dốc hơn đối với người mới bắt đầu |
+| Detectron2 | Được Facebook hậu thuẫn, xuất sắc cho nghiên cứu | Ít linh hoạt hơn cho các thiết lập tùy chỉnh |
 | TorchVision | API đơn giản, tốt cho các tác vụ cơ bản | Hạn chế các tính năng nâng cao |
 | TensorFlow Object Detection API | Tích hợp mạnh mẽ với hệ sinh thái TF | Tốc độ phát triển chậm hơn |
 
 *Bảng 2: So sánh với Các Đối thủ Cạnh tranh*
 
-Mỗi khung làm việc đều có những điểm mạnh và điểm yếu riêng. mmdetection nổi bật nhờ tính mô-đun và tài liệu phong phú, khiến nó lý tưởng cho những người dùng cần sự linh hoạt và tùy chỉnh. Detectron2, được hỗ trợ bởi Facebook, rất tuyệt vời cho mục đích nghiên cứu nhưng có thể đòi hỏi nhiều nỗ lực hơn để thích nghi cho việc sử dụng sản xuất. TorchVision mang lại sự đơn giản nhưng thiếu các tính năng nâng cao, trong khi API Phát hiện Đối tượng của TensorFlow cung cấp tích hợp mạnh mẽ với hệ sinh thái TF nhưng gần đây đã chứng kiến tốc độ phát triển chậm lại.
+Mỗi khung làm việc đều có những điểm mạnh và điểm yếu riêng. mmdetection nổi bật nhờ tính mô-đun và tài liệu mở rộng, khiến nó lý tưởng cho những người dùng cần sự linh hoạt và tùy chỉnh. Detectron2, được hậu thuẫn bởi Facebook, rất tuyệt vời cho mục đích nghiên cứu nhưng có thể đòi hỏi nhiều nỗ lực hơn để thích nghi cho việc sử dụng sản xuất. TorchVision mang lại sự đơn giản nhưng thiếu các tính năng nâng cao, trong khi API Phát hiện Đối tượng của TensorFlow cung cấp tích hợp mạnh mẽ với hệ sinh thái TF nhưng gần đây đã chứng kiến tốc độ phát triển chậm lại.
 
 ## Hạn chế / Đánh giá Trung thực
 
-Mặc dù có nhiều lợi thế, nhưng mmdetection không phải là không có hạn chế. Một thách thức phổ biến là độ phức tạp của việc cấu hình và tinh chỉnh các siêu tham số, đặc biệt là đối với người mới bắt đầu. Ngoài ra, mặc dù khung làm việc hỗ trợ một phạm vi rộng các mô hình, một số kiến trúc ít phổ biến hơn có thể đòi hỏi thêm nỗ lực để triển khai.
+Mặc dù có nhiều lợi thế, nhưng mmdetection không phải là không có hạn chế. Một thách thức phổ biến là độ phức tạp trong việc cấu hình và tinh chỉnh các siêu tham số, đặc biệt là đối với người mới bắt đầu. Ngoài ra, mặc dù khung làm việc hỗ trợ một loạt các mô hình, nhưng một số kiến trúc ít phổ biến hơn có thể đòi hỏi thêm nỗ lực để triển khai.
 
 Một cân nhắc khác là mức tiêu thụ tài nguyên. Huấn luyện các mô hình lớn trên hình ảnh độ phân giải cao có thể tốn kém về mặt tính toán, đòi hỏi quyền truy cập vào các GPU mạnh mẽ hoặc tài nguyên điện toán đám mây. Người dùng nên đánh giá cẩn thận khả năng phần cứng của mình trước khi bắt đầu các dự án quy mô lớn.
 
-Cuối cùng, mặc dù mmdetection được bảo trì tích cực, việc cập nhật các bản cập nhật mới nhất và sửa lỗi có thể đòi hỏi sự tham gia thường xuyên với cộng đồng. Việc cập nhật thông tin về các bản phát hành mới và các thực tiễn tốt nhất là rất quan trọng để tối đa hóa tiềm năng của khung làm việc.
+Cuối cùng, mặc dù mmdetection được duy trì tích cực, nhưng việc cập nhật các bản cập nhật và sửa lỗi mới nhất có thể đòi hỏi sự tham gia thường xuyên với cộng đồng. Việc cập nhật thông tin về các bản phát hành mới và các thực tiễn tốt nhất là rất quan trọng để tối đa hóa tiềm năng của khung làm việc.
 
 ## Câu hỏi Thường gặp (FAQ)
 
 ### Q1: mmdetection chủ yếu được sử dụng cho mục đích gì?
 mmdetection chủ yếu được sử dụng cho các tác vụ phát hiện đối tượng, phân đoạn thể hiện và phát hiện điểm mốc trong các ứng dụng thị giác máy tính.
 
-### Q2: mmdetection so sánh với các khung làm việc khác như Detectron2 như thế nào?
-mmdetection cung cấp tính mô-đun và tùy chọn tùy chỉnh lớn hơn so với Detectron2, khiến nó phù hợp hơn với những người dùng cần sự linh hoạt trong quy trình làm việc của họ.
+### Q2: mmdetection so sánh như thế nào với các khung làm việc khác như Detectron2?
+mmdetection cung cấp tính mô-đun và tùy chọn tùy chỉnh lớn hơn so với Detectron2, khiến nó phù hợp hơn cho những người dùng cần sự linh hoạt trong quy trình làm việc của họ.
 
 ### Q3: Tôi có thể sử dụng mmdetection cho các ứng dụng thời gian thực không?
 Có, mmdetection hỗ trợ các mô hình nhẹ như YOLOv5, được tối ưu hóa cho suy luận thời gian thực trên các thiết bị biên.
 
 ### Q4: mmdetection có phù hợp cho người mới bắt đầu không?
-Mặc dù mmdetection rất mạnh mẽ, nhưng nó có đường cong học tập khá dốc. Người mới bắt đầu có thể hưởng lợi từ việc bắt đầu với các khung làm việc đơn giản hơn như TorchVision trước khi chuyển sang mmdetection.
+Mặc dù mmdetection rất mạnh mẽ, nhưng nó có đường cong học tập khá dốc. Người mới bắt đầu có thể được hưởng lợi từ việc bắt đầu với các khung làm việc đơn giản hơn như TorchVision trước khi chuyển sang mmdetection.
 
 ### Q5: Tôi có thể tìm các mô hình đã huấn luyện trước cho mmdetection ở đâu?
 Các mô hình đã huấn luyện trước có sẵn trong phần kho mô hình (model zoo) của kho lưu trữ GitHub mmdetection và có thể được tải xuống trực tiếp để sử dụng trong các dự án của bạn.
 
 ## Nguồn & Đọc Thêm
 
-Đối với những ai quan tâm đến việc đi sâu hơn vào mmdetection, dưới đây là một số tài nguyên có giá trị:
+Đối với những ai quan tâm đến việc đi sâu hơn vào mmdetection, dưới đây là một số tài nguyên hữu ích:
 
 - [Tài liệu Chính thức](https://mmdetection.readthedocs.io/)
 - [Kho lưu trữ GitHub](https://github.com/open-mmlab/mmdetection)
 - [Blog OpenMMLab](https://openmmlab.medium.com/)
 
-Ngoài ra, việc khám phá các dự án liên quan như MMCV và MMDetection3D có thể cung cấp thêm thông tin chi tiết về các kỹ thuật thị giác máy tính tiên tiến.
+Ngoài ra, việc khám phá các dự án liên quan như MMCV và MMDetection3D có thể cung cấp thêm thông tin chi tiết về các kỹ thuật thị giác máy tính nâng cao.
 
 
 ```bash
@@ -349,10 +349,10 @@ runner = Runner(
 )
 runner.train()
 ```
-## Kết luận: Kêu gọi Hành động (CTA) + dibi8.com + Telegram
+## Kết luận: CTA + dibi8.com + Telegram
 
-Tóm lại, mmdetection là một khung làm việc linh hoạt và mạnh mẽ giúp trao quyền cho các nhà phát triển xây dựng các hệ thống phát hiện đối tượng tinh vi một cách hiệu quả. Thiết kế mô-đun, tài liệu phong phú và cộng đồng hoạt động tích cực khiến nó trở thành một tài sản vô giá cho cả môi trường nghiên cứu và sản xuất. Tại **dibi8.com**, chúng tôi tin rằng việc có quyền truy cập vào các công cụ đáng tin cậy như mmdetection có thể đẩy nhanh đáng kể hành trình AI của bạn.
+Tóm lại, mmdetection là một khung làm việc linh hoạt và mạnh mẽ, trao quyền cho các nhà phát triển xây dựng các hệ thống phát hiện đối tượng tinh vi một cách hiệu quả. Thiết kế mô-đun, tài liệu mở rộng và cộng đồng hoạt động tích cực của nó khiến nó trở thành một tài sản vô giá cho cả môi trường nghiên cứu và sản xuất. Tại **dibi8.com**, chúng tôi tin rằng việc có quyền truy cập vào các công cụ đáng tin cậy như mmdetection có thể đẩy nhanh đáng kể hành trình AI của bạn.
 
-Để cập nhật các bài viết, hướng dẫn và thảo luận cộng đồng mới nhất, hãy tham gia nhóm Telegram của chúng tôi: [t.me/DIBI8_Group](https://t.me/DIBI8_Group). Đừng quên khám phá thêm các tài nguyên khác trên [dibi8.com](https://dibi8.com) cho các hướng dẫn toàn diện về các công cụ và công nghệ AI.
+Để cập nhật các bài viết mới nhất, hướng dẫn và thảo luận cộng đồng, hãy tham gia nhóm Telegram của chúng tôi: [t.me/DIBI8_Group](https://t.me/DIBI8_Group). Đừng quên khám phá thêm các tài nguyên khác trên [dibi8.com](https://dibi8.com) cho các hướng dẫn toàn diện về các công cụ và công nghệ AI.
 
-*Thông báo Liên kết Chiết khấu: Một số liên kết trong bài viết này có thể là liên kết chi tiết, có nghĩa là chúng tôi có thể kiếm được một khoản hoa hồng nhỏ nếu bạn thực hiện mua hàng thông qua chúng. Điều này giúp hỗ trợ công việc của chúng tôi trong việc cung cấp nội dung miễn phí, chất lượng cao.*
+*Thông báo Liên kết Chiết khấu: Một số liên kết trong bài viết này có thể là liên kết chiết khấu, có nghĩa là chúng tôi có thể kiếm được một khoản hoa hồng nhỏ nếu bạn thực hiện mua hàng thông qua chúng. Điều này giúp hỗ trợ công việc của chúng tôi trong việc cung cấp nội dung miễn phí, chất lượng cao.*

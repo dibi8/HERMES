@@ -2,7 +2,7 @@
   "site": "dibi8.com",
   "generated": "2026-06-20",
   "batch": "2026-06-20-ai-tools-round-1",
-  "total_articles": 20,
+  "total_articles": 22,
   "total_words": 19037,
   "total_code_blocks": 152,
   "total_faqs": 36,
@@ -143,9 +143,13 @@
     "keras-team/keras",
     "comfyanonymous/ComfyUI",
     "huggingface/transformers",
-    "apache/superset"
+    "apache/superset",
+    "openai/codex",
+    "microsoft/autogen"
   ],
   "last_batch": "batch-25",
   "batch_date": "2026-06-24",
-  "batch_count": 20
+  "batch_count": 20,
+  "last_batch_date": "2026-06-25",
+  "last_batch_articles": 2
 }
